@@ -1,0 +1,91 @@
+PCBNEW-LibModule-V1  2024-03-24 17:13:26
+# encoding utf-8
+Units mm
+$INDEX
+IM23TS
+$EndINDEX
+$MODULE IM23TS
+Po 0 0 0 15 66005f36 00000000 ~~
+Li IM23TS
+Cd IM THT standard
+Kw Relay or Contactor
+Sc 0
+At STD
+AR 
+Op 0 0 0
+T0 0.000 -0 1.27 1.27 0 0.254 N V 21 N "K**"
+T1 0.000 -0 1.27 1.27 0 0.254 N I 21 N "IM23TS"
+DS -5 -3.28 5 -3.28 0.2 24
+DS 5 -3.28 5 2.72 0.2 24
+DS 5 2.72 -5 2.72 0.2 24
+DS -5 2.72 -5 -3.28 0.2 24
+DS -6 -4.42 6 -4.42 0.1 24
+DS 6 -4.42 6 4.42 0.1 24
+DS 6 4.42 -6 4.42 0.1 24
+DS -6 4.42 -6 -4.42 0.1 24
+DS -5 -3.28 -5 2.72 0.1 21
+DS 5 -3.28 5 2.72 0.1 21
+DS -3.2 -3.28 -1.2 -3.28 0.1 21
+DS -3.2 2.72 -1.2 2.72 0.1 21
+DS -4.2 3.32 -4.2 3.32 0.2 21
+DS -4 3.32 -4 3.32 0.2 21
+DA -4.1 3.32 -4.200 3.32 1800 0.2 21
+DA -4.1 3.32 -4.000 3.32 1800 0.2 21
+$PAD
+Po -3.800 2.26
+Sh "1" C 1.2 1.2 0 0 900
+Dr 0.75 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+$EndPAD
+$PAD
+Po -0.600 2.26
+Sh "2" C 1.2 1.2 0 0 900
+Dr 0.75 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+$EndPAD
+$PAD
+Po 1.600 2.26
+Sh "3" C 1.2 1.2 0 0 900
+Dr 0.75 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+$EndPAD
+$PAD
+Po 3.800 2.26
+Sh "4" C 1.2 1.2 0 0 900
+Dr 0.75 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+$EndPAD
+$PAD
+Po 3.800 -2.82
+Sh "5" C 1.2 1.2 0 0 900
+Dr 0.75 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+$EndPAD
+$PAD
+Po 1.600 -2.82
+Sh "6" C 1.2 1.2 0 0 900
+Dr 0.75 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+$EndPAD
+$PAD
+Po -0.600 -2.82
+Sh "7" C 1.2 1.2 0 0 900
+Dr 0.75 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+$EndPAD
+$PAD
+Po -3.800 -2.82
+Sh "8" C 1.2 1.2 0 0 900
+Dr 0.75 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+$EndPAD
+$EndMODULE IM23TS
+$EndLIBRARY

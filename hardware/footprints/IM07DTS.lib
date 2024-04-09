@@ -1,0 +1,29 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model IM07DTS
+#/920691/696287/2.50/8/4/Relay or Contactor
+DEF IM07DTS K 0 30 Y Y 1 F N
+F0 "K" 1050 300 50 H V L CNN
+F1 "IM07DTS" 1050 200 50 H V L CNN
+F2 "IM23TS" 1050 100 50 H I L CNN
+F3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Specification+Or+Standard%7F108-98001%7FW5%7Fpdf%7FEnglish%7FENG_SS_108-98001_W5.pdf%7FCAT-AX41-IM11B" 1050 0 50 H I L CNN
+F4 "Low Signal Relays - PCB RELAY 200 MW 24 V" 1050 -100 50 H I L CNN "Description"
+F5 "5" 1050 -200 50 H I L CNN "Height"
+F6 "655-IM07DTS" 1050 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/TE-Connectivity-PB/IM07DTS?qs=1sp0cQOe3eYuXHRaTYWFlA%3D%3D" 1050 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "TE Connectivity" 1050 -500 50 H I L CNN "Manufacturer_Name"
+F9 "IM07DTS" 1050 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X + 1 0 0 200 R 50 50 0 0 P
+X NC_1 2 0 -100 200 R 50 50 0 0 P
+X COM_1 3 0 -200 200 R 50 50 0 0 P
+X NO_1 4 0 -300 200 R 50 50 0 0 P
+X NO_2 5 1200 -300 200 L 50 50 0 0 P
+X COM_2 6 1200 -200 200 L 50 50 0 0 P
+X NC_2 7 1200 -100 200 L 50 50 0 0 P
+X - 8 1200 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1000 100 1000 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library
