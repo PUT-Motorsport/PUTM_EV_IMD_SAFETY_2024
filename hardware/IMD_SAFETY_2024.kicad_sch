@@ -1353,6 +1353,596 @@
 				)
 			)
 		)
+		(symbol "Comparator:LM393"
+			(pin_names
+				(offset 0.127)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 3.81 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LM393"
+				(at 6.35 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm393.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cmp open collector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* SOP*5.28x5.23mm*P1.27mm* VSSOP*3.0x3.0mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LM393_1_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.508) (xy 2.794 -0.508) (xy 3.302 0) (xy 2.794 0.508) (xy 2.286 0) (xy 2.794 -0.508)
+						(xy 2.286 -0.508)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin open_collector line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LM393_2_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.508) (xy 2.794 -0.508) (xy 3.302 0) (xy 2.794 0.508) (xy 2.286 0) (xy 2.794 -0.508)
+						(xy 2.286 -0.508)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LM393_3_1"
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 7.62 270)
+					(length 3.81)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Connector_Generic:Conn_01x08"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x08"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x08_1_1"
+				(rectangle
+					(start -1.27 -10.033)
+					(end 0 -10.287)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 7.747)
+					(end 0 7.493)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 8.89)
+					(end 1.27 -11.43)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 7.62 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -10.16 0)
+					(length 3.81)
+					(name "Pin_8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -4837,382 +5427,6 @@
 				)
 			)
 		)
-		(symbol "PUTM_EV_IMD_SAFETY_2021-rescue:Conn_01x02-Connector_Generic"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x02-Connector_Generic"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x02-Connector_Generic_1_1"
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "PUTM_EV_IMD_SAFETY_2021-rescue:Conn_01x06-Connector_Generic"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x06-Connector_Generic"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x06-Connector_Generic_1_1"
-				(rectangle
-					(start -1.27 -7.493)
-					(end 0 -7.747)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 5.207)
-					(end 0 4.953)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 6.35)
-					(end 1.27 -8.89)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -5.08 5.08 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -7.62 0)
-					(length 3.81)
-					(name "Pin_6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "PUTM_EV_IMD_SAFETY_2021-rescue:D_Small-Device"
 			(pin_numbers hide)
 			(pin_names
@@ -5683,248 +5897,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "PUTM_EV_IMD_SAFETY_2021-rescue:LM393-Comparator"
-			(pin_names
-				(offset 0.127)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 3.81 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LM393-Comparator"
-				(at 6.35 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* MSOP*3x3mm*P0.65mm* VSSOP*2.3x2mm*P0.5mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LM393-Comparator_1_1"
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin open_collector line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "LM393-Comparator_2_1"
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "_"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin open_collector line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "LM393-Comparator_3_1"
-				(pin power_in line
-					(at -2.54 -7.62 90)
-					(length 3.81)
-					(name "V-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 7.62 270)
-					(length 3.81)
-					(name "V+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6986,7 +6958,7 @@
 		(uuid "046d1f05-9b4d-426d-abc0-6ed993c76086")
 	)
 	(junction
-		(at 359.41 46.99)
+		(at 354.33 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "11b29853-fe24-4978-876b-c6f231922e5a")
@@ -7004,16 +6976,16 @@
 		(uuid "1830dfb0-929f-4df9-872c-588767c7f6ab")
 	)
 	(junction
+		(at 217.17 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1960e2fa-cb48-48c7-b8c4-c2090f9092e4")
+	)
+	(junction
 		(at 266.7 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1cd82a74-60ea-4580-9677-67fedfb41376")
-	)
-	(junction
-		(at 55.88 24.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1e82db79-debf-4459-9347-d9a0ff8fd096")
 	)
 	(junction
 		(at 76.2 233.045)
@@ -7022,7 +6994,7 @@
 		(uuid "1ec65166-b2cb-4e7e-93f3-1f51b57e4837")
 	)
 	(junction
-		(at 331.47 46.99)
+		(at 328.93 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1f0e5f42-cc9d-4d4e-ac03-d6d9ea88285b")
@@ -7034,16 +7006,34 @@
 		(uuid "25b6788a-7d4b-4006-aa8b-49219324a8de")
 	)
 	(junction
+		(at 381 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "264d2918-fc60-4a77-a33c-f644b5e4cb61")
+	)
+	(junction
 		(at 349.25 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2a3c044c-62c8-49ae-92eb-a0cb80070227")
 	)
 	(junction
-		(at 156.21 33.02)
+		(at 139.7 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2b7bb97c-e463-473c-8cdf-54f7b7a794ee")
+	)
+	(junction
+		(at 72.39 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2e46aa60-233c-42d6-8615-13c9db0c30dd")
+	)
+	(junction
+		(at 416.56 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "386ecced-080e-4668-9348-605460db6211")
 	)
 	(junction
 		(at 397.51 220.98)
@@ -7070,6 +7060,12 @@
 		(uuid "3bd3adc7-c635-4982-86cd-5adb8e2811ca")
 	)
 	(junction
+		(at 381 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "42b934bf-8af4-40e9-98b9-fcc440bb8149")
+	)
+	(junction
 		(at 378.46 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7094,7 +7090,7 @@
 		(uuid "69f84fc6-764b-4abf-b43b-3a4c77588711")
 	)
 	(junction
-		(at 110.49 33.02)
+		(at 97.79 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6e79f50d-e015-4818-a8b0-58c24677a729")
@@ -7118,6 +7114,12 @@
 		(uuid "7a004ec8-9ffa-4060-a6b8-ce82baf33cfb")
 	)
 	(junction
+		(at 72.39 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7e87a07a-077a-4c61-8073-ee78c26ea9d0")
+	)
+	(junction
 		(at 331.47 187.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7136,7 +7138,7 @@
 		(uuid "9300e3f4-39e2-43ae-beda-3723e935129b")
 	)
 	(junction
-		(at 238.76 52.07)
+		(at 247.65 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "93fc57f8-b3b0-4cf8-8859-5b8aef83f0e3")
@@ -7154,18 +7156,6 @@
 		(uuid "9cbc7bf6-ee80-4623-9c09-397efc016ad3")
 	)
 	(junction
-		(at 52.07 24.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9f5cda2b-61cd-4bbe-8300-baa8f5178d97")
-	)
-	(junction
-		(at 58.42 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a0ff6c46-7256-4043-994f-0d657584fe39")
-	)
-	(junction
 		(at 377.19 227.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7178,7 +7168,7 @@
 		(uuid "aa29708c-993b-4f0c-aaa5-1147dc03afa5")
 	)
 	(junction
-		(at 185.42 33.02)
+		(at 168.91 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ab0eb0d5-ed66-47d1-80db-a8985b7f9661")
@@ -7202,16 +7192,22 @@
 		(uuid "b1fc97c7-100a-4d55-9d39-991c00b663a4")
 	)
 	(junction
-		(at 66.04 41.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b2e01a85-c17b-46f4-93ca-ec3dec7ec85b")
-	)
-	(junction
 		(at 323.85 175.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b7742006-a059-4d84-bea5-69ebe1d41992")
+	)
+	(junction
+		(at 217.17 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b8d879ba-6630-4e21-b0fc-26050dec7e23")
+	)
+	(junction
+		(at 55.88 21.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ba3c714e-1a80-4c4e-9926-9b1052107865")
 	)
 	(junction
 		(at 303.53 27.94)
@@ -7220,7 +7216,7 @@
 		(uuid "ba73ff1d-e633-4fad-9ef0-d77ace6944e1")
 	)
 	(junction
-		(at 331.47 27.94)
+		(at 328.93 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bc4914e0-c7e0-41b8-a5dd-f1730d4f1c3a")
@@ -7232,22 +7228,16 @@
 		(uuid "bc72aa2d-efa7-4313-a031-7c8effc2078b")
 	)
 	(junction
-		(at 139.7 33.02)
+		(at 127 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bded4069-0161-416d-8165-85017fde961e")
 	)
 	(junction
-		(at 173.99 44.45)
+		(at 157.48 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c1d16419-1a56-4d22-96e2-23ca8d847a47")
-	)
-	(junction
-		(at 44.45 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c297535d-a073-4c47-af97-f8de049c74e7")
 	)
 	(junction
 		(at 160.02 162.56)
@@ -7262,6 +7252,12 @@
 		(uuid "c73fe608-dd9f-4591-bb3a-c90aa4e27bd0")
 	)
 	(junction
+		(at 52.07 21.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ca9c1a48-0c01-4d3a-af01-f36cb1fad58e")
+	)
+	(junction
 		(at 266.7 173.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7274,7 +7270,7 @@
 		(uuid "d0e18607-b291-452f-86c9-fe29e0f47b54")
 	)
 	(junction
-		(at 359.41 27.94)
+		(at 354.33 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d914f91f-796a-4d9e-8d9f-cb3d619cdc35")
@@ -7286,13 +7282,19 @@
 		(uuid "dd2f60fb-b5aa-4b12-b339-5ac96ecf93d4")
 	)
 	(junction
+		(at 168.91 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e8cbd586-ec7b-4ad6-99da-9fe93239082a")
+	)
+	(junction
 		(at 76.2 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ebd8524a-3965-4ba2-9099-77247a1e2d8f")
 	)
 	(junction
-		(at 238.76 22.86)
+		(at 247.65 19.05)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ec9ae1e0-058d-4bb3-a597-314af2d6e797")
@@ -7302,6 +7304,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ed2e0884-f656-4878-bf5c-8eb12a06b307")
+	)
+	(junction
+		(at 416.56 24.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed6cfe4a-bc10-47fd-ab6d-b92849e354bc")
 	)
 	(junction
 		(at 165.1 99.06)
@@ -7316,7 +7324,7 @@
 		(uuid "f01bc2a4-5739-4fe9-a5be-12ee0aab09b7")
 	)
 	(junction
-		(at 128.27 44.45)
+		(at 115.57 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f23e111f-d683-42bf-9d30-827b52b8d676")
@@ -7351,6 +7359,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 35.56) (xy 181.61 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0190e999-5f00-4ade-8b5f-99b0dc790822")
+	)
+	(wire
+		(pts
 			(xy 86.36 191.77) (xy 86.36 193.04)
 		)
 		(stroke
@@ -7371,7 +7389,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 33.02) (xy 185.42 29.21)
+			(xy 168.91 34.29) (xy 168.91 30.48)
 		)
 		(stroke
 			(width 0)
@@ -7381,7 +7399,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 33.02) (xy 110.49 33.02)
+			(xy 107.95 34.29) (xy 97.79 34.29)
 		)
 		(stroke
 			(width 0)
@@ -7401,7 +7419,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 40.64) (xy 173.99 44.45)
+			(xy 157.48 41.91) (xy 157.48 45.72)
 		)
 		(stroke
 			(width 0)
@@ -7411,7 +7429,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 41.91) (xy 110.49 44.45)
+			(xy 97.79 43.18) (xy 97.79 45.72)
 		)
 		(stroke
 			(width 0)
@@ -7431,7 +7449,7 @@
 	)
 	(wire
 		(pts
-			(xy 331.47 27.94) (xy 342.9 27.94)
+			(xy 328.93 27.94) (xy 339.09 27.94)
 		)
 		(stroke
 			(width 0)
@@ -7441,7 +7459,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 221.615) (xy 100.33 221.615)
+			(xy 104.14 220.98) (xy 100.33 220.98)
 		)
 		(stroke
 			(width 0)
@@ -7451,7 +7469,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 22.86) (xy 224.79 22.86)
+			(xy 247.65 19.05) (xy 238.76 19.05)
 		)
 		(stroke
 			(width 0)
@@ -7491,13 +7509,23 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 44.45) (xy 139.7 44.45)
+			(xy 115.57 45.72) (xy 127 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0d4f655b-b584-4830-a971-8369e5c9747b")
+	)
+	(wire
+		(pts
+			(xy 391.16 27.94) (xy 391.16 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d5c6209-3c95-425f-93bc-90b61debb55a")
 	)
 	(wire
 		(pts
@@ -7571,6 +7599,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 46.99) (xy 217.17 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "101bb86e-e3d8-403c-8381-1b029a023c27")
+	)
+	(wire
+		(pts
 			(xy 378.46 130.81) (xy 382.27 130.81)
 		)
 		(stroke
@@ -7599,6 +7637,16 @@
 		)
 		(uuid "126876d9-b3fe-4712-a302-8877e5d9110e")
 	)
+	(wire
+		(pts
+			(xy 72.39 52.07) (xy 72.39 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "126dbe51-722c-4842-9e46-869e69ec3d9d")
+	)
 	(polyline
 		(pts
 			(xy 196.85 130.81) (xy 93.98 130.81)
@@ -7611,7 +7659,7 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 40.64) (xy 314.96 46.99)
+			(xy 313.69 40.64) (xy 313.69 46.99)
 		)
 		(stroke
 			(width 0)
@@ -7661,6 +7709,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 44.45) (xy 41.91 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19523f6a-cb1a-497b-be59-3def3166def3")
+	)
+	(wire
+		(pts
 			(xy 139.7 162.56) (xy 160.02 162.56)
 		)
 		(stroke
@@ -7691,6 +7749,16 @@
 	)
 	(wire
 		(pts
+			(xy 426.72 53.34) (xy 416.56 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c1e65f5-08c3-4aa2-bd13-969838e516e2")
+	)
+	(wire
+		(pts
 			(xy 139.7 154.94) (xy 139.7 162.56)
 		)
 		(stroke
@@ -7711,7 +7779,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 22.86) (xy 224.79 33.02)
+			(xy 238.76 19.05) (xy 238.76 29.21)
 		)
 		(stroke
 			(width 0)
@@ -7721,13 +7789,23 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 44.45) (xy 139.7 41.91)
+			(xy 127 45.72) (xy 127 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1dbc7c63-42a1-42e3-bca8-f4137e0c17be")
+	)
+	(wire
+		(pts
+			(xy 381 27.94) (xy 391.16 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ef88a6d-9bc0-4ce3-acb2-dcb6fa54278b")
 	)
 	(wire
 		(pts
@@ -7761,7 +7839,17 @@
 	)
 	(wire
 		(pts
-			(xy 331.47 29.21) (xy 331.47 27.94)
+			(xy 57.15 46.99) (xy 39.37 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20f14d54-2ae6-45c5-93b3-0a02085d2c82")
+	)
+	(wire
+		(pts
+			(xy 328.93 29.21) (xy 328.93 27.94)
 		)
 		(stroke
 			(width 0)
@@ -7801,17 +7889,17 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 24.13) (xy 52.07 24.13)
+			(xy 207.01 46.99) (xy 207.01 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "252afa00-4b4a-4914-a7af-ca91964f96b3")
+		(uuid "25acd969-375a-486b-b6b0-e3b07777cfca")
 	)
 	(wire
 		(pts
-			(xy 342.9 40.64) (xy 342.9 46.99)
+			(xy 339.09 40.64) (xy 339.09 46.99)
 		)
 		(stroke
 			(width 0)
@@ -7861,17 +7949,17 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 24.13) (xy 41.91 24.13)
+			(xy 39.37 39.37) (xy 72.39 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2b2ef61d-06c6-4e7f-9b28-0b41bee716f3")
+		(uuid "2b4203fb-acfb-4758-b95b-2d13266720a0")
 	)
 	(wire
 		(pts
-			(xy 314.96 27.94) (xy 314.96 33.02)
+			(xy 313.69 27.94) (xy 313.69 33.02)
 		)
 		(stroke
 			(width 0)
@@ -7902,13 +7990,23 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 52.07) (xy 44.45 53.34)
+			(xy 416.56 53.34) (xy 416.56 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2f775a7a-ad7e-410c-b8d9-9aa218d6b54d")
+		(uuid "3008d4b5-d681-48cd-9bfc-a80189cc7424")
+	)
+	(wire
+		(pts
+			(xy 40.64 41.91) (xy 39.37 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "306ea0ad-aa0f-4406-a97d-25ab150d0bdf")
 	)
 	(wire
 		(pts
@@ -7962,23 +8060,33 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 24.13) (xy 52.07 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "365fa0e5-c328-48fd-845e-e2beb8a30282")
-	)
-	(wire
-		(pts
-			(xy 95.25 238.125) (xy 104.14 238.125)
+			(xy 95.25 238.76) (xy 104.14 238.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "36d2a40d-af37-4e5c-b37b-d5acb0a67d0c")
+	)
+	(wire
+		(pts
+			(xy 426.72 24.13) (xy 416.56 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "381a47c0-677c-4db0-9d65-ed38d26ddcd0")
+	)
+	(wire
+		(pts
+			(xy 72.39 24.13) (xy 72.39 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "391bb16a-f8e2-461e-8bf2-19860c0e4811")
 	)
 	(wire
 		(pts
@@ -8002,7 +8110,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 22.86) (xy 279.4 22.86)
+			(xy 270.51 22.86) (xy 279.4 22.86)
 		)
 		(stroke
 			(width 0)
@@ -8052,7 +8160,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 33.02) (xy 185.42 34.29)
+			(xy 168.91 34.29) (xy 168.91 35.56)
 		)
 		(stroke
 			(width 0)
@@ -8062,7 +8170,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 45.72) (xy 128.27 44.45)
+			(xy 115.57 46.99) (xy 115.57 45.72)
 		)
 		(stroke
 			(width 0)
@@ -8162,7 +8270,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 45.72) (xy 173.99 44.45)
+			(xy 157.48 46.99) (xy 157.48 45.72)
 		)
 		(stroke
 			(width 0)
@@ -8172,23 +8280,23 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 33.02) (xy 139.7 33.02)
+			(xy 207.01 25.4) (xy 217.17 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4912a974-6be9-499f-8580-8bb0dfb2721d")
+	)
+	(wire
+		(pts
+			(xy 123.19 34.29) (xy 127 34.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "49a61d4d-68ae-4e35-9d01-39ee7a10084b")
-	)
-	(wire
-		(pts
-			(xy 39.37 39.37) (xy 58.42 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49b20c9c-25b6-4ed8-86ee-85cc082bcc39")
 	)
 	(wire
 		(pts
@@ -8202,23 +8310,43 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 49.53) (xy 44.45 52.07)
+			(xy 41.91 49.53) (xy 39.37 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4b3a6b02-f6a9-480a-aae4-af7161a8582a")
+		(uuid "4b79a750-89d9-44ec-bc07-d08c99e91ddb")
 	)
 	(wire
 		(pts
-			(xy 173.99 44.45) (xy 156.21 44.45)
+			(xy 40.64 21.59) (xy 41.91 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c1b9331-a587-481d-9df2-52079ee3a47d")
+	)
+	(wire
+		(pts
+			(xy 157.48 45.72) (xy 139.7 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4c34a054-77b7-4e8f-bffc-a59e668247f3")
+	)
+	(wire
+		(pts
+			(xy 381 27.94) (xy 381 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e048057-d4af-4969-9bc2-7c3bf6848aed")
 	)
 	(wire
 		(pts
@@ -8229,6 +8357,26 @@
 			(type default)
 		)
 		(uuid "4e059994-d7e5-4596-802c-f245f1d0220f")
+	)
+	(wire
+		(pts
+			(xy 72.39 39.37) (xy 72.39 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ef22b1e-9b2b-4963-9f6a-26b5d5268d23")
+	)
+	(wire
+		(pts
+			(xy 72.39 39.37) (xy 76.2 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f5ecfab-94d0-4b6e-ab46-277c7f6a3e0a")
 	)
 	(wire
 		(pts
@@ -8282,7 +8430,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 33.02) (xy 185.42 33.02)
+			(xy 165.1 34.29) (xy 168.91 34.29)
 		)
 		(stroke
 			(width 0)
@@ -8292,7 +8440,7 @@
 	)
 	(wire
 		(pts
-			(xy 359.41 46.99) (xy 359.41 48.26)
+			(xy 354.33 46.99) (xy 354.33 48.26)
 		)
 		(stroke
 			(width 0)
@@ -8302,7 +8450,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 41.91) (xy 185.42 44.45)
+			(xy 168.91 43.18) (xy 168.91 45.72)
 		)
 		(stroke
 			(width 0)
@@ -8340,6 +8488,26 @@
 		)
 		(uuid "547563ea-6079-402e-b1d1-aeafdf02e558")
 	)
+	(wire
+		(pts
+			(xy 49.53 21.59) (xy 52.07 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55fe67a5-edc2-4a4d-bc34-35bb156e8f76")
+	)
+	(wire
+		(pts
+			(xy 72.39 31.75) (xy 72.39 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58073377-2caa-4064-b867-9963233fefd2")
+	)
 	(polyline
 		(pts
 			(xy 295.91 209.55) (xy 304.8 209.55)
@@ -8363,17 +8531,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 44.45) (xy 39.37 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a3c1c85-a5a1-4d7a-9ec2-cf3fafbfbfa2")
-	)
-	(wire
-		(pts
-			(xy 100.33 233.045) (xy 104.14 233.045)
+			(xy 100.33 233.68) (xy 104.14 233.68)
 		)
 		(stroke
 			(width 0)
@@ -8383,7 +8541,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 52.07) (xy 238.76 54.61)
+			(xy 247.65 48.26) (xy 247.65 50.8)
 		)
 		(stroke
 			(width 0)
@@ -8443,17 +8601,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 24.13) (xy 40.64 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "61ff3bc0-4587-4446-8adf-662fbb094db8")
-	)
-	(wire
-		(pts
-			(xy 238.76 49.53) (xy 238.76 52.07)
+			(xy 247.65 45.72) (xy 247.65 48.26)
 		)
 		(stroke
 			(width 0)
@@ -8463,7 +8611,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 219.075) (xy 121.92 219.075)
+			(xy 119.38 218.44) (xy 121.92 218.44)
 		)
 		(stroke
 			(width 0)
@@ -8521,26 +8669,6 @@
 		)
 		(uuid "64bb3da7-00dd-48db-ac5c-67c01b3f77d5")
 	)
-	(wire
-		(pts
-			(xy 39.37 49.53) (xy 44.45 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6571e096-379e-456a-a6bb-0f02b65d929a")
-	)
-	(wire
-		(pts
-			(xy 58.42 50.8) (xy 58.42 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6586064a-52b1-4cf7-b81b-cfa5e8ccec9c")
-	)
 	(polyline
 		(pts
 			(xy 374.65 204.47) (xy 374.65 242.57)
@@ -8570,16 +8698,6 @@
 			(type default)
 		)
 		(uuid "662ef4d2-3459-49e1-9522-0f26e1b27b29")
-	)
-	(wire
-		(pts
-			(xy 66.04 33.02) (xy 66.04 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "682a9bd2-ce16-489c-8b11-0db3dae2817d")
 	)
 	(wire
 		(pts
@@ -8620,6 +8738,16 @@
 			(type default)
 		)
 		(uuid "6cde493d-bf44-4dd3-98c6-5fab6d448e4d")
+	)
+	(wire
+		(pts
+			(xy 55.88 21.59) (xy 72.39 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cf56372-a598-4a06-b26c-beb48f0375a8")
 	)
 	(wire
 		(pts
@@ -8703,6 +8831,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 46.99) (xy 207.01 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "757dc696-ea44-4bdb-8386-2e549fe1d31b")
+	)
+	(wire
+		(pts
 			(xy 266.7 173.99) (xy 274.32 173.99)
 		)
 		(stroke
@@ -8733,7 +8871,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 21.59) (xy 238.76 22.86)
+			(xy 247.65 17.78) (xy 247.65 19.05)
 		)
 		(stroke
 			(width 0)
@@ -8743,7 +8881,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 52.07) (xy 279.4 52.07)
+			(xy 270.51 52.07) (xy 279.4 52.07)
 		)
 		(stroke
 			(width 0)
@@ -8793,13 +8931,13 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 39.37) (xy 58.42 43.18)
+			(xy 416.56 24.13) (xy 416.56 25.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "801af454-3fae-4a04-911f-5df73d0160ec")
+		(uuid "7fb49b23-7310-4d1e-8fdf-80a02f1146b9")
 	)
 	(wire
 		(pts
@@ -8843,7 +8981,17 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 221.615) (xy 100.33 233.045)
+			(xy 121.92 218.44) (xy 121.92 219.075)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82fc42fb-02e6-4c35-b569-f3f006753c37")
+	)
+	(wire
+		(pts
+			(xy 100.33 220.98) (xy 100.33 233.045)
 		)
 		(stroke
 			(width 0)
@@ -8853,7 +9001,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 52.07) (xy 224.79 52.07)
+			(xy 247.65 48.26) (xy 238.76 48.26)
 		)
 		(stroke
 			(width 0)
@@ -8873,7 +9021,7 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 46.99) (xy 303.53 46.99)
+			(xy 313.69 46.99) (xy 303.53 46.99)
 		)
 		(stroke
 			(width 0)
@@ -8923,7 +9071,7 @@
 	)
 	(wire
 		(pts
-			(xy 331.47 46.99) (xy 331.47 48.26)
+			(xy 328.93 46.99) (xy 328.93 48.26)
 		)
 		(stroke
 			(width 0)
@@ -8943,6 +9091,16 @@
 	)
 	(wire
 		(pts
+			(xy 416.56 53.34) (xy 416.56 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89db8624-37ca-4da0-8b53-99b45d5359cf")
+	)
+	(wire
+		(pts
 			(xy 349.25 149.86) (xy 351.79 149.86)
 		)
 		(stroke
@@ -8953,7 +9111,7 @@
 	)
 	(wire
 		(pts
-			(xy 342.9 27.94) (xy 342.9 33.02)
+			(xy 339.09 27.94) (xy 339.09 33.02)
 		)
 		(stroke
 			(width 0)
@@ -8970,6 +9128,16 @@
 			(type default)
 		)
 		(uuid "8ae24553-1d09-435c-9ef5-2565d3723dbe")
+	)
+	(wire
+		(pts
+			(xy 40.64 21.59) (xy 40.64 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c158cff-bf00-4306-b31d-4aa288fe3d25")
 	)
 	(wire
 		(pts
@@ -9013,16 +9181,6 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 24.13) (xy 55.88 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9423d695-549f-4c3c-b107-5d1d2a722503")
-	)
-	(wire
-		(pts
 			(xy 320.04 175.26) (xy 323.85 175.26)
 		)
 		(stroke
@@ -9033,13 +9191,53 @@
 	)
 	(wire
 		(pts
-			(xy 359.41 27.94) (xy 359.41 26.67)
+			(xy 181.61 45.72) (xy 181.61 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9633cee2-854d-473f-ad9c-627e79634e3e")
+	)
+	(wire
+		(pts
+			(xy 416.56 22.86) (xy 416.56 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96ca2321-e9c1-44d3-b315-163443d80c11")
+	)
+	(wire
+		(pts
+			(xy 354.33 27.94) (xy 354.33 26.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "97be9d73-3833-437c-8e77-655b95861e2f")
+	)
+	(wire
+		(pts
+			(xy 381 26.67) (xy 381 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "986313c5-a8fe-427b-847d-59467b7b9875")
+	)
+	(wire
+		(pts
+			(xy 381 44.45) (xy 381 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99446066-4bb1-45d8-aac9-280cd57f0c2e")
 	)
 	(wire
 		(pts
@@ -9093,7 +9291,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 22.86) (xy 238.76 24.13)
+			(xy 247.65 19.05) (xy 247.65 20.32)
 		)
 		(stroke
 			(width 0)
@@ -9143,16 +9341,6 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 24.13) (xy 55.88 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9eab95ec-93e8-4130-b338-b1ed6e2b246d")
-	)
-	(wire
-		(pts
 			(xy 323.85 187.96) (xy 323.85 185.42)
 		)
 		(stroke
@@ -9193,13 +9381,13 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 25.4) (xy 66.04 24.13)
+			(xy 168.91 45.72) (xy 181.61 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a1ddbbe0-1776-480f-bf91-32338eb12fb6")
+		(uuid "a2988b19-5425-421a-8c4c-358cd5738782")
 	)
 	(wire
 		(pts
@@ -9223,7 +9411,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 40.64) (xy 265.43 52.07)
+			(xy 270.51 40.64) (xy 270.51 52.07)
 		)
 		(stroke
 			(width 0)
@@ -9233,7 +9421,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 33.02) (xy 139.7 34.29)
+			(xy 127 34.29) (xy 127 35.56)
 		)
 		(stroke
 			(width 0)
@@ -9263,6 +9451,16 @@
 	)
 	(wire
 		(pts
+			(xy 426.72 41.91) (xy 426.72 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9000ba8-cdc6-4534-8f6a-89817585e15e")
+	)
+	(wire
+		(pts
 			(xy 279.4 21.59) (xy 279.4 22.86)
 		)
 		(stroke
@@ -9273,13 +9471,13 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 46.99) (xy 40.005 46.99)
+			(xy 391.16 40.64) (xy 391.16 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "aeb68854-b833-4eef-84ea-474765b6254a")
+		(uuid "aeacaa92-0164-4513-8a4d-d1cd47d87610")
 	)
 	(wire
 		(pts
@@ -9303,7 +9501,17 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 52.07) (xy 224.79 40.64)
+			(xy 181.61 34.29) (xy 168.91 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b542937b-475b-4e93-8858-c7add06f6f0a")
+	)
+	(wire
+		(pts
+			(xy 238.76 48.26) (xy 238.76 36.83)
 		)
 		(stroke
 			(width 0)
@@ -9333,6 +9541,36 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 34.29) (xy 39.37 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7a3e5a9-0339-4e46-aac7-272bdded4b81")
+	)
+	(wire
+		(pts
+			(xy 72.39 36.83) (xy 76.2 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b882dce2-8bfe-4c98-ba83-ab010758086b")
+	)
+	(wire
+		(pts
+			(xy 52.07 21.59) (xy 52.07 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b90526da-004e-4f0f-b45b-1eed10040f4e")
+	)
+	(wire
+		(pts
 			(xy 105.41 80.01) (xy 105.41 85.09)
 		)
 		(stroke
@@ -9343,7 +9581,7 @@
 	)
 	(wire
 		(pts
-			(xy 342.9 46.99) (xy 331.47 46.99)
+			(xy 339.09 46.99) (xy 328.93 46.99)
 		)
 		(stroke
 			(width 0)
@@ -9373,17 +9611,17 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 52.07) (xy 44.45 52.07)
+			(xy 100.33 233.68) (xy 100.33 233.045)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bb447c6c-bee0-4b86-813b-a3647aa9ed79")
+		(uuid "bbd7f115-6a94-4ccf-8ce9-591186ead5ea")
 	)
 	(wire
 		(pts
-			(xy 331.47 27.94) (xy 331.47 26.67)
+			(xy 328.93 27.94) (xy 328.93 26.67)
 		)
 		(stroke
 			(width 0)
@@ -9403,17 +9641,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 41.91) (xy 66.04 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd604b2b-d8d6-4129-ad61-0b0d2dccf5ad")
-	)
-	(wire
-		(pts
-			(xy 218.44 162.56) (xy 242.57 162.56)
+			(xy 217.17 162.56) (xy 242.57 162.56)
 		)
 		(stroke
 			(width 0)
@@ -9433,7 +9661,17 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 235.585) (xy 121.92 235.585)
+			(xy 381 46.99) (xy 391.16 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be95b744-c7c8-493b-8f5b-53f419541097")
+	)
+	(wire
+		(pts
+			(xy 119.38 236.22) (xy 121.92 236.22)
 		)
 		(stroke
 			(width 0)
@@ -9453,7 +9691,7 @@
 	)
 	(wire
 		(pts
-			(xy 370.84 40.64) (xy 370.84 46.99)
+			(xy 364.49 40.64) (xy 364.49 46.99)
 		)
 		(stroke
 			(width 0)
@@ -9533,7 +9771,7 @@
 	)
 	(wire
 		(pts
-			(xy 370.84 46.99) (xy 359.41 46.99)
+			(xy 364.49 46.99) (xy 354.33 46.99)
 		)
 		(stroke
 			(width 0)
@@ -9543,7 +9781,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 44.45) (xy 156.21 41.91)
+			(xy 139.7 45.72) (xy 139.7 43.18)
 		)
 		(stroke
 			(width 0)
@@ -9553,13 +9791,13 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 24.13) (xy 66.04 24.13)
+			(xy 57.15 49.53) (xy 57.15 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cc9052f6-8377-4b94-ab57-edde65238d75")
+		(uuid "cbb426d1-d5e0-4d70-9ca5-d1a74115145b")
 	)
 	(wire
 		(pts
@@ -9593,7 +9831,7 @@
 	)
 	(wire
 		(pts
-			(xy 370.84 27.94) (xy 370.84 33.02)
+			(xy 364.49 27.94) (xy 364.49 33.02)
 		)
 		(stroke
 			(width 0)
@@ -9603,7 +9841,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 34.29) (xy 156.21 33.02)
+			(xy 139.7 35.56) (xy 139.7 34.29)
 		)
 		(stroke
 			(width 0)
@@ -9623,7 +9861,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 223.52) (xy 95.25 238.125)
+			(xy 95.25 223.52) (xy 95.25 238.76)
 		)
 		(stroke
 			(width 0)
@@ -9633,7 +9871,7 @@
 	)
 	(wire
 		(pts
-			(xy 359.41 27.94) (xy 370.84 27.94)
+			(xy 354.33 27.94) (xy 364.49 27.94)
 		)
 		(stroke
 			(width 0)
@@ -9653,7 +9891,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 29.21) (xy 110.49 33.02)
+			(xy 97.79 30.48) (xy 97.79 34.29)
 		)
 		(stroke
 			(width 0)
@@ -9684,16 +9922,6 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 36.83) (xy 39.37 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8e27cc4-3389-4c66-9ac4-ad4f96036626")
-	)
-	(wire
-		(pts
 			(xy 349.25 149.86) (xy 349.25 151.13)
 		)
 		(stroke
@@ -9704,7 +9932,27 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 40.64) (xy 128.27 44.45)
+			(xy 39.37 36.83) (xy 72.39 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dad4c414-003f-4b35-9da0-9199f2083e79")
+	)
+	(wire
+		(pts
+			(xy 217.17 25.4) (xy 217.17 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dadb711c-583b-4578-a40b-45d8bece3cbe")
+	)
+	(wire
+		(pts
+			(xy 115.57 41.91) (xy 115.57 45.72)
 		)
 		(stroke
 			(width 0)
@@ -9724,7 +9972,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 33.02) (xy 156.21 29.21)
+			(xy 139.7 34.29) (xy 139.7 30.48)
 		)
 		(stroke
 			(width 0)
@@ -9734,7 +9982,7 @@
 	)
 	(wire
 		(pts
-			(xy 303.53 27.94) (xy 314.96 27.94)
+			(xy 303.53 27.94) (xy 313.69 27.94)
 		)
 		(stroke
 			(width 0)
@@ -9754,7 +10002,7 @@
 	)
 	(wire
 		(pts
-			(xy 359.41 46.99) (xy 359.41 44.45)
+			(xy 354.33 46.99) (xy 354.33 44.45)
 		)
 		(stroke
 			(width 0)
@@ -9794,7 +10042,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 224.155) (xy 134.62 224.155)
+			(xy 129.54 224.155) (xy 134.62 224.155)
 		)
 		(stroke
 			(width 0)
@@ -9804,7 +10052,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 185.42) (xy 220.98 185.42)
+			(xy 217.17 185.42) (xy 220.98 185.42)
 		)
 		(stroke
 			(width 0)
@@ -9814,17 +10062,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 41.91) (xy 74.93 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e29e726a-2d68-4d3a-84f8-72d90f884cce")
-	)
-	(wire
-		(pts
-			(xy 99.06 208.28) (xy 99.06 216.535)
+			(xy 99.06 208.28) (xy 99.06 215.9)
 		)
 		(stroke
 			(width 0)
@@ -9834,7 +10072,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 216.535) (xy 104.14 216.535)
+			(xy 99.06 215.9) (xy 104.14 215.9)
 		)
 		(stroke
 			(width 0)
@@ -9844,13 +10082,13 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 224.79) (xy 130.81 224.79)
+			(xy 41.91 52.07) (xy 39.37 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e360f21e-8224-4c32-8786-f932046e7fbb")
+		(uuid "e30b44f2-b73d-4c2b-ac6c-4b008f5264c0")
 	)
 	(wire
 		(pts
@@ -9894,6 +10132,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 21.59) (xy 55.88 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e584f5ba-cf4b-4003-ae0e-930e92f43a46")
+	)
+	(wire
+		(pts
 			(xy 105.41 111.76) (xy 105.41 118.11)
 		)
 		(stroke
@@ -9904,17 +10152,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 39.37) (xy 74.93 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6a61e73-f5ab-4b82-b319-b25a92906fb9")
-	)
-	(wire
-		(pts
-			(xy 156.21 33.02) (xy 166.37 33.02)
+			(xy 139.7 34.29) (xy 149.86 34.29)
 		)
 		(stroke
 			(width 0)
@@ -9924,7 +10162,17 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 29.21) (xy 139.7 33.02)
+			(xy 381 46.99) (xy 381 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e766b953-bef9-4697-a1eb-9dae095b0d02")
+	)
+	(wire
+		(pts
+			(xy 127 30.48) (xy 127 34.29)
 		)
 		(stroke
 			(width 0)
@@ -9944,7 +10192,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 180.34) (xy 220.98 180.34)
+			(xy 217.17 180.34) (xy 220.98 180.34)
 		)
 		(stroke
 			(width 0)
@@ -9964,7 +10212,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 44.45) (xy 173.99 44.45)
+			(xy 168.91 45.72) (xy 157.48 45.72)
 		)
 		(stroke
 			(width 0)
@@ -9994,7 +10242,7 @@
 	)
 	(wire
 		(pts
-			(xy 359.41 29.21) (xy 359.41 27.94)
+			(xy 354.33 29.21) (xy 354.33 27.94)
 		)
 		(stroke
 			(width 0)
@@ -10004,7 +10252,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 219.075) (xy 121.92 235.585)
+			(xy 121.92 219.075) (xy 121.92 236.22)
 		)
 		(stroke
 			(width 0)
@@ -10014,7 +10262,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 224.79) (xy 129.54 251.46)
+			(xy 129.54 224.155) (xy 129.54 251.46)
 		)
 		(stroke
 			(width 0)
@@ -10024,17 +10272,17 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 224.79) (xy 130.81 224.155)
+			(xy 52.07 21.59) (xy 55.88 21.59)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f23b77c1-9fc7-461d-a685-b1a8d9b64eaa")
+		(uuid "f0b40a2d-4e27-493d-a871-59c51c537dc2")
 	)
 	(wire
 		(pts
-			(xy 331.47 46.99) (xy 331.47 44.45)
+			(xy 328.93 46.99) (xy 328.93 44.45)
 		)
 		(stroke
 			(width 0)
@@ -10044,7 +10292,17 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 33.02) (xy 265.43 22.86)
+			(xy 217.17 24.13) (xy 217.17 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3ed02c4-0f65-482c-ac57-ce1ff5b4688f")
+	)
+	(wire
+		(pts
+			(xy 270.51 33.02) (xy 270.51 22.86)
 		)
 		(stroke
 			(width 0)
@@ -10084,7 +10342,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 44.45) (xy 128.27 44.45)
+			(xy 97.79 45.72) (xy 115.57 45.72)
 		)
 		(stroke
 			(width 0)
@@ -10134,13 +10392,23 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 33.02) (xy 110.49 34.29)
+			(xy 97.79 34.29) (xy 97.79 35.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "fc49a3fe-bf9e-4331-a018-e618b5c1bfa9")
+	)
+	(wire
+		(pts
+			(xy 207.01 31.75) (xy 207.01 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc6122fc-ce7a-4f83-9d1e-afecd6199922")
 	)
 	(wire
 		(pts
@@ -10191,6 +10459,16 @@
 			(type default)
 		)
 		(uuid "feda93a8-65c2-408b-ab0f-a7e7508b2c6c")
+	)
+	(wire
+		(pts
+			(xy 426.72 34.29) (xy 426.72 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffb611b8-0f5e-404f-ab9c-26590aab6120")
 	)
 	(text "Minimal response value by EV 6.3.3: 294kOhm"
 		(exclude_from_sim no)
@@ -10307,6 +10585,16 @@
 		)
 		(uuid "68f5f48e-8506-4190-81f4-1eb80685afa7")
 	)
+	(text "Mating connectors:\nM80-4130898\nM80-4140898\n"
+		(exclude_from_sim no)
+		(at 22.86 37.084 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6baccd69-3504-4ece-9cd9-32e3eff5ce4d")
+	)
 	(text "'0' WHEN > 1V ON RISING OF PWM"
 		(exclude_from_sim no)
 		(at 115.824 144.018 0)
@@ -10413,7 +10701,7 @@
 		)
 		(uuid "ec949c23-de0a-42b1-827f-3e1d8dd03e48")
 	)
-	(text "Connectors"
+	(text "Connector"
 		(exclude_from_sim no)
 		(at 65.024 65.786 0)
 		(effects
@@ -10478,6 +10766,70 @@
 		)
 		(uuid "eb8b584a-fa73-449c-8ab0-163d7c1dd7ba")
 	)
+	(global_label "SDC_IN"
+		(shape input)
+		(at 41.91 49.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "097e0963-df81-4a90-9dd2-2639671095ff")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 51.5476 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IMD_OK_HS"
+		(shape output)
+		(at 76.2 39.37 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1256f9fd-a4c2-409c-9206-8eac770fc50b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 24.13 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IMD_PWM_LS"
+		(shape output)
+		(at 76.2 36.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "13baf06d-f17d-4ded-89bb-317ce4b48b66")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 24.13 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SDC_OUT"
 		(shape output)
 		(at 384.81 107.95 0)
@@ -10513,6 +10865,28 @@
 		(uuid "267a54db-afd3-41e4-b84a-dab9c858de8b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 405.2728 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDC_OUT"
+		(shape output)
+		(at 41.91 52.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2f984b10-16a8-47a3-baa0-ad357e569357")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 53.2409 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10565,28 +10939,6 @@
 			)
 		)
 	)
-	(global_label "RESET"
-		(shape output)
-		(at 40.64 44.45 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5b7a0897-fafb-41d0-a86c-491513c0c42a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 49.3703 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "PWM_TTL"
 		(shape output)
 		(at 80.01 109.22 0)
@@ -10621,6 +10973,27 @@
 		(uuid "8ff619f3-912d-45ae-a16e-38d23e17fb9a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at -48.26 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COCKPIT_LED"
+		(shape input)
+		(at 41.91 44.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "93205320-e3bb-4ff6-a2d1-c55a3f6eab2a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 19.685 5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10675,7 +11048,7 @@
 	)
 	(global_label "DUTY_OK"
 		(shape input)
-		(at 218.44 180.34 180)
+		(at 217.17 180.34 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10685,7 +11058,7 @@
 		)
 		(uuid "afd32714-5e94-470c-ae98-b81b9e9d719a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 173.99 111.76 0)
+			(at 172.72 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10694,9 +11067,9 @@
 			)
 		)
 	)
-	(global_label "SDC_IN"
-		(shape input)
-		(at 39.37 62.23 0)
+	(global_label "RESET"
+		(shape output)
+		(at 40.64 41.91 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10704,9 +11077,9 @@
 			)
 			(justify left)
 		)
-		(uuid "b3cd2b84-3c4c-40c8-a747-84a0c913755e")
+		(uuid "b61e393d-8d93-4075-aaf4-2e5d53aea9f3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 49.0076 62.23 0)
+			(at 49.3703 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10718,7 +11091,7 @@
 	)
 	(global_label "OK_HS_TTL"
 		(shape input)
-		(at 218.44 162.56 180)
+		(at 217.17 162.56 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10728,7 +11101,7 @@
 		)
 		(uuid "ba1d0b65-eab9-491a-8790-f950464879ee")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 138.43 110.49 0)
+			(at 137.16 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10843,73 +11216,9 @@
 			)
 		)
 	)
-	(global_label "IMD_OK_HS"
-		(shape output)
-		(at 74.93 39.37 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "df063e1d-bfc8-44a5-82ad-6fecc4daadab")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 22.86 7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SDC_OUT"
-		(shape output)
-		(at 39.37 64.77 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e60a371c-09cb-4c50-b65f-cea55dfe03e4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 50.7009 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "COCKPIT_LED"
-		(shape input)
-		(at 40.005 46.99 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f07f884b-1de2-405f-8486-af7782b62837")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 17.78 7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "PWM_FREQ_OK"
 		(shape input)
-		(at 218.44 185.42 180)
+		(at 217.17 185.42 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10919,33 +11228,12 @@
 		)
 		(uuid "f21f3bb9-ba8b-4616-be42-b46fe9f05d3a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 201.9082 185.42 0)
+			(at 200.6382 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "IMD_PWM_LS"
-		(shape output)
-		(at 74.93 41.91 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f4cff8b5-8265-49d3-9d30-ddea39e043ee")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 22.86 7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 				(hide yes)
 			)
 		)
@@ -11251,155 +11539,16 @@
 		)
 	)
 	(symbol
-		(lib_id "PUTM_EV_IMD_SAFETY_2021-rescue:R-Device")
-		(at 58.42 46.99 0)
+		(lib_id "PUTM_EV_IMD_SAFETY_2021-rescue:GND-power")
+		(at 55.88 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "0aa485ae-f3e1-44f5-8e96-bb9e002e1313")
-		(property "Reference" "R1"
-			(at 60.198 45.8216 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2.2K"
-			(at 60.198 48.133 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 56.642 46.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 58.42 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 58.42 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3529a5b3-2d71-468b-85ad-d765e1584d6f")
-		)
-		(pin "2"
-			(uuid "08f855a4-594f-4d51-a871-e8b2fd95bc79")
-		)
-		(instances
-			(project "IMD_SAFETY_2024"
-				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_TVS")
-		(at 55.88 29.21 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0b4f0a45-5bc6-4962-a463-8eb88e8d150d")
-		(property "Reference" "D5"
-			(at 58.42 27.9399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D_TVS"
-			(at 58.42 30.4799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 55.88 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 55.88 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 55.88 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "51834365-5ba0-4692-ad0a-8118ab8acded")
-		)
-		(pin "1"
-			(uuid "805a048b-d2de-49e7-8241-f3ebb0aabfd2")
-		)
-		(instances
-			(project "IMD_SAFETY_2024"
-				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PUTM_EV_IMD_SAFETY_2021-rescue:+24V-power")
-		(at 52.07 22.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0b7e871a-afdf-49eb-a2c3-65dfee5d908d")
+		(uuid "0601ebd4-5d20-46bd-ba20-3d6c496a8bc3")
 		(property "Reference" "#PWR02"
-			(at 52.07 26.67 0)
+			(at 55.88 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11407,8 +11556,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+24V"
-			(at 52.451 18.4658 0)
+		(property "Value" "GND"
+			(at 56.007 34.8742 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11416,7 +11565,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 52.07 22.86 0)
+			(at 55.88 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11425,7 +11574,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 22.86 0)
+			(at 55.88 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11434,7 +11583,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 52.07 22.86 0)
+			(at 55.88 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11443,7 +11592,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "58d797b8-bc58-474a-ae9d-b9a3b13fb568")
+			(uuid "81e8cf76-0584-4c43-8c38-d159e71c74dc")
 		)
 		(instances
 			(project "IMD_SAFETY_2024"
@@ -11616,7 +11765,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 324.8152 185.42 0)
 			(effects
 				(font
@@ -11635,6 +11784,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 323.85 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" " 187-CL31A476MQHNNNE "
 			(at 323.85 181.61 0)
 			(effects
 				(font
@@ -11754,7 +11912,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Samacsys:SOP65P640X120-14N"
 			(at 295.91 152.4 0)
 			(effects
 				(font
@@ -11763,7 +11921,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "74xx/74hc_hct74.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74hc74-q1.pdf?ts=1712945497310&ref_url=https%253A%252F%252Fwww.mouser.pl%252F"
 			(at 295.91 152.4 0)
 			(effects
 				(font
@@ -11833,43 +11991,33 @@
 		)
 	)
 	(symbol
-		(lib_id "PUTM_EV_IMD_SAFETY_2021-rescue:R-Device")
-		(at 66.04 29.21 0)
-		(unit 1)
+		(lib_id "Comparator:LM393")
+		(at 57.15 109.22 0)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "1bff0193-1293-44f2-a2a5-e58ec284ee3d")
-		(property "Reference" "R2"
-			(at 67.818 28.0416 0)
+		(fields_autoplaced yes)
+		(uuid "1e58bf72-b646-4a46-90da-1c64dbf8e055")
+		(property "Reference" "U14"
+			(at 57.15 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "2.2K"
-			(at 67.818 30.353 0)
+		(property "Value" "LM393"
+			(at 57.15 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 64.262 29.21 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 66.04 29.21 0)
+		(property "Footprint" "Samacsys:SOP65P640X120-8N"
+			(at 57.15 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11877,8 +12025,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 66.04 29.21 0)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm393b.pdf?ts=1712915754933&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FLM393B"
+			(at 57.15 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11886,17 +12034,44 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "db1499ba-dea3-4188-a7b4-1d3ae78475d9")
+		(property "Description" "Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8"
+			(at 57.15 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "c22f1d5a-540a-40ef-ad5a-9e1025c4c892")
 		)
 		(pin "2"
-			(uuid "ddde8ee1-a777-400e-b028-810ce44644aa")
+			(uuid "1880ef76-e1d7-4d7b-85bb-89d9b8a70009")
+		)
+		(pin "5"
+			(uuid "02a1e9fd-b4a6-4e26-a79f-d852fdb28ecd")
+		)
+		(pin "8"
+			(uuid "0a232257-8692-47f8-88ec-7572411ba707")
+		)
+		(pin "4"
+			(uuid "017767bf-2ba6-404a-86ab-3b83f1784eb0")
+		)
+		(pin "1"
+			(uuid "f8ee0f86-6005-40e9-8e18-4d1c0c37b19a")
+		)
+		(pin "6"
+			(uuid "7c48191f-79c1-43fd-9bf2-59a8b8fe6c62")
+		)
+		(pin "3"
+			(uuid "fb908ac3-2a1b-4254-979e-74488399ff78")
 		)
 		(instances
 			(project "IMD_SAFETY_2024"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
-					(reference "R2")
-					(unit 1)
+					(reference "U14")
+					(unit 2)
 				)
 			)
 		)
@@ -11954,6 +12129,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser#" " 637-SD103BW "
+			(at 316.23 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "791ecd6d-3d32-4e09-841d-f4f0ff96ce6c")
 		)
@@ -11965,91 +12149,6 @@
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
 					(reference "D2")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PUTM_EV_IMD_SAFETY_2021-rescue:LM393-Comparator")
-		(at 111.76 235.585 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "21fa93fd-403f-4e21-af39-eae9245690d8")
-		(property "Reference" "U5"
-			(at 111.76 226.2632 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LM393"
-			(at 111.76 228.5746 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SO-8_3.9x4.9mm_P1.27mm"
-			(at 111.76 235.585 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm393-n.pdf"
-			(at 111.76 235.585 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 111.76 235.585 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "60e3f51f-a2b1-4f32-b837-36142b0cd9f0")
-		)
-		(pin "2"
-			(uuid "7dd2653d-8af8-4760-9bfb-c1f3a4b7e14a")
-		)
-		(pin "3"
-			(uuid "de4fd02b-b1c2-46b2-99a2-cd8044e4eeb2")
-		)
-		(pin "5"
-			(uuid "2097142c-33da-4f72-a638-e56f38baf6aa")
-		)
-		(pin "6"
-			(uuid "18b05477-252a-45df-a763-2a5c704fcfa4")
-		)
-		(pin "7"
-			(uuid "fcf14844-191e-4392-85e5-8b819e2722b2")
-		)
-		(pin "4"
-			(uuid "e190f060-d03d-45b0-91ee-c74ed1824f9c")
-		)
-		(pin "8"
-			(uuid "176ca77c-9032-467c-a537-3637acf7052a")
-		)
-		(instances
-			(project "IMD_SAFETY_2024"
-				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
-					(reference "U5")
-					(unit 2)
 				)
 			)
 		)
@@ -12120,91 +12219,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PUTM_EV_IMD_SAFETY_2021-rescue:LM393-Comparator")
-		(at 57.15 109.22 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "236ebd23-9009-43f0-a394-dd1185dc70ef")
-		(property "Reference" "U1"
-			(at 57.15 99.8982 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LM393"
-			(at 57.15 102.2096 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SO-8_3.9x4.9mm_P1.27mm"
-			(at 57.15 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm393-n.pdf"
-			(at 57.15 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 57.15 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0659b37e-c104-41b2-9614-2bc5edcba2a8")
-		)
-		(pin "2"
-			(uuid "12c5fee7-d1ac-4cfd-9117-f0b91cf22afe")
-		)
-		(pin "3"
-			(uuid "243b9865-b364-4201-be7c-01ffab0d0456")
-		)
-		(pin "5"
-			(uuid "672db6ad-820b-4d44-8910-6b6a09b4d249")
-		)
-		(pin "6"
-			(uuid "ebd579d0-9b01-46a4-a5e8-9512cb94561f")
-		)
-		(pin "7"
-			(uuid "858470e4-5eee-45c1-8616-51308be6873c")
-		)
-		(pin "4"
-			(uuid "80ce6379-a6cb-4bf2-85aa-11db98d49c6a")
-		)
-		(pin "8"
-			(uuid "7bd518cf-ec43-42ba-9170-b4283b7110ee")
-		)
-		(instances
-			(project "IMD_SAFETY_2024"
-				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
-					(reference "U1")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PUTM_EV_IMD_SAFETY_2021-rescue:+5V-power")
 		(at 71.12 80.01 0)
 		(unit 1)
@@ -12270,180 +12284,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PUTM_EV_IMD_SAFETY_2021-rescue:LM393-Comparator")
-		(at 306.07 36.83 0)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2490f708-b567-48ad-acc6-ce1f62c263bd")
-		(property "Reference" "U1"
-			(at 305.0032 35.6616 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "LM393"
-			(at 305.0032 37.973 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:SO-8_3.9x4.9mm_P1.27mm"
-			(at 306.07 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm393-n.pdf"
-			(at 306.07 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 306.07 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d5abdf3d-0181-4a47-b6c8-d4ac6c4b9299")
-		)
-		(pin "2"
-			(uuid "3bdaaef8-142e-4ada-b050-f27947187704")
-		)
-		(pin "3"
-			(uuid "bf29f364-869f-4ec5-9c8c-e83b7054af25")
-		)
-		(pin "5"
-			(uuid "0c9c0dbd-8d76-4484-a644-cb523e4fbf43")
-		)
-		(pin "6"
-			(uuid "084a9539-7095-4cc5-929f-531843e31313")
-		)
-		(pin "7"
-			(uuid "06e8af9a-edac-4914-b778-739658ba3645")
-		)
-		(pin "4"
-			(uuid "38103aa7-e9dc-4ed3-9520-33dc07a8294c")
-		)
-		(pin "8"
-			(uuid "5b1ca29c-936e-4e2e-8b77-f3100b6afa85")
-		)
-		(instances
-			(project "IMD_SAFETY_2024"
-				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
-					(reference "U1")
-					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PUTM_EV_IMD_SAFETY_2021-rescue:LM393-Comparator")
-		(at 57.15 91.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "26d691f7-8d42-4306-9c84-457ae6e3c667")
-		(property "Reference" "U1"
-			(at 57.15 82.1182 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LM393"
-			(at 57.15 84.4296 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SO-8_3.9x4.9mm_P1.27mm"
-			(at 57.15 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm393-n.pdf"
-			(at 57.15 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 57.15 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bb70dc61-d6eb-4656-bdfc-786388ad8824")
-		)
-		(pin "2"
-			(uuid "cfb18cee-61fa-47c3-b6d7-ea763e91ed72")
-		)
-		(pin "3"
-			(uuid "acae9629-320e-44e9-843c-417e89fc95a9")
-		)
-		(pin "5"
-			(uuid "3fdf17e8-b107-41f6-b150-6e8b39161d84")
-		)
-		(pin "6"
-			(uuid "474b1034-3c37-48ed-bc2e-9450ffac5a3b")
-		)
-		(pin "7"
-			(uuid "c952b38e-65d7-41e0-86ae-985f73d9327e")
-		)
-		(pin "4"
-			(uuid "8a0a6cb5-3c87-448e-a34a-6f964d465c56")
-		)
-		(pin "8"
-			(uuid "f459b20b-b142-4c7b-ae8b-f67a374940e5")
-		)
-		(instances
-			(project "IMD_SAFETY_2024"
-				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PUTM_EV_IMD_SAFETY_2021-rescue:+5V-power")
-		(at 238.76 21.59 0)
+		(at 247.65 17.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12451,7 +12293,7 @@
 		(dnp no)
 		(uuid "2836f51c-541e-4378-ba2b-e0742c4b8438")
 		(property "Reference" "#PWR026"
-			(at 238.76 25.4 0)
+			(at 247.65 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12460,7 +12302,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 239.141 17.1958 0)
+			(at 248.031 13.3858 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12468,7 +12310,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 238.76 21.59 0)
+			(at 247.65 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12477,7 +12319,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 238.76 21.59 0)
+			(at 247.65 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12486,7 +12328,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 238.76 21.59 0)
+			(at 247.65 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12507,16 +12349,16 @@
 		)
 	)
 	(symbol
-		(lib_id "PUTM_EV_IMD_SAFETY_2021-rescue:GND-power")
-		(at 200.66 36.83 0)
+		(lib_id "PUTM_EV_IMD_SAFETY_2021-rescue:+24V-power")
+		(at 381 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "2a02fc9a-6b12-48a2-bcf9-19881c75ea29")
-		(property "Reference" "#PWR025"
-			(at 200.66 43.18 0)
+		(uuid "293b5009-a980-4e69-b44e-f0e5821b9d65")
+		(property "Reference" "#PWR055"
+			(at 381 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12524,8 +12366,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 200.787 41.2242 0)
+		(property "Value" "+24V"
+			(at 381.381 22.2758 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12533,7 +12375,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 200.66 36.83 0)
+			(at 381 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12542,7 +12384,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.66 36.83 0)
+			(at 381 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12551,7 +12393,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 200.66 36.83 0)
+			(at 381 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12560,13 +12402,118 @@
 			)
 		)
 		(pin "1"
-			(uuid "172874d2-3d14-4233-ad8f-37f1807bb575")
+			(uuid "6135b3e0-eb2b-4fd3-b09e-cd137b2a7791")
 		)
 		(instances
 			(project "IMD_SAFETY_2024"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
-					(reference "#PWR025")
+					(reference "#PWR055")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74HC74")
+		(at 217.17 36.83 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2a62dec0-2fb8-4222-b863-c4cacda2ae4e")
+		(property "Reference" "U13"
+			(at 219.202 25.908 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "74HC74"
+			(at 218.948 27.686 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Samacsys:SOP65P640X120-14N"
+			(at 217.17 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74hc74-q1.pdf?ts=1712945497310&ref_url=https%253A%252F%252Fwww.mouser.pl%252F"
+			(at 217.17 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual D Flip-flop, Set & Reset"
+			(at 217.17 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "3b3dc483-3fd2-4fe4-b2e1-0b00f78c2dce")
+		)
+		(pin "3"
+			(uuid "dafd621a-3745-4441-9867-27947aeb38d6")
+		)
+		(pin "6"
+			(uuid "a585f0a6-4ef9-411c-9b6f-c97bb7103d1f")
+		)
+		(pin "10"
+			(uuid "7dcac3be-54de-4023-9da8-a0e3f174554b")
+		)
+		(pin "9"
+			(uuid "b50c7790-712d-4176-bad2-11ea8fe3d6cb")
+		)
+		(pin "8"
+			(uuid "ba8d9783-884d-4ff2-8ff9-b922c992d5af")
+		)
+		(pin "5"
+			(uuid "a5268af0-3245-4504-ae2e-2f86493ae20b")
+		)
+		(pin "2"
+			(uuid "09b62f93-4f0d-4349-a825-ba8814c6ebdd")
+		)
+		(pin "1"
+			(uuid "da0ccc18-b4f3-400c-a95f-b91b1f6bc8e3")
+		)
+		(pin "14"
+			(uuid "52e2946b-778c-4ff8-aa37-ff755d14832d")
+		)
+		(pin "11"
+			(uuid "e6042ce6-f590-4728-b493-a4b05eb64685")
+		)
+		(pin "13"
+			(uuid "2d8192d2-2cb8-49df-9663-9438f7aeb3f8")
+		)
+		(pin "7"
+			(uuid "6d720246-9cc6-4eec-8797-f4e36991730f")
+		)
+		(pin "12"
+			(uuid "6982d953-fc4f-4d18-b351-7b4a8c0b196e")
+		)
+		(instances
+			(project "IMD_SAFETY_2024"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
+					(reference "U13")
+					(unit 3)
 				)
 			)
 		)
@@ -12744,7 +12691,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Hex NOT gate"
+			(at 55.88 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" " 512-74AC04SC "
 			(at 55.88 165.1 0)
 			(effects
 				(font
@@ -12800,6 +12756,71 @@
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
 					(reference "U2")
 					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PUTM_EV_IMD_SAFETY_2021-rescue:+5V-power")
+		(at 217.17 24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "31210e7c-0d1c-4c0f-af79-ebd946231763")
+		(property "Reference" "#PWR057"
+			(at 217.17 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 217.551 19.7358 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.17 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 217.17 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a7e41390-15d0-4d72-bbad-6f449b9f8f10")
+		)
+		(instances
+			(project "IMD_SAFETY_2024"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
+					(reference "#PWR057")
+					(unit 1)
 				)
 			)
 		)
@@ -12871,7 +12892,7 @@
 	)
 	(symbol
 		(lib_id "PUTM_EV_IMD_SAFETY_2021-rescue:GND-power")
-		(at 359.41 48.26 0)
+		(at 354.33 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12879,7 +12900,7 @@
 		(dnp no)
 		(uuid "31beda00-9ed4-49a7-9ca5-b14eb3cb9bc7")
 		(property "Reference" "#PWR035"
-			(at 359.41 54.61 0)
+			(at 354.33 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12888,7 +12909,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 359.537 52.6542 0)
+			(at 354.457 52.6542 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12896,7 +12917,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 359.41 48.26 0)
+			(at 354.33 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12905,7 +12926,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 359.41 48.26 0)
+			(at 354.33 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12914,7 +12935,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 359.41 48.26 0)
+			(at 354.33 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12929,6 +12950,82 @@
 			(project "IMD_SAFETY_2024"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
 					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PUTM_EV_IMD_SAFETY_2021-rescue:Fuse-Device")
+		(at 45.72 21.59 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "324f20a0-dfe0-495e-a904-672f15dc6bb9")
+		(property "Reference" "F1"
+			(at 45.72 16.5862 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "500mA"
+			(at 45.72 18.8976 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
+			(at 45.72 19.812 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 45.72 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" " 667-ERB-RG0R50V "
+			(at 45.72 21.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3672ab1e-e302-4265-8981-a4776b245bab")
+		)
+		(pin "2"
+			(uuid "158ff95c-2f90-4012-9e02-3fabd532b83f")
+		)
+		(instances
+			(project "IMD_SAFETY_2024"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
+					(reference "F1")
 					(unit 1)
 				)
 			)
@@ -13203,73 +13300,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PUTM_EV_IMD_SAFETY_2021-rescue:GND-power")
-		(at 55.88 33.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3ef341e2-4d87-4a09-b027-bc10a3a05205")
-		(property "Reference" "#PWR052"
-			(at 55.88 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 56.007 37.4142 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 55.88 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55.88 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 55.88 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ba6de4ca-8445-404b-b9fa-aaa80e807c2e")
-		)
-		(instances
-			(project "IMD_SAFETY_2024"
-				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
-					(reference "#PWR052")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PUTM_EV_IMD_SAFETY_2021-rescue:C-Device")
-		(at 342.9 36.83 0)
+		(at 339.09 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13277,7 +13309,7 @@
 		(dnp no)
 		(uuid "3f9c3502-d1b7-4501-826f-e2ac72e5b59b")
 		(property "Reference" "C11"
-			(at 345.821 35.6616 0)
+			(at 342.011 35.6616 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13286,7 +13318,7 @@
 			)
 		)
 		(property "Value" "100nF/35V"
-			(at 345.821 37.973 0)
+			(at 342.011 37.973 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13295,7 +13327,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 343.8652 40.64 0)
+			(at 340.0552 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13304,7 +13336,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 342.9 36.83 0)
+			(at 339.09 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13313,7 +13345,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 342.9 36.83 0)
+			(at 339.09 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13620,16 +13652,34 @@
 		)
 	)
 	(symbol
-		(lib_id "PUTM_EV_IMD_SAFETY_2021-rescue:GND-power")
-		(at 173.99 45.72 0)
+		(lib_id "PUTM_EV_IMD_SAFETY_2021-rescue:C-Device")
+		(at 207.01 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "47d61d42-2cf4-4d50-97fb-0f77b71eeb6e")
-		(property "Reference" "#PWR022"
-			(at 173.99 52.07 0)
+		(uuid "47a3fccc-ef71-4f34-9ec3-21f773949d24")
+		(property "Reference" "C17"
+			(at 201.93 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF/35V"
+			(at 195.58 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 207.9752 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13637,25 +13687,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 174.117 50.1142 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 173.99 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 173.99 45.72 0)
+		(property "Datasheet" "~"
+			(at 207.01 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13664,7 +13697,75 @@
 			)
 		)
 		(property "Description" ""
-			(at 173.99 45.72 0)
+			(at 207.01 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1d0870f2-f631-4764-84ff-e7da358d156a")
+		)
+		(pin "2"
+			(uuid "5e7100ce-aaed-4a08-8b72-96e06f621156")
+		)
+		(instances
+			(project "IMD_SAFETY_2024"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PUTM_EV_IMD_SAFETY_2021-rescue:GND-power")
+		(at 157.48 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "47d61d42-2cf4-4d50-97fb-0f77b71eeb6e")
+		(property "Reference" "#PWR022"
+			(at 157.48 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 157.607 51.3842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13824,73 +13925,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PUTM_EV_IMD_SAFETY_2021-rescue:Fuse-Device")
-		(at 45.72 24.13 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4a02f12f-2328-48f4-9d0b-de077627864d")
-		(property "Reference" "F1"
-			(at 45.72 19.1262 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Fuse"
-			(at 45.72 21.4376 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Fuse:Fuse_1812_4532Metric"
-			(at 45.72 22.352 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 45.72 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 45.72 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "75f4a27b-ea4f-4ace-aa21-418fadabda9a")
-		)
-		(pin "2"
-			(uuid "edde8b52-18c8-4f0c-93e0-bf4629922c73")
-		)
-		(instances
-			(project "IMD_SAFETY_2024"
-				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
-					(reference "F1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PUTM_EV_IMD_SAFETY_2021-rescue:+5V-power")
 		(at 71.12 97.79 0)
 		(unit 1)
@@ -13956,6 +13990,75 @@
 		)
 	)
 	(symbol
+		(lib_id "PUTM_EV_IMD_SAFETY_2021-rescue:C-Device")
+		(at 391.16 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4b36e5a7-747a-4e76-9b06-80710af7117a")
+		(property "Reference" "C16"
+			(at 394.081 35.6616 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF/35V"
+			(at 394.081 37.973 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 392.1252 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 391.16 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 391.16 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "74cb7408-733b-43a2-a1f6-63b12af17e27")
+		)
+		(pin "2"
+			(uuid "300003c0-a713-4cf2-b8df-a2c9b6fbcc1a")
+		)
+		(instances
+			(project "IMD_SAFETY_2024"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
+					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PUTM_EV_IMD_SAFETY_2021-rescue:R-Device")
 		(at 349.25 154.94 180)
 		(unit 1)
@@ -13982,7 +14085,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 351.028 154.94 90)
 			(effects
 				(font
@@ -14222,71 +14325,6 @@
 	)
 	(symbol
 		(lib_id "PUTM_EV_IMD_SAFETY_2021-rescue:GND-power")
-		(at 44.45 53.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4e90dff0-c313-4e1a-a8fd-45f89ed9efad")
-		(property "Reference" "#PWR01"
-			(at 44.45 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 44.577 57.7342 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 44.45 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 44.45 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 44.45 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "33cadb95-6d77-4044-af06-80bfb33f5f14")
-		)
-		(instances
-			(project "IMD_SAFETY_2024"
-				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PUTM_EV_IMD_SAFETY_2021-rescue:GND-power")
 		(at 303.53 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14352,7 +14390,7 @@
 	)
 	(symbol
 		(lib_id "PUTM_EV_IMD_SAFETY_2021-rescue:GND-power")
-		(at 331.47 48.26 0)
+		(at 328.93 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14360,7 +14398,7 @@
 		(dnp no)
 		(uuid "51672910-dc54-4e2e-8f96-5d328dbf640b")
 		(property "Reference" "#PWR033"
-			(at 331.47 54.61 0)
+			(at 328.93 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14369,7 +14407,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 331.597 52.6542 0)
+			(at 329.057 52.6542 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14377,7 +14415,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 331.47 48.26 0)
+			(at 328.93 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14386,7 +14424,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 331.47 48.26 0)
+			(at 328.93 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14395,7 +14433,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 331.47 48.26 0)
+			(at 328.93 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14416,32 +14454,16 @@
 		)
 	)
 	(symbol
-		(lib_id "PUTM_EV_IMD_SAFETY_2021-rescue:LM393-Comparator")
-		(at 111.76 219.075 0)
+		(lib_id "PUTM_EV_IMD_SAFETY_2021-rescue:GND-power")
+		(at 57.15 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "53a786df-0c29-47e1-b656-c3d2924b74da")
-		(property "Reference" "U4"
-			(at 111.76 209.7532 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LM393"
-			(at 111.76 212.0646 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SO-8_3.9x4.9mm_P1.27mm"
-			(at 111.76 219.075 0)
+		(uuid "51b5c707-60a7-475c-945d-9d33cccd9262")
+		(property "Reference" "#PWR052"
+			(at 57.15 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14449,8 +14471,25 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm393-n.pdf"
-			(at 111.76 219.075 0)
+		(property "Value" "GND"
+			(at 57.277 53.9242 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14459,7 +14498,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 111.76 219.075 0)
+			(at 57.15 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14468,33 +14507,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "cc8ccc70-d55b-44d3-b536-754e0a6fbb38")
-		)
-		(pin "2"
-			(uuid "da606926-c3b9-4125-a5f6-1e5753544b59")
-		)
-		(pin "3"
-			(uuid "13658345-ac58-4042-9d89-f4cc40d9266b")
-		)
-		(pin "5"
-			(uuid "80e61e7a-43e4-4732-8345-d99b9652f1c0")
-		)
-		(pin "6"
-			(uuid "1fdeb64c-23ae-4ddd-99d6-9df9ff839a67")
-		)
-		(pin "7"
-			(uuid "dee71ac4-ede5-43f3-81c0-82f26a2ad893")
-		)
-		(pin "4"
-			(uuid "68145269-6c8e-45af-a607-2eacdaaffa27")
-		)
-		(pin "8"
-			(uuid "cf493bbc-2079-47ce-a336-58e239982938")
+			(uuid "856cdd09-643d-44be-ad4e-d9eea96f7802")
 		)
 		(instances
 			(project "IMD_SAFETY_2024"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
-					(reference "U4")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -14502,7 +14520,7 @@
 	)
 	(symbol
 		(lib_id "PUTM_EV_IMD_SAFETY_2021-rescue:74AHC04-74xx")
-		(at 238.76 36.83 0)
+		(at 247.65 33.02 0)
 		(unit 7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14510,7 +14528,7 @@
 		(dnp no)
 		(uuid "54bf93d9-b522-4931-8eec-363b43a5996a")
 		(property "Reference" "U2"
-			(at 244.602 35.6616 0)
+			(at 253.492 31.8516 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14519,7 +14537,7 @@
 			)
 		)
 		(property "Value" "74AC04SC"
-			(at 244.602 37.973 0)
+			(at 253.492 34.163 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14528,7 +14546,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 238.76 36.83 0)
+			(at 247.65 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14537,7 +14555,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT04.pdf"
-			(at 238.76 36.83 0)
+			(at 247.65 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14545,8 +14563,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 238.76 36.83 0)
+		(property "Description" "Hex NOT gate"
+			(at 247.65 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" " 512-74AC04SC "
+			(at 247.65 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14607,7 +14634,7 @@
 	)
 	(symbol
 		(lib_id "PUTM_EV_IMD_SAFETY_2021-rescue:C-Device")
-		(at 370.84 36.83 0)
+		(at 364.49 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14615,7 +14642,7 @@
 		(dnp no)
 		(uuid "5bbc1243-a92f-4807-8269-fd7ba9da4ced")
 		(property "Reference" "C12"
-			(at 373.761 35.6616 0)
+			(at 367.411 35.6616 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14624,7 +14651,7 @@
 			)
 		)
 		(property "Value" "100nF/35V"
-			(at 373.761 37.973 0)
+			(at 367.411 37.973 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14633,7 +14660,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 371.8052 40.64 0)
+			(at 365.4552 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14642,7 +14669,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 370.84 36.83 0)
+			(at 364.49 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14651,7 +14678,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 370.84 36.83 0)
+			(at 364.49 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14670,93 +14697,6 @@
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
 					(reference "C12")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PUTM_EV_IMD_SAFETY_2021-rescue:LM393-Comparator")
-		(at 361.95 36.83 0)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5d2a6628-f45b-4eae-8992-a6625f2c94a1")
-		(property "Reference" "U5"
-			(at 360.8832 35.6616 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "LM393"
-			(at 360.8832 37.973 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:SO-8_3.9x4.9mm_P1.27mm"
-			(at 361.95 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm393-n.pdf"
-			(at 361.95 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 361.95 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6dcc3562-6e9f-4239-a217-6adc1aeb796b")
-		)
-		(pin "2"
-			(uuid "1855b59d-7169-4d5a-9fb1-73ab7c41ed77")
-		)
-		(pin "3"
-			(uuid "d915bbac-ba06-4dc4-82bc-91bbc00803aa")
-		)
-		(pin "5"
-			(uuid "6a1005f2-50eb-4f22-961e-55f483c7297c")
-		)
-		(pin "6"
-			(uuid "29b2c3a0-e7e2-4573-a438-d8d782ecadd1")
-		)
-		(pin "7"
-			(uuid "dde3a004-2a24-40c3-b913-6faae27e8e3e")
-		)
-		(pin "4"
-			(uuid "35c2a6fb-65f6-4350-9eb4-560dcda46643")
-		)
-		(pin "8"
-			(uuid "d434d5e2-676f-405c-b0d5-6a85661b5f5e")
-		)
-		(instances
-			(project "IMD_SAFETY_2024"
-				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
-					(reference "U5")
-					(unit 3)
 				)
 			)
 		)
@@ -14828,7 +14768,7 @@
 	)
 	(symbol
 		(lib_id "PUTM_EV_IMD_SAFETY_2021-rescue:MC78M05_TO252-Regulator_Linear")
-		(at 128.27 33.02 0)
+		(at 115.57 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14836,7 +14776,7 @@
 		(dnp no)
 		(uuid "5ece657d-c0de-4caa-9322-49a1e1e61610")
 		(property "Reference" "U7"
-			(at 128.27 26.8732 0)
+			(at 115.57 28.1432 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14844,7 +14784,7 @@
 			)
 		)
 		(property "Value" "MC78M12CDTG"
-			(at 128.27 29.1846 0)
+			(at 115.57 30.4546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14852,7 +14792,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:TO-252-3_TabPin2"
-			(at 128.27 27.305 0)
+			(at 115.57 28.575 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14861,8 +14801,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.fairchildsemi.com/ds/LM/LM78M05.pdf"
-			(at 128.27 34.29 0)
+		(property "Datasheet" "https://www.mouser.pl/datasheet/2/308/1/MC7800_D-2315963.pdf"
+			(at 115.57 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14871,7 +14811,16 @@
 			)
 		)
 		(property "Description" ""
-			(at 128.27 33.02 0)
+			(at 115.57 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" " 863-MC7812ACD2TR4G "
+			(at 115.57 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14893,6 +14842,164 @@
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
 					(reference "U7")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PUTM_EV_IMD_SAFETY_2021-rescue:C-Device")
+		(at 426.72 38.1 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5f0fcd95-76a1-49a8-884d-07657a773b33")
+		(property "Reference" "C18"
+			(at 431.8 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF/35V"
+			(at 438.15 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 425.7548 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 426.72 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 426.72 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "136f0314-b28d-4792-8c6d-c1517784dc5c")
+		)
+		(pin "2"
+			(uuid "259fade8-f00e-47b3-99ce-3d447adc4ac8")
+		)
+		(instances
+			(project "IMD_SAFETY_2024"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
+					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Comparator:LM393")
+		(at 331.47 36.83 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "629d98a3-c946-49c3-92d9-42550c27c8c9")
+		(property "Reference" "U15"
+			(at 330.2 35.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LM393"
+			(at 330.2 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Samacsys:SOP65P640X120-8N"
+			(at 331.47 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm393b.pdf?ts=1712915754933&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FLM393B"
+			(at 331.47 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8"
+			(at 331.47 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "c22f1d5a-540a-40ef-ad5a-9e1025c4c893")
+		)
+		(pin "2"
+			(uuid "1880ef76-e1d7-4d7b-85bb-89d9b8a7000a")
+		)
+		(pin "5"
+			(uuid "02a1e9fd-b4a6-4e26-a79f-d852fdb28ece")
+		)
+		(pin "8"
+			(uuid "3c6ef7e8-a6e7-42e6-a923-6285cf2216b0")
+		)
+		(pin "4"
+			(uuid "591a1515-d0f8-48e0-bd34-f6c2f9916a08")
+		)
+		(pin "1"
+			(uuid "f8ee0f86-6005-40e9-8e18-4d1c0c37b19b")
+		)
+		(pin "6"
+			(uuid "7c48191f-79c1-43fd-9bf2-59a8b8fe6c63")
+		)
+		(pin "3"
+			(uuid "fb908ac3-2a1b-4254-979e-74488399ff79")
+		)
+		(instances
+			(project "IMD_SAFETY_2024"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
+					(reference "U15")
+					(unit 3)
 				)
 			)
 		)
@@ -15207,7 +15314,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
+		(property "Datasheet" "https://www.ti.com/product/SN74LVC1G79"
 			(at 52.07 235.585 0)
 			(effects
 				(font
@@ -15217,6 +15324,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 52.07 235.585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" " 595-SN74LVC1G79DBVR "
 			(at 52.07 235.585 0)
 			(effects
 				(font
@@ -15319,7 +15435,7 @@
 	)
 	(symbol
 		(lib_id "PUTM_EV_IMD_SAFETY_2021-rescue:+5V-power")
-		(at 185.42 29.21 0)
+		(at 168.91 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15327,7 +15443,7 @@
 		(dnp no)
 		(uuid "6b8eab75-4cda-406d-b1a5-9681a087a0d9")
 		(property "Reference" "#PWR023"
-			(at 185.42 33.02 0)
+			(at 168.91 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15336,7 +15452,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 185.801 24.8158 0)
+			(at 169.291 26.0858 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15344,7 +15460,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 185.42 29.21 0)
+			(at 168.91 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15353,7 +15469,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 29.21 0)
+			(at 168.91 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15362,7 +15478,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 185.42 29.21 0)
+			(at 168.91 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15383,34 +15499,16 @@
 		)
 	)
 	(symbol
-		(lib_id "PUTM_EV_IMD_SAFETY_2021-rescue:C-Device")
-		(at 265.43 36.83 0)
+		(lib_id "PUTM_EV_IMD_SAFETY_2021-rescue:+24V-power")
+		(at 52.07 20.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "6e9db1ae-1327-44d6-baf1-2ca3bf38f2b5")
-		(property "Reference" "C9"
-			(at 260.35 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF/35V"
-			(at 254 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 266.3952 40.64 0)
+		(uuid "6bd2502e-a4d1-43e3-b100-2be7999ba829")
+		(property "Reference" "#PWR01"
+			(at 52.07 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15418,8 +15516,25 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 265.43 36.83 0)
+		(property "Value" "+24V"
+			(at 52.451 15.9258 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15428,7 +15543,159 @@
 			)
 		)
 		(property "Description" ""
-			(at 265.43 36.83 0)
+			(at 52.07 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5bb6e8b1-f02a-4848-b26c-247841ad3ee4")
+		)
+		(instances
+			(project "IMD_SAFETY_2024"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Comparator:LM393")
+		(at 125.73 172.72 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6d64efd1-3c8c-4a73-9d75-13ebf79f221e")
+		(property "Reference" "U15"
+			(at 125.73 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM393"
+			(at 125.73 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Samacsys:SOP65P640X120-8N"
+			(at 125.73 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm393b.pdf?ts=1712915754933&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FLM393B"
+			(at 125.73 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8"
+			(at 125.73 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "31380919-af05-4e41-9000-1a5c5798e374")
+		)
+		(pin "2"
+			(uuid "1880ef76-e1d7-4d7b-85bb-89d9b8a7000b")
+		)
+		(pin "5"
+			(uuid "2a2b6df7-ff06-4e7d-bb10-84f03963f145")
+		)
+		(pin "8"
+			(uuid "0a232257-8692-47f8-88ec-7572411ba709")
+		)
+		(pin "4"
+			(uuid "017767bf-2ba6-404a-86ab-3b83f1784eb2")
+		)
+		(pin "1"
+			(uuid "f8ee0f86-6005-40e9-8e18-4d1c0c37b19c")
+		)
+		(pin "6"
+			(uuid "12cbb982-7f6d-4058-ab53-57f0ed061129")
+		)
+		(pin "3"
+			(uuid "fb908ac3-2a1b-4254-979e-74488399ff7a")
+		)
+		(instances
+			(project "IMD_SAFETY_2024"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
+					(reference "U15")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PUTM_EV_IMD_SAFETY_2021-rescue:C-Device")
+		(at 270.51 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6e9db1ae-1327-44d6-baf1-2ca3bf38f2b5")
+		(property "Reference" "C9"
+			(at 265.43 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF/35V"
+			(at 259.08 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 271.4752 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 270.51 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 270.51 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15517,71 +15784,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PUTM_EV_IMD_SAFETY_2021-rescue:+5V-power")
-		(at 200.66 29.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6f66fd5a-11f1-4772-96af-f7778d1ac826")
-		(property "Reference" "#PWR024"
-			(at 200.66 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 201.041 24.8158 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 200.66 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 200.66 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 200.66 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bf4026be-151c-4c4d-ae5a-6375e2e5db4d")
-		)
-		(instances
-			(project "IMD_SAFETY_2024"
-				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
-					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PUTM_EV_IMD_SAFETY_2021-rescue:GND-power")
 		(at 140.97 229.235 0)
 		(unit 1)
@@ -15647,129 +15849,33 @@
 		)
 	)
 	(symbol
-		(lib_id "PUTM_EV_IMD_SAFETY_2021-rescue:LM393-Comparator")
-		(at 334.01 36.83 0)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "76091a20-ba32-4512-b32a-5184699fcdcc")
-		(property "Reference" "U4"
-			(at 332.9432 35.6616 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "LM393"
-			(at 332.9432 37.973 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:SO-8_3.9x4.9mm_P1.27mm"
-			(at 334.01 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm393-n.pdf"
-			(at 334.01 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 334.01 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fb959668-eff7-4345-88b5-bd9f228543cd")
-		)
-		(pin "2"
-			(uuid "a0f03e63-beae-476c-bf18-7c0ba9cedd4b")
-		)
-		(pin "3"
-			(uuid "ca0d9c98-5c3c-49ea-8c32-9ba4ebac3f2b")
-		)
-		(pin "5"
-			(uuid "7251df35-9737-480b-acb3-a9c6e097bfa6")
-		)
-		(pin "6"
-			(uuid "1dc45ac6-44d5-491b-aeda-e74dcdca0756")
-		)
-		(pin "7"
-			(uuid "b63c55c0-e62d-41d6-80b1-2662ec4c4db1")
-		)
-		(pin "4"
-			(uuid "d4246f07-3370-49a5-a5d7-6a53f631c649")
-		)
-		(pin "8"
-			(uuid "ee87aea9-f6d4-4a1d-a83a-7294cef51283")
-		)
-		(instances
-			(project "IMD_SAFETY_2024"
-				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
-					(reference "U4")
-					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PUTM_EV_IMD_SAFETY_2021-rescue:Conn_01x02-Connector_Generic")
-		(at 34.29 62.23 0)
-		(mirror y)
+		(lib_id "Comparator:LM393")
+		(at 151.13 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "78f07421-5c60-4db5-a255-97af211e687b")
-		(property "Reference" "J2"
-			(at 36.3728 56.7182 0)
+		(fields_autoplaced yes)
+		(uuid "7a6028b9-c20f-4c87-80f6-ffb977af2b95")
+		(property "Reference" "U1"
+			(at 151.13 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "SafetyConn"
-			(at 36.3728 59.0296 0)
+		(property "Value" "LM393"
+			(at 151.13 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0200_1x02_P3.00mm_Horizontal"
-			(at 34.29 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 34.29 62.23 0)
+		(property "Footprint" ""
+			(at 151.13 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15777,8 +15883,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 34.29 62.23 0)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm393.pdf"
+			(at 151.13 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8"
+			(at 151.13 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15787,15 +15902,33 @@
 			)
 		)
 		(pin "1"
-			(uuid "a19ae138-d47d-47fa-8eb6-7ae502b8b5bf")
+			(uuid "f50a1d48-4b3c-497c-a9a8-6aeb9bab17d9")
+		)
+		(pin "6"
+			(uuid "9df8f05b-b4db-4a9b-9966-54bf99d1d449")
+		)
+		(pin "5"
+			(uuid "d1642723-002d-4840-b501-97160ff2c063")
 		)
 		(pin "2"
-			(uuid "494dc085-47f6-4757-a561-82bc286a80ea")
+			(uuid "695a4983-a0f8-45f1-b967-4459b0180cfb")
+		)
+		(pin "4"
+			(uuid "873b1195-1aa6-48bb-9d4a-842f3b1338f7")
+		)
+		(pin "8"
+			(uuid "a1dcfcf6-9ffb-4c48-82f4-1fa3377e64d9")
+		)
+		(pin "7"
+			(uuid "a38bd70c-6533-4203-9734-1ef0eee1efb6")
+		)
+		(pin "3"
+			(uuid "838d1316-5b8d-4acc-a692-08f19700dedb")
 		)
 		(instances
 			(project "IMD_SAFETY_2024"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
-					(reference "J2")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -15909,7 +16042,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Hex NOT gate"
+			(at 40.64 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" " 512-74AC04SC "
 			(at 40.64 165.1 0)
 			(effects
 				(font
@@ -15965,6 +16107,119 @@
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
 					(reference "U2")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74LS08")
+		(at 416.56 38.1 0)
+		(mirror y)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7f1d6079-ee0a-4484-8238-166a85bd27a8")
+		(property "Reference" "U10"
+			(at 411.48 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74HCS08"
+			(at 410.972 28.702 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Samacsys:SOP65P640X120-14N"
+			(at 416.56 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74hcs08-q1.pdf?ts=1712915805737&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FSN74HCS08-Q1"
+			(at 416.56 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad And2"
+			(at 416.56 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" " 595-SN74HCS08PWR "
+			(at 416.56 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "78db1c3c-e712-4c02-9080-464fc2b107c7")
+		)
+		(pin "14"
+			(uuid "b49b7c0d-783f-4239-a9a4-54101fc7aac8")
+		)
+		(pin "9"
+			(uuid "5b6b4281-65fe-4368-993a-b9a12df6af00")
+		)
+		(pin "1"
+			(uuid "e03350ca-e796-4389-95b2-75512e99be22")
+		)
+		(pin "6"
+			(uuid "43ba4047-1918-48c2-b13f-66ca0e5ffc35")
+		)
+		(pin "5"
+			(uuid "28d55622-373f-4b97-a03e-47ccb0e7f325")
+		)
+		(pin "10"
+			(uuid "e3c60681-ce54-41b6-9930-950c1e01d705")
+		)
+		(pin "2"
+			(uuid "ff8ce202-dbf6-4ce5-93a4-d45e2b306c99")
+		)
+		(pin "4"
+			(uuid "ec11d2f1-feee-44ba-92a4-611466c9cf12")
+		)
+		(pin "8"
+			(uuid "c2f31fc1-271e-455b-b126-5853ca65e1ee")
+		)
+		(pin "11"
+			(uuid "60507188-f770-4c8d-a19f-1d6e1a209878")
+		)
+		(pin "12"
+			(uuid "42a9b58a-4a37-4a69-9875-3e30f75cb614")
+		)
+		(pin "3"
+			(uuid "24ac365d-b8c0-4283-8d7b-a72fcbd5993c")
+		)
+		(pin "13"
+			(uuid "221ca449-378f-4871-8ad7-c464c503961a")
+		)
+		(instances
+			(project "IMD_SAFETY_2024"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
+					(reference "U10")
+					(unit 5)
 				)
 			)
 		)
@@ -16211,7 +16466,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Hex NOT gate"
+			(at 52.07 213.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" " 512-74AC04SC "
 			(at 52.07 213.995 0)
 			(effects
 				(font
@@ -16409,6 +16673,71 @@
 		)
 	)
 	(symbol
+		(lib_id "PUTM_EV_IMD_SAFETY_2021-rescue:GND-power")
+		(at 217.17 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8a2c9c8b-157c-4032-bf85-579d7c720465")
+		(property "Reference" "#PWR024"
+			(at 217.17 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 217.297 52.6542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.17 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 217.17 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cd7bb45f-37d8-4a5c-9d0e-b9220e59f915")
+		)
+		(instances
+			(project "IMD_SAFETY_2024"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PUTM_EV_IMD_SAFETY_2021-rescue:+5V-power")
 		(at 279.4 21.59 0)
 		(unit 1)
@@ -16468,6 +16797,92 @@
 			(project "IMD_SAFETY_2024"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
 					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Comparator:LM393")
+		(at 125.73 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9142a3d6-25fe-4a2a-943c-d1a2bbf8a9a5")
+		(property "Reference" "U15"
+			(at 125.73 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM393"
+			(at 125.73 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Samacsys:SOP65P640X120-8N"
+			(at 125.73 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm393b.pdf?ts=1712915754933&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FLM393B"
+			(at 125.73 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8"
+			(at 125.73 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "c22f1d5a-540a-40ef-ad5a-9e1025c4c892")
+		)
+		(pin "2"
+			(uuid "775f9e69-17be-4190-a61c-af03e85f9eec")
+		)
+		(pin "5"
+			(uuid "02a1e9fd-b4a6-4e26-a79f-d852fdb28ecd")
+		)
+		(pin "8"
+			(uuid "0a232257-8692-47f8-88ec-7572411ba707")
+		)
+		(pin "4"
+			(uuid "017767bf-2ba6-404a-86ab-3b83f1784eb0")
+		)
+		(pin "1"
+			(uuid "f2c683f0-8529-4d5b-a146-05a466de3dba")
+		)
+		(pin "6"
+			(uuid "7c48191f-79c1-43fd-9bf2-59a8b8fe6c62")
+		)
+		(pin "3"
+			(uuid "dead750a-36c1-464e-a36f-360ddf8b6198")
+		)
+		(instances
+			(project "IMD_SAFETY_2024"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
+					(reference "U15")
 					(unit 1)
 				)
 			)
@@ -16540,7 +16955,7 @@
 	)
 	(symbol
 		(lib_id "PUTM_EV_IMD_SAFETY_2021-rescue:LM1117-5.0-Regulator_Linear")
-		(at 173.99 33.02 0)
+		(at 157.48 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16548,7 +16963,7 @@
 		(dnp no)
 		(uuid "948085a5-0c0a-404d-bbce-40906c617f8c")
 		(property "Reference" "U8"
-			(at 173.99 26.8732 0)
+			(at 157.48 28.1432 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16556,7 +16971,7 @@
 			)
 		)
 		(property "Value" "LM1117IMP-5.0"
-			(at 173.99 29.1846 0)
+			(at 157.48 30.4546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16564,7 +16979,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-			(at 173.99 33.02 0)
+			(at 157.48 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16573,7 +16988,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm1117.pdf"
-			(at 173.99 33.02 0)
+			(at 157.48 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16582,7 +16997,16 @@
 			)
 		)
 		(property "Description" ""
-			(at 173.99 33.02 0)
+			(at 157.48 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" " 926-LM1117IMPX50NOPB "
+			(at 157.48 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16674,6 +17098,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Comparator:LM393")
+		(at 356.87 36.83 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "96151297-003c-4b94-b4cb-646fa58f4187")
+		(property "Reference" "U16"
+			(at 355.6 35.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LM393"
+			(at 355.6 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Samacsys:SOP65P640X120-8N"
+			(at 356.87 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm393b.pdf?ts=1712915754933&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FLM393B"
+			(at 356.87 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8"
+			(at 356.87 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "c22f1d5a-540a-40ef-ad5a-9e1025c4c893")
+		)
+		(pin "2"
+			(uuid "1880ef76-e1d7-4d7b-85bb-89d9b8a7000a")
+		)
+		(pin "5"
+			(uuid "02a1e9fd-b4a6-4e26-a79f-d852fdb28ece")
+		)
+		(pin "8"
+			(uuid "dd2bb44e-becf-4b9c-b1c0-2837fe67c765")
+		)
+		(pin "4"
+			(uuid "06fcc16e-8fc8-43bf-b927-c9c34cec99d5")
+		)
+		(pin "1"
+			(uuid "f8ee0f86-6005-40e9-8e18-4d1c0c37b19b")
+		)
+		(pin "6"
+			(uuid "7c48191f-79c1-43fd-9bf2-59a8b8fe6c63")
+		)
+		(pin "3"
+			(uuid "fb908ac3-2a1b-4254-979e-74488399ff79")
+		)
+		(instances
+			(project "IMD_SAFETY_2024"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
+					(reference "U16")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PUTM_EV_IMD_SAFETY_2021-rescue:R-Device")
 		(at 87.63 172.72 180)
 		(unit 1)
@@ -16743,7 +17255,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PUTM_EV_IMD_SAFETY_2021-rescue:Conn_01x06-Connector_Generic")
+		(lib_id "Connector_Generic:Conn_01x08")
 		(at 34.29 41.91 0)
 		(mirror y)
 		(unit 1)
@@ -16753,22 +17265,22 @@
 		(dnp no)
 		(uuid "98707a4a-f717-47e6-953c-09ca1773fb88")
 		(property "Reference" "J1"
-			(at 36.3728 31.3182 0)
+			(at 24.892 28.448 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "MainConn"
-			(at 36.3728 33.6296 0)
+		(property "Value" "Main- M80-5300842"
+			(at 24.892 30.7594 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0600_1x06_P3.00mm_Horizontal"
+		(property "Footprint" "Samacsys:M80-53008YY"
 			(at 34.29 41.91 0)
 			(effects
 				(font
@@ -16777,7 +17289,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.pl/datasheet/2/181/M80_530-1273547.pdf"
 			(at 34.29 41.91 0)
 			(effects
 				(font
@@ -16786,7 +17298,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 34.29 41.91 0)
 			(effects
 				(font
@@ -16813,10 +17325,82 @@
 		(pin "6"
 			(uuid "890fd5c0-9124-4bdc-8b63-e42c03473c05")
 		)
+		(pin "8"
+			(uuid "d4b3b82c-ba45-4750-be8f-dfcb9176459d")
+		)
+		(pin "7"
+			(uuid "c7e89c39-a0aa-404f-9f5e-b429f1f8502c")
+		)
 		(instances
 			(project "IMD_SAFETY_2024"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PUTM_EV_IMD_SAFETY_2021-rescue:+5V-power")
+		(at 416.56 22.86 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9a8da5a9-e663-48c4-88b4-ea0d0413d1ce")
+		(property "Reference" "#PWR058"
+			(at 416.56 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 416.179 18.4658 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 416.56 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 416.56 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 416.56 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "458fb033-d7b0-43f2-abf6-b5104212ab1a")
+		)
+		(instances
+			(project "IMD_SAFETY_2024"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -17114,7 +17698,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 274.32 170.18 0)
 			(effects
 				(font
@@ -17134,6 +17718,15 @@
 		)
 		(property "Description" ""
 			(at 274.32 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" " 637-SD103BW "
+			(at 274.32 170.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17227,7 +17820,7 @@
 	)
 	(symbol
 		(lib_id "PUTM_EV_IMD_SAFETY_2021-rescue:C-Device")
-		(at 139.7 38.1 0)
+		(at 127 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17235,7 +17828,7 @@
 		(dnp no)
 		(uuid "9eed1698-edcf-4218-a42b-271d493817e9")
 		(property "Reference" "C4"
-			(at 142.621 36.9316 0)
+			(at 129.921 38.2016 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17244,7 +17837,7 @@
 			)
 		)
 		(property "Value" "1u/35V"
-			(at 142.621 39.243 0)
+			(at 129.921 40.513 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17253,7 +17846,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 140.6652 41.91 0)
+			(at 127.9652 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17262,7 +17855,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 139.7 38.1 0)
+			(at 127 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17271,7 +17864,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 139.7 38.1 0)
+			(at 127 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17296,7 +17889,7 @@
 	)
 	(symbol
 		(lib_id "PUTM_EV_IMD_SAFETY_2021-rescue:GND-power")
-		(at 128.27 45.72 0)
+		(at 115.57 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17304,7 +17897,7 @@
 		(dnp no)
 		(uuid "9f478501-7c7a-4582-b188-490238daeec6")
 		(property "Reference" "#PWR019"
-			(at 128.27 52.07 0)
+			(at 115.57 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17313,7 +17906,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 128.397 50.1142 0)
+			(at 115.697 51.3842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17321,7 +17914,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 128.27 45.72 0)
+			(at 115.57 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17330,7 +17923,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.27 45.72 0)
+			(at 115.57 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17339,7 +17932,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 128.27 45.72 0)
+			(at 115.57 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17361,7 +17954,7 @@
 	)
 	(symbol
 		(lib_id "PUTM_EV_IMD_SAFETY_2021-rescue:C-Device")
-		(at 110.49 38.1 0)
+		(at 97.79 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17369,7 +17962,7 @@
 		(dnp no)
 		(uuid "a3e1f570-163b-44c7-8245-4325b060d435")
 		(property "Reference" "C3"
-			(at 113.411 36.9316 0)
+			(at 100.711 38.2016 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17378,7 +17971,7 @@
 			)
 		)
 		(property "Value" "1u/35V"
-			(at 113.411 39.243 0)
+			(at 100.711 40.513 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17387,7 +17980,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 111.4552 41.91 0)
+			(at 98.7552 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17396,7 +17989,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 110.49 38.1 0)
+			(at 97.79 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17405,7 +17998,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 110.49 38.1 0)
+			(at 97.79 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17560,7 +18153,7 @@
 	)
 	(symbol
 		(lib_id "PUTM_EV_IMD_SAFETY_2021-rescue:+12V-power")
-		(at 139.7 29.21 0)
+		(at 127 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17568,7 +18161,7 @@
 		(dnp no)
 		(uuid "aa388ec0-d2db-43f7-90ad-96da5976f608")
 		(property "Reference" "#PWR020"
-			(at 139.7 33.02 0)
+			(at 127 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17577,7 +18170,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 140.081 24.8158 0)
+			(at 127.381 26.0858 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17585,7 +18178,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.7 29.21 0)
+			(at 127 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17594,7 +18187,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 29.21 0)
+			(at 127 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17603,7 +18196,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 139.7 29.21 0)
+			(at 127 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17695,7 +18288,7 @@
 	)
 	(symbol
 		(lib_id "PUTM_EV_IMD_SAFETY_2021-rescue:C-Device")
-		(at 224.79 36.83 0)
+		(at 238.76 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17703,7 +18296,7 @@
 		(dnp no)
 		(uuid "afc41dad-52e1-4188-af6b-ab57560f0ce1")
 		(property "Reference" "C8"
-			(at 219.71 35.56 0)
+			(at 233.68 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17712,7 +18305,7 @@
 			)
 		)
 		(property "Value" "100nF/35V"
-			(at 213.36 39.37 0)
+			(at 227.33 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17721,7 +18314,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 225.7552 40.64 0)
+			(at 239.7252 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17730,7 +18323,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 224.79 36.83 0)
+			(at 238.76 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17739,7 +18332,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 224.79 36.83 0)
+			(at 238.76 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17763,34 +18356,16 @@
 		)
 	)
 	(symbol
-		(lib_id "PUTM_EV_IMD_SAFETY_2021-rescue:C-Device")
-		(at 314.96 36.83 0)
+		(lib_id "PUTM_EV_IMD_SAFETY_2021-rescue:GND-power")
+		(at 381 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "b51dc9c6-ac7e-4f94-954d-2dfcee2c1364")
-		(property "Reference" "C10"
-			(at 317.881 35.6616 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF/35V"
-			(at 317.881 37.973 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 315.9252 40.64 0)
+		(uuid "b2450619-86ac-47b2-83d3-f6aa5d33f597")
+		(property "Reference" "#PWR056"
+			(at 381 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17798,8 +18373,25 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 314.96 36.83 0)
+		(property "Value" "GND"
+			(at 381.127 52.6542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 381 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 381 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17808,7 +18400,73 @@
 			)
 		)
 		(property "Description" ""
-			(at 314.96 36.83 0)
+			(at 381 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d70b71aa-77d0-4da0-b332-aabd1d969165")
+		)
+		(instances
+			(project "IMD_SAFETY_2024"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
+					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PUTM_EV_IMD_SAFETY_2021-rescue:C-Device")
+		(at 313.69 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b51dc9c6-ac7e-4f94-954d-2dfcee2c1364")
+		(property "Reference" "C10"
+			(at 316.611 35.6616 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF/35V"
+			(at 316.611 37.973 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 314.6552 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 313.69 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 313.69 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17913,7 +18571,7 @@
 				)
 			)
 		)
-		(property "Value" "D_Small"
+		(property "Value" "SK36A-LTP"
 			(at 369.57 140.4819 0)
 			(effects
 				(font
@@ -17921,7 +18579,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMB"
+		(property "Footprint" "Samacsys:DIOM5226X244N"
 			(at 369.57 138.43 90)
 			(effects
 				(font
@@ -17940,6 +18598,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 369.57 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" " 833-SK36A-LTP "
 			(at 369.57 138.43 0)
 			(effects
 				(font
@@ -18189,6 +18856,180 @@
 		)
 	)
 	(symbol
+		(lib_id "Comparator:LM393")
+		(at 111.76 236.22 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "befb39f2-0e7b-481f-b2c2-4aa92f547249")
+		(property "Reference" "U16"
+			(at 111.76 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM393"
+			(at 111.76 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Samacsys:SOP65P640X120-8N"
+			(at 111.76 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm393b.pdf?ts=1712915754933&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FLM393B"
+			(at 111.76 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8"
+			(at 111.76 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "0d950661-8571-440b-a849-d709790dc578")
+		)
+		(pin "2"
+			(uuid "1880ef76-e1d7-4d7b-85bb-89d9b8a7000b")
+		)
+		(pin "5"
+			(uuid "ed6519ac-b521-42fd-a324-735a701f72a1")
+		)
+		(pin "8"
+			(uuid "0a232257-8692-47f8-88ec-7572411ba709")
+		)
+		(pin "4"
+			(uuid "017767bf-2ba6-404a-86ab-3b83f1784eb2")
+		)
+		(pin "1"
+			(uuid "f8ee0f86-6005-40e9-8e18-4d1c0c37b19c")
+		)
+		(pin "6"
+			(uuid "527574a5-1994-4862-9fa1-b927b96fa0e1")
+		)
+		(pin "3"
+			(uuid "fb908ac3-2a1b-4254-979e-74488399ff7a")
+		)
+		(instances
+			(project "IMD_SAFETY_2024"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
+					(reference "U16")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Comparator:LM393")
+		(at 383.54 36.83 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf0981a4-2b16-4bab-8acc-406fbd76a88d")
+		(property "Reference" "U1"
+			(at 382.27 35.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LM393"
+			(at 382.27 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 383.54 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm393.pdf"
+			(at 383.54 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8"
+			(at 383.54 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f50a1d48-4b3c-497c-a9a8-6aeb9bab17d9")
+		)
+		(pin "6"
+			(uuid "9df8f05b-b4db-4a9b-9966-54bf99d1d449")
+		)
+		(pin "5"
+			(uuid "d1642723-002d-4840-b501-97160ff2c063")
+		)
+		(pin "2"
+			(uuid "695a4983-a0f8-45f1-b967-4459b0180cfb")
+		)
+		(pin "4"
+			(uuid "873b1195-1aa6-48bb-9d4a-842f3b1338f7")
+		)
+		(pin "8"
+			(uuid "a1dcfcf6-9ffb-4c48-82f4-1fa3377e64d9")
+		)
+		(pin "7"
+			(uuid "a38bd70c-6533-4203-9734-1ef0eee1efb6")
+		)
+		(pin "3"
+			(uuid "838d1316-5b8d-4acc-a692-08f19700dedb")
+		)
+		(instances
+			(project "IMD_SAFETY_2024"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
+					(reference "U1")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PUTM_EV_IMD_SAFETY_2021-rescue:GND-power")
 		(at 127 118.11 0)
 		(unit 1)
@@ -18346,7 +19187,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 267.6652 184.15 0)
 			(effects
 				(font
@@ -18373,6 +19214,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser#" " 187-CL31A106MQHNNNE "
+			(at 266.7 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "21d4ab1b-2fc3-42e1-8b35-038766fa5629")
 		)
@@ -18383,6 +19233,71 @@
 			(project "IMD_SAFETY_2024"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
 					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PUTM_EV_IMD_SAFETY_2021-rescue:GND-power")
+		(at 72.39 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c13c3d63-4aa1-4891-987a-ead597b74493")
+		(property "Reference" "#PWR038"
+			(at 72.39 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 72.517 56.4642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 72.39 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d021679c-5eec-460b-be60-929fec9caa39")
+		)
+		(instances
+			(project "IMD_SAFETY_2024"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -18413,7 +19328,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+		(property "Footprint" "Samacsys:SOP65P640X120-14N"
 			(at 250.19 165.1 0)
 			(effects
 				(font
@@ -18422,7 +19337,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS32"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74hcs32.pdf?ts=1712922611030&ref_url=https%253A%252F%252Fwww.mouser.it%252F"
 			(at 250.19 165.1 0)
 			(effects
 				(font
@@ -18432,6 +19347,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 250.19 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" "595-SN74HCS32PWR "
 			(at 250.19 165.1 0)
 			(effects
 				(font
@@ -18588,7 +19512,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+		(property "Footprint" "Samacsys:SOP65P640X120-14N"
 			(at 279.4 36.83 0)
 			(effects
 				(font
@@ -18597,7 +19521,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS32"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74hcs32.pdf?ts=1712922611030&ref_url=https%253A%252F%252Fwww.mouser.it%252F"
 			(at 279.4 36.83 0)
 			(effects
 				(font
@@ -18607,6 +19531,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 279.4 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" "595-SN74HCS32PWR "
 			(at 279.4 36.83 0)
 			(effects
 				(font
@@ -18727,6 +19660,75 @@
 			(project "IMD_SAFETY_2024"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
 					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PUTM_EV_IMD_SAFETY_2021-rescue:R-Device")
+		(at 72.39 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c8c85a50-9675-4612-9fb8-492440e0f228")
+		(property "Reference" "R2"
+			(at 74.168 26.7716 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2K"
+			(at 74.168 29.083 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 70.612 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 72.39 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 72.39 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1338f954-c4ea-4048-b997-c8886ac4d40e")
+		)
+		(pin "2"
+			(uuid "0f8aaddc-5567-49d1-976a-86114eccaa94")
+		)
+		(instances
+			(project "IMD_SAFETY_2024"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -18943,6 +19945,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Comparator:LM393")
+		(at 306.07 36.83 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cadc5fd0-2bef-4b72-a3d2-72535b3c3ad1")
+		(property "Reference" "U14"
+			(at 304.8 35.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LM393"
+			(at 304.8 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Samacsys:SOP65P640X120-8N"
+			(at 306.07 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm393b.pdf?ts=1712915754933&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FLM393B"
+			(at 306.07 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8"
+			(at 306.07 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "c22f1d5a-540a-40ef-ad5a-9e1025c4c892")
+		)
+		(pin "2"
+			(uuid "1880ef76-e1d7-4d7b-85bb-89d9b8a70009")
+		)
+		(pin "5"
+			(uuid "02a1e9fd-b4a6-4e26-a79f-d852fdb28ecd")
+		)
+		(pin "8"
+			(uuid "0a232257-8692-47f8-88ec-7572411ba707")
+		)
+		(pin "4"
+			(uuid "017767bf-2ba6-404a-86ab-3b83f1784eb0")
+		)
+		(pin "1"
+			(uuid "f8ee0f86-6005-40e9-8e18-4d1c0c37b19a")
+		)
+		(pin "6"
+			(uuid "7c48191f-79c1-43fd-9bf2-59a8b8fe6c62")
+		)
+		(pin "3"
+			(uuid "fb908ac3-2a1b-4254-979e-74488399ff78")
+		)
+		(instances
+			(project "IMD_SAFETY_2024"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
+					(reference "U14")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Jumper:SolderJumper_2_Bridged")
 		(at 325.12 149.86 0)
 		(unit 1)
@@ -19005,6 +20095,75 @@
 			(project "IMD_SAFETY_2024"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
 					(reference "JP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PUTM_EV_IMD_SAFETY_2021-rescue:R-Device")
+		(at 72.39 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cd2725f5-bdb4-4eb2-9ec0-5065dade4ff4")
+		(property "Reference" "R1"
+			(at 74.168 45.8216 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2K"
+			(at 74.168 48.133 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 70.612 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 72.39 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 72.39 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a7dd50ff-0396-4d07-a926-70955f13243e")
+		)
+		(pin "2"
+			(uuid "8935d060-8104-4cbb-b61d-149b1f0b6749")
+		)
+		(instances
+			(project "IMD_SAFETY_2024"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -19141,16 +20300,17 @@
 		)
 	)
 	(symbol
-		(lib_id "PUTM_EV_IMD_SAFETY_2021-rescue:LM393-Comparator")
-		(at 151.13 99.06 0)
+		(lib_id "Comparator:LM393")
+		(at 57.15 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "d0bdf640-4b78-4931-affb-19ae3bbd3150")
-		(property "Reference" "U12"
-			(at 151.13 89.7382 0)
+		(fields_autoplaced yes)
+		(uuid "cedff5e8-bda5-43a7-8668-d385e2334e59")
+		(property "Reference" "U14"
+			(at 57.15 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19158,24 +20318,15 @@
 			)
 		)
 		(property "Value" "LM393"
-			(at 151.13 92.0496 0)
+			(at 57.15 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SO-8_3.9x4.9mm_P1.27mm"
-			(at 151.13 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm393-n.pdf"
-			(at 151.13 99.06 0)
+		(property "Footprint" "Samacsys:SOP65P640X120-8N"
+			(at 57.15 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19183,8 +20334,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 151.13 99.06 0)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm393b.pdf?ts=1712915754933&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FLM393B"
+			(at 57.15 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19192,34 +20343,43 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "f304bd89-3fc2-4e05-ab5d-cd623470ea20")
-		)
-		(pin "2"
-			(uuid "599e3ea6-1b6a-4475-9678-dab6445b17fc")
-		)
-		(pin "3"
-			(uuid "e288dcde-43b5-4700-88ba-459738a76964")
-		)
-		(pin "5"
-			(uuid "27dc4bfe-ea6b-4410-85fd-194f79d27085")
-		)
-		(pin "6"
-			(uuid "33d11b7c-b9b7-445a-9bcc-5a623b68c605")
+		(property "Description" "Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8"
+			(at 57.15 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "7"
-			(uuid "40247089-62d6-4fee-b2c3-7b483f7b5363")
+			(uuid "c22f1d5a-540a-40ef-ad5a-9e1025c4c892")
 		)
-		(pin "4"
-			(uuid "7b7ca83c-00c9-401b-a5e1-4d325ae76d99")
+		(pin "2"
+			(uuid "1880ef76-e1d7-4d7b-85bb-89d9b8a70009")
+		)
+		(pin "5"
+			(uuid "02a1e9fd-b4a6-4e26-a79f-d852fdb28ecd")
 		)
 		(pin "8"
-			(uuid "e8abff90-fda2-4818-b673-a1aa6854184b")
+			(uuid "0a232257-8692-47f8-88ec-7572411ba707")
+		)
+		(pin "4"
+			(uuid "017767bf-2ba6-404a-86ab-3b83f1784eb0")
+		)
+		(pin "1"
+			(uuid "f8ee0f86-6005-40e9-8e18-4d1c0c37b19a")
+		)
+		(pin "6"
+			(uuid "7c48191f-79c1-43fd-9bf2-59a8b8fe6c62")
+		)
+		(pin "3"
+			(uuid "fb908ac3-2a1b-4254-979e-74488399ff78")
 		)
 		(instances
 			(project "IMD_SAFETY_2024"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
-					(reference "U12")
+					(reference "U14")
 					(unit 1)
 				)
 			)
@@ -19227,7 +20387,7 @@
 	)
 	(symbol
 		(lib_id "PUTM_EV_IMD_SAFETY_2021-rescue:C-Device")
-		(at 200.66 33.02 0)
+		(at 181.61 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19235,7 +20395,7 @@
 		(dnp no)
 		(uuid "d1b6c6e9-e14a-4ea3-ab4d-9ed4c0c3f9c2")
 		(property "Reference" "C7"
-			(at 203.581 31.8516 0)
+			(at 184.531 38.2016 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19244,7 +20404,7 @@
 			)
 		)
 		(property "Value" "100nF/35V"
-			(at 203.581 34.163 0)
+			(at 184.531 40.513 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19253,7 +20413,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 201.6252 36.83 0)
+			(at 182.5752 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19262,7 +20422,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 200.66 33.02 0)
+			(at 181.61 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19271,7 +20431,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 200.66 33.02 0)
+			(at 181.61 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19365,7 +20525,7 @@
 	)
 	(symbol
 		(lib_id "PUTM_EV_IMD_SAFETY_2021-rescue:C-Device")
-		(at 156.21 38.1 0)
+		(at 139.7 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19373,7 +20533,7 @@
 		(dnp no)
 		(uuid "d2615951-4d88-477e-ae63-9dda33773467")
 		(property "Reference" "C5"
-			(at 159.131 36.9316 0)
+			(at 142.621 38.2016 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19382,7 +20542,7 @@
 			)
 		)
 		(property "Value" "1u/35V"
-			(at 159.131 39.243 0)
+			(at 142.621 40.513 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19391,7 +20551,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 157.1752 41.91 0)
+			(at 140.6652 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19400,7 +20560,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 156.21 38.1 0)
+			(at 139.7 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19409,7 +20569,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 156.21 38.1 0)
+			(at 139.7 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19434,7 +20594,7 @@
 	)
 	(symbol
 		(lib_id "PUTM_EV_IMD_SAFETY_2021-rescue:+12V-power")
-		(at 156.21 29.21 0)
+		(at 139.7 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19442,7 +20602,7 @@
 		(dnp no)
 		(uuid "d3d1c2ee-6228-4597-b218-c15bf73a1aea")
 		(property "Reference" "#PWR021"
-			(at 156.21 33.02 0)
+			(at 139.7 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19451,7 +20611,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 156.591 24.8158 0)
+			(at 140.081 26.0858 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19459,7 +20619,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 156.21 29.21 0)
+			(at 139.7 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19468,7 +20628,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 29.21 0)
+			(at 139.7 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19477,7 +20637,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 156.21 29.21 0)
+			(at 139.7 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19564,7 +20724,7 @@
 	)
 	(symbol
 		(lib_id "PUTM_EV_IMD_SAFETY_2021-rescue:GND-power")
-		(at 238.76 54.61 0)
+		(at 247.65 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19572,7 +20732,7 @@
 		(dnp no)
 		(uuid "d42fe5ad-2ff4-4d22-a918-2b8b47d69b19")
 		(property "Reference" "#PWR027"
-			(at 238.76 60.96 0)
+			(at 247.65 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19581,7 +20741,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 238.887 59.0042 0)
+			(at 247.777 55.1942 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19589,7 +20749,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 238.76 54.61 0)
+			(at 247.65 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19598,7 +20758,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 238.76 54.61 0)
+			(at 247.65 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19607,7 +20767,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 238.76 54.61 0)
+			(at 247.65 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19629,7 +20789,7 @@
 	)
 	(symbol
 		(lib_id "PUTM_EV_IMD_SAFETY_2021-rescue:+24V-power")
-		(at 359.41 26.67 0)
+		(at 354.33 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19637,7 +20797,7 @@
 		(dnp no)
 		(uuid "da6da42a-0fc4-4683-bed0-26a355b539ec")
 		(property "Reference" "#PWR034"
-			(at 359.41 30.48 0)
+			(at 354.33 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19646,7 +20806,7 @@
 			)
 		)
 		(property "Value" "+24V"
-			(at 359.791 22.2758 0)
+			(at 354.711 22.2758 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19654,7 +20814,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 359.41 26.67 0)
+			(at 354.33 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19663,7 +20823,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 359.41 26.67 0)
+			(at 354.33 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19672,7 +20832,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 359.41 26.67 0)
+			(at 354.33 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19694,7 +20854,7 @@
 	)
 	(symbol
 		(lib_id "PUTM_EV_IMD_SAFETY_2021-rescue:+5V-power")
-		(at 331.47 26.67 0)
+		(at 328.93 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19702,7 +20862,7 @@
 		(dnp no)
 		(uuid "dbe93485-74d4-4903-9d80-680a8c44a075")
 		(property "Reference" "#PWR032"
-			(at 331.47 30.48 0)
+			(at 328.93 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19711,7 +20871,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 331.851 22.2758 0)
+			(at 329.311 22.2758 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19719,7 +20879,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 331.47 26.67 0)
+			(at 328.93 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19728,7 +20888,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 331.47 26.67 0)
+			(at 328.93 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19737,7 +20897,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 331.47 26.67 0)
+			(at 328.93 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19892,32 +21052,17 @@
 		)
 	)
 	(symbol
-		(lib_id "PUTM_EV_IMD_SAFETY_2021-rescue:LM393-Comparator")
-		(at 125.73 154.94 0)
+		(lib_id "PUTM_EV_IMD_SAFETY_2021-rescue:GND-power")
+		(at 416.56 54.61 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "ed161d5d-cfb6-4e53-b66c-6d1556031e0d")
-		(property "Reference" "U5"
-			(at 125.73 145.6182 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LM393"
-			(at 125.73 147.9296 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SO-8_3.9x4.9mm_P1.27mm"
-			(at 125.73 154.94 0)
+		(uuid "eb38c818-3fa9-47b1-8094-d8ae258564e5")
+		(property "Reference" "#PWR025"
+			(at 416.56 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19925,8 +21070,25 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm393-n.pdf"
-			(at 125.73 154.94 0)
+		(property "Value" "GND"
+			(at 416.433 59.0042 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 416.56 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 416.56 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19935,7 +21097,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 125.73 154.94 0)
+			(at 416.56 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19944,33 +21106,98 @@
 			)
 		)
 		(pin "1"
-			(uuid "3106d8a3-6856-40e9-8258-dea141a207eb")
-		)
-		(pin "2"
-			(uuid "c815ddc9-bcc6-4df5-ba5a-1a909acfb74d")
-		)
-		(pin "3"
-			(uuid "bbb03171-1c74-4b14-958d-d72681a60ac4")
-		)
-		(pin "5"
-			(uuid "27dc4bfe-ea6b-4410-85fd-194f79d27086")
-		)
-		(pin "6"
-			(uuid "33d11b7c-b9b7-445a-9bcc-5a623b68c606")
-		)
-		(pin "7"
-			(uuid "40247089-62d6-4fee-b2c3-7b483f7b5364")
-		)
-		(pin "4"
-			(uuid "7b7ca83c-00c9-401b-a5e1-4d325ae76d9a")
-		)
-		(pin "8"
-			(uuid "e8abff90-fda2-4818-b673-a1aa6854184c")
+			(uuid "df86e056-8c5d-4fbe-b03c-94481c4fe84e")
 		)
 		(instances
 			(project "IMD_SAFETY_2024"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
-					(reference "U5")
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Comparator:LM393")
+		(at 111.76 218.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f2329926-39dc-4fd9-927e-568ce0315261")
+		(property "Reference" "U16"
+			(at 111.76 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM393"
+			(at 111.76 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Samacsys:SOP65P640X120-8N"
+			(at 111.76 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm393b.pdf?ts=1712915754933&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FLM393B"
+			(at 111.76 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8"
+			(at 111.76 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "c22f1d5a-540a-40ef-ad5a-9e1025c4c892")
+		)
+		(pin "2"
+			(uuid "13764f65-83d9-4856-8b44-80295d51b99b")
+		)
+		(pin "5"
+			(uuid "02a1e9fd-b4a6-4e26-a79f-d852fdb28ecd")
+		)
+		(pin "8"
+			(uuid "0a232257-8692-47f8-88ec-7572411ba707")
+		)
+		(pin "4"
+			(uuid "017767bf-2ba6-404a-86ab-3b83f1784eb0")
+		)
+		(pin "1"
+			(uuid "26d999d8-2d2f-4629-8989-b79469668b43")
+		)
+		(pin "6"
+			(uuid "7c48191f-79c1-43fd-9bf2-59a8b8fe6c62")
+		)
+		(pin "3"
+			(uuid "fa508720-e4d6-4b5a-a268-ef960bc06bee")
+		)
+		(instances
+			(project "IMD_SAFETY_2024"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
+					(reference "U16")
 					(unit 1)
 				)
 			)
@@ -20010,7 +21237,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
+		(property "Datasheet" "https://www.ti.com/product/SN74LVC1G79"
 			(at 140.97 221.615 0)
 			(effects
 				(font
@@ -20020,6 +21247,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 140.97 221.615 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" " 595-SN74LVC1G79DBVR "
 			(at 140.97 221.615 0)
 			(effects
 				(font
@@ -20054,7 +21290,7 @@
 	)
 	(symbol
 		(lib_id "PUTM_EV_IMD_SAFETY_2021-rescue:C-Device")
-		(at 185.42 38.1 0)
+		(at 168.91 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20062,7 +21298,7 @@
 		(dnp no)
 		(uuid "f30e6bbf-51dc-4d45-af06-e36be92d5b1a")
 		(property "Reference" "C6"
-			(at 188.341 36.9316 0)
+			(at 171.831 38.2016 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20071,7 +21307,7 @@
 			)
 		)
 		(property "Value" "1u/35V"
-			(at 188.341 39.243 0)
+			(at 171.831 40.513 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20080,7 +21316,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 186.3852 41.91 0)
+			(at 169.8752 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20089,7 +21325,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 185.42 38.1 0)
+			(at 168.91 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20098,7 +21334,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 185.42 38.1 0)
+			(at 168.91 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20191,6 +21427,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_TVS")
+		(at 55.88 26.67 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f732f66e-08a1-4a85-b0fb-3a744e5fc744")
+		(property "Reference" "D5"
+			(at 58.42 25.3999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SD24-01FTG"
+			(at 58.42 27.9399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Samacsys:SOD2613X114N"
+			(at 55.88 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=b682d4fa-3733-4cd6-9f7f-7cf1a490030b&filename=littelfuse-tvs-diode-array-sd-c-datasheet"
+			(at 55.88 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode"
+			(at 55.88 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manf#" ""
+			(at 55.88 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bfde20db-508d-4343-8f64-f106f84c32bb")
+		)
+		(pin "1"
+			(uuid "31e40d68-e79c-4f9d-8ee9-61242da69a35")
+		)
+		(instances
+			(project "IMD_SAFETY_2024"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PUTM_EV_IMD_SAFETY_2021-rescue:R-Device")
 		(at 128.27 213.995 0)
 		(unit 1)
@@ -20260,91 +21575,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PUTM_EV_IMD_SAFETY_2021-rescue:LM393-Comparator")
-		(at 125.73 172.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f90db9d8-05d0-47e1-83f0-69540b8b9136")
-		(property "Reference" "U11"
-			(at 125.73 163.3982 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LM393"
-			(at 125.73 165.7096 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SO-8_3.9x4.9mm_P1.27mm"
-			(at 125.73 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm393-n.pdf"
-			(at 125.73 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 125.73 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2bb6a3fe-c88f-4067-8b3e-682570285b24")
-		)
-		(pin "2"
-			(uuid "b24bb2e7-047d-4dac-a871-2fb079cc6ce5")
-		)
-		(pin "3"
-			(uuid "08bbd540-fcba-44fd-960c-e0fa785cb2bf")
-		)
-		(pin "5"
-			(uuid "27dc4bfe-ea6b-4410-85fd-194f79d27087")
-		)
-		(pin "6"
-			(uuid "33d11b7c-b9b7-445a-9bcc-5a623b68c607")
-		)
-		(pin "7"
-			(uuid "40247089-62d6-4fee-b2c3-7b483f7b5365")
-		)
-		(pin "4"
-			(uuid "7b7ca83c-00c9-401b-a5e1-4d325ae76d9b")
-		)
-		(pin "8"
-			(uuid "e8abff90-fda2-4818-b673-a1aa6854184d")
-		)
-		(instances
-			(project "IMD_SAFETY_2024"
-				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
-					(reference "U11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "74xx:74LS08")
 		(at 228.6 182.88 0)
 		(unit 1)
@@ -20370,7 +21600,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Samacsys:SOP65P640X120-14N"
 			(at 228.6 182.88 0)
 			(effects
 				(font
@@ -20379,7 +21609,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS08"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74hcs08-q1.pdf?ts=1712915805737&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FSN74HCS08-Q1"
 			(at 228.6 182.88 0)
 			(effects
 				(font
@@ -20389,6 +21619,15 @@
 			)
 		)
 		(property "Description" "Quad And2"
+			(at 228.6 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" " 595-SN74HCS08PWR "
 			(at 228.6 182.88 0)
 			(effects
 				(font
@@ -20517,7 +21756,7 @@
 	)
 	(symbol
 		(lib_id "PUTM_EV_IMD_SAFETY_2021-rescue:+24V-power")
-		(at 110.49 29.21 0)
+		(at 97.79 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20525,7 +21764,7 @@
 		(dnp no)
 		(uuid "fbdab958-1a36-44b4-8a31-e97c76f6d036")
 		(property "Reference" "#PWR018"
-			(at 110.49 33.02 0)
+			(at 97.79 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20534,7 +21773,7 @@
 			)
 		)
 		(property "Value" "+24V"
-			(at 110.871 24.8158 0)
+			(at 98.171 26.0858 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20542,7 +21781,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 110.49 29.21 0)
+			(at 97.79 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20551,7 +21790,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 110.49 29.21 0)
+			(at 97.79 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20560,7 +21799,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 110.49 29.21 0)
+			(at 97.79 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
