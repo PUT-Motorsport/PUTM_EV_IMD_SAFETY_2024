@@ -11287,7 +11287,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 89.408 147.32 90)
 			(effects
 				(font
@@ -11426,7 +11426,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 88.138 219.71 90)
 			(effects
 				(font
@@ -11496,7 +11496,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 290.322 130.81 90)
 			(effects
 				(font
@@ -11695,7 +11695,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 264.922 170.18 90)
 			(effects
 				(font
@@ -11843,7 +11843,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 88.138 196.85 90)
 			(effects
 				(font
@@ -12016,7 +12016,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Samacsys:SOP65P640X120-8N"
+		(property "Footprint" "Samacsys:SOIC127P600X175-8N"
 			(at 57.15 109.22 0)
 			(effects
 				(font
@@ -12035,6 +12035,15 @@
 			)
 		)
 		(property "Description" "Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8"
+			(at 57.15 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" " 595-LM393ADR "
 			(at 57.15 109.22 0)
 			(effects
 				(font
@@ -12072,83 +12081,6 @@
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
 					(reference "U14")
 					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Schottky")
-		(at 316.23 165.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "1ead461f-1fc2-4248-8250-003199a7e5fd")
-		(property "Reference" "D2"
-			(at 315.9125 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SD103BW"
-			(at 315.9125 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 316.23 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 316.23 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 316.23 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser#" " 637-SD103BW "
-			(at 316.23 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "791ecd6d-3d32-4e09-841d-f4f0ff96ce6c")
-		)
-		(pin "2"
-			(uuid "1d0bfaf4-fa16-47a1-89e5-5460efafb545")
-		)
-		(instances
-			(project "IMD_SAFETY_2024"
-				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
-					(reference "D2")
-					(unit 1)
 				)
 			)
 		)
@@ -12477,13 +12409,13 @@
 			(uuid "a585f0a6-4ef9-411c-9b6f-c97bb7103d1f")
 		)
 		(pin "10"
-			(uuid "7dcac3be-54de-4023-9da8-a0e3f174554b")
+			(uuid "7dcac3be-54de-4023-9da8-a0e3f174554c")
 		)
 		(pin "9"
-			(uuid "b50c7790-712d-4176-bad2-11ea8fe3d6cb")
+			(uuid "b50c7790-712d-4176-bad2-11ea8fe3d6cc")
 		)
 		(pin "8"
-			(uuid "ba8d9783-884d-4ff2-8ff9-b922c992d5af")
+			(uuid "ba8d9783-884d-4ff2-8ff9-b922c992d5b0")
 		)
 		(pin "5"
 			(uuid "a5268af0-3245-4504-ae2e-2f86493ae20b")
@@ -12495,19 +12427,19 @@
 			(uuid "da0ccc18-b4f3-400c-a95f-b91b1f6bc8e3")
 		)
 		(pin "14"
-			(uuid "52e2946b-778c-4ff8-aa37-ff755d14832d")
+			(uuid "52e2946b-778c-4ff8-aa37-ff755d14832e")
 		)
 		(pin "11"
-			(uuid "e6042ce6-f590-4728-b493-a4b05eb64685")
+			(uuid "e6042ce6-f590-4728-b493-a4b05eb64686")
 		)
 		(pin "13"
-			(uuid "2d8192d2-2cb8-49df-9663-9438f7aeb3f8")
+			(uuid "2d8192d2-2cb8-49df-9663-9438f7aeb3f9")
 		)
 		(pin "7"
-			(uuid "6d720246-9cc6-4eec-8797-f4e36991730f")
+			(uuid "6d720246-9cc6-4eec-8797-f4e369917310")
 		)
 		(pin "12"
-			(uuid "6982d953-fc4f-4d18-b351-7b4a8c0b196e")
+			(uuid "6982d953-fc4f-4d18-b351-7b4a8c0b196f")
 		)
 		(instances
 			(project "IMD_SAFETY_2024"
@@ -13058,7 +12990,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 69.342 86.36 90)
 			(effects
 				(font
@@ -13127,7 +13059,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 88.138 238.125 90)
 			(effects
 				(font
@@ -13326,7 +13258,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 340.0552 40.64 0)
 			(effects
 				(font
@@ -13395,7 +13327,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 88.138 227.33 90)
 			(effects
 				(font
@@ -13494,6 +13426,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser#" " 726-2N7002H6327XTSA2 "
+			(at 356.87 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "06c39c01-06f7-451c-8fb6-75a5690c2768")
 		)
@@ -13540,7 +13481,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 127.9652 92.71 0)
 			(effects
 				(font
@@ -13559,6 +13500,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 127 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" " 187-CL31A226KOHNNWE "
 			(at 127 88.9 0)
 			(effects
 				(font
@@ -13609,7 +13559,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 77.1652 173.99 0)
 			(effects
 				(font
@@ -13678,7 +13628,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 207.9752 39.37 0)
 			(effects
 				(font
@@ -13882,7 +13832,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 77.1652 243.205 0)
 			(effects
 				(font
@@ -14016,7 +13966,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 392.1252 40.64 0)
 			(effects
 				(font
@@ -14659,7 +14609,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 365.4552 40.64 0)
 			(effects
 				(font
@@ -14874,7 +14824,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 425.7548 41.91 0)
 			(effects
 				(font
@@ -14944,7 +14894,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Samacsys:SOP65P640X120-8N"
+		(property "Footprint" "Samacsys:SOIC127P600X175-8N"
 			(at 331.47 36.83 0)
 			(effects
 				(font
@@ -14963,6 +14913,15 @@
 			)
 		)
 		(property "Description" "Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8"
+			(at 331.47 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" " 595-LM393ADR "
 			(at 331.47 36.83 0)
 			(effects
 				(font
@@ -15030,7 +14989,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 316.23 173.482 90)
 			(effects
 				(font
@@ -15099,7 +15058,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 382.27 116.332 90)
 			(effects
 				(font
@@ -15168,7 +15127,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 89.408 157.48 90)
 			(effects
 				(font
@@ -15238,7 +15197,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 247.142 116.84 90)
 			(effects
 				(font
@@ -15391,7 +15350,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 151.13 85.598 90)
 			(effects
 				(font
@@ -15589,7 +15548,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Samacsys:SOP65P640X120-8N"
+		(property "Footprint" "Samacsys:SOIC127P600X175-8N"
 			(at 125.73 172.72 0)
 			(effects
 				(font
@@ -15608,6 +15567,15 @@
 			)
 		)
 		(property "Description" "Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8"
+			(at 125.73 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" " 595-LM393ADR "
 			(at 125.73 172.72 0)
 			(effects
 				(font
@@ -15676,7 +15644,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 271.4752 40.64 0)
 			(effects
 				(font
@@ -15849,6 +15817,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 316.23 165.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "76e8c400-b02f-4d8f-ae06-e71908fbd9ec")
+		(property "Reference" "D7"
+			(at 315.9125 159.2301 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SD103BW"
+			(at 315.9125 161.7701 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
+			(at 316.23 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 316.23 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 316.23 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" " 637-SD103BW "
+			(at 316.23 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6341f8d5-55a9-4562-bbea-9ad2e9dff3c6")
+		)
+		(pin "2"
+			(uuid "6f83a888-d01d-4b86-8eb7-e4500071680a")
+		)
+		(instances
+			(project "IMD_SAFETY_2024"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Comparator:LM393")
 		(at 151.13 99.06 0)
 		(unit 1)
@@ -15874,7 +15919,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Samacsys:SOIC127P600X175-8N"
 			(at 151.13 99.06 0)
 			(effects
 				(font
@@ -15893,6 +15938,15 @@
 			)
 		)
 		(property "Description" "Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8"
+			(at 151.13 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" " 595-LM393ADR "
 			(at 151.13 99.06 0)
 			(effects
 				(font
@@ -16251,7 +16305,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 88.138 212.09 90)
 			(effects
 				(font
@@ -16563,7 +16617,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 103.632 88.9 90)
 			(effects
 				(font
@@ -16630,7 +16684,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 71.12 231.267 90)
 			(effects
 				(font
@@ -16828,7 +16882,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Samacsys:SOP65P640X120-8N"
+		(property "Footprint" "Samacsys:SOIC127P600X175-8N"
 			(at 125.73 154.94 0)
 			(effects
 				(font
@@ -16855,26 +16909,35 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser#" " 595-LM393ADR "
+			(at 125.73 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "7"
-			(uuid "c22f1d5a-540a-40ef-ad5a-9e1025c4c892")
+			(uuid "c22f1d5a-540a-40ef-ad5a-9e1025c4c894")
 		)
 		(pin "2"
 			(uuid "775f9e69-17be-4190-a61c-af03e85f9eec")
 		)
 		(pin "5"
-			(uuid "02a1e9fd-b4a6-4e26-a79f-d852fdb28ecd")
+			(uuid "02a1e9fd-b4a6-4e26-a79f-d852fdb28ecf")
 		)
 		(pin "8"
-			(uuid "0a232257-8692-47f8-88ec-7572411ba707")
+			(uuid "0a232257-8692-47f8-88ec-7572411ba708")
 		)
 		(pin "4"
-			(uuid "017767bf-2ba6-404a-86ab-3b83f1784eb0")
+			(uuid "017767bf-2ba6-404a-86ab-3b83f1784eb1")
 		)
 		(pin "1"
 			(uuid "f2c683f0-8529-4d5b-a146-05a466de3dba")
 		)
 		(pin "6"
-			(uuid "7c48191f-79c1-43fd-9bf2-59a8b8fe6c62")
+			(uuid "7c48191f-79c1-43fd-9bf2-59a8b8fe6c64")
 		)
 		(pin "3"
 			(uuid "dead750a-36c1-464e-a36f-360ddf8b6198")
@@ -17125,7 +17188,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Samacsys:SOP65P640X120-8N"
+		(property "Footprint" "Samacsys:SOIC127P600X175-8N"
 			(at 356.87 36.83 0)
 			(effects
 				(font
@@ -17152,14 +17215,23 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser#" " 595-LM393ADR "
+			(at 356.87 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "7"
-			(uuid "c22f1d5a-540a-40ef-ad5a-9e1025c4c893")
+			(uuid "c22f1d5a-540a-40ef-ad5a-9e1025c4c895")
 		)
 		(pin "2"
-			(uuid "1880ef76-e1d7-4d7b-85bb-89d9b8a7000a")
+			(uuid "1880ef76-e1d7-4d7b-85bb-89d9b8a7000c")
 		)
 		(pin "5"
-			(uuid "02a1e9fd-b4a6-4e26-a79f-d852fdb28ece")
+			(uuid "02a1e9fd-b4a6-4e26-a79f-d852fdb28ed0")
 		)
 		(pin "8"
 			(uuid "dd2bb44e-becf-4b9c-b1c0-2837fe67c765")
@@ -17168,13 +17240,13 @@
 			(uuid "06fcc16e-8fc8-43bf-b927-c9c34cec99d5")
 		)
 		(pin "1"
-			(uuid "f8ee0f86-6005-40e9-8e18-4d1c0c37b19b")
+			(uuid "f8ee0f86-6005-40e9-8e18-4d1c0c37b19d")
 		)
 		(pin "6"
-			(uuid "7c48191f-79c1-43fd-9bf2-59a8b8fe6c63")
+			(uuid "7c48191f-79c1-43fd-9bf2-59a8b8fe6c65")
 		)
 		(pin "3"
-			(uuid "fb908ac3-2a1b-4254-979e-74488399ff79")
+			(uuid "fb908ac3-2a1b-4254-979e-74488399ff7b")
 		)
 		(instances
 			(project "IMD_SAFETY_2024"
@@ -17212,7 +17284,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 89.408 172.72 90)
 			(effects
 				(font
@@ -17563,7 +17635,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 333.248 180.34 90)
 			(effects
 				(font
@@ -17776,7 +17848,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 158.242 157.48 90)
 			(effects
 				(font
@@ -17845,7 +17917,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 127.9652 43.18 0)
 			(effects
 				(font
@@ -17979,7 +18051,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 98.7552 43.18 0)
 			(effects
 				(font
@@ -18313,7 +18385,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 239.7252 36.83 0)
 			(effects
 				(font
@@ -18447,7 +18519,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 314.6552 40.64 0)
 			(effects
 				(font
@@ -18657,7 +18729,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 17.272 109.22 90)
 			(effects
 				(font
@@ -18881,7 +18953,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Samacsys:SOP65P640X120-8N"
+		(property "Footprint" "Samacsys:SOIC127P600X175-8N"
 			(at 111.76 236.22 0)
 			(effects
 				(font
@@ -18908,29 +18980,38 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser#" " 595-LM393ADR "
+			(at 111.76 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "7"
 			(uuid "0d950661-8571-440b-a849-d709790dc578")
 		)
 		(pin "2"
-			(uuid "1880ef76-e1d7-4d7b-85bb-89d9b8a7000b")
+			(uuid "1880ef76-e1d7-4d7b-85bb-89d9b8a7000d")
 		)
 		(pin "5"
 			(uuid "ed6519ac-b521-42fd-a324-735a701f72a1")
 		)
 		(pin "8"
-			(uuid "0a232257-8692-47f8-88ec-7572411ba709")
+			(uuid "0a232257-8692-47f8-88ec-7572411ba70a")
 		)
 		(pin "4"
-			(uuid "017767bf-2ba6-404a-86ab-3b83f1784eb2")
+			(uuid "017767bf-2ba6-404a-86ab-3b83f1784eb3")
 		)
 		(pin "1"
-			(uuid "f8ee0f86-6005-40e9-8e18-4d1c0c37b19c")
+			(uuid "f8ee0f86-6005-40e9-8e18-4d1c0c37b19e")
 		)
 		(pin "6"
 			(uuid "527574a5-1994-4862-9fa1-b927b96fa0e1")
 		)
 		(pin "3"
-			(uuid "fb908ac3-2a1b-4254-979e-74488399ff7a")
+			(uuid "fb908ac3-2a1b-4254-979e-74488399ff7c")
 		)
 		(instances
 			(project "IMD_SAFETY_2024"
@@ -18969,7 +19050,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Samacsys:SOIC127P600X175-8N"
 			(at 383.54 36.83 0)
 			(effects
 				(font
@@ -18996,29 +19077,38 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser#" " 595-LM393ADR "
+			(at 383.54 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "f50a1d48-4b3c-497c-a9a8-6aeb9bab17d9")
+			(uuid "f50a1d48-4b3c-497c-a9a8-6aeb9bab17da")
 		)
 		(pin "6"
-			(uuid "9df8f05b-b4db-4a9b-9966-54bf99d1d449")
+			(uuid "9df8f05b-b4db-4a9b-9966-54bf99d1d44a")
 		)
 		(pin "5"
-			(uuid "d1642723-002d-4840-b501-97160ff2c063")
+			(uuid "d1642723-002d-4840-b501-97160ff2c064")
 		)
 		(pin "2"
-			(uuid "695a4983-a0f8-45f1-b967-4459b0180cfb")
+			(uuid "695a4983-a0f8-45f1-b967-4459b0180cfc")
 		)
 		(pin "4"
-			(uuid "873b1195-1aa6-48bb-9d4a-842f3b1338f7")
+			(uuid "873b1195-1aa6-48bb-9d4a-842f3b1338f8")
 		)
 		(pin "8"
-			(uuid "a1dcfcf6-9ffb-4c48-82f4-1fa3377e64d9")
+			(uuid "a1dcfcf6-9ffb-4c48-82f4-1fa3377e64da")
 		)
 		(pin "7"
-			(uuid "a38bd70c-6533-4203-9734-1ef0eee1efb6")
+			(uuid "a38bd70c-6533-4203-9734-1ef0eee1efb7")
 		)
 		(pin "3"
-			(uuid "838d1316-5b8d-4acc-a692-08f19700dedb")
+			(uuid "838d1316-5b8d-4acc-a692-08f19700dedc")
 		)
 		(instances
 			(project "IMD_SAFETY_2024"
@@ -19443,7 +19533,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 125.222 109.22 90)
 			(effects
 				(font
@@ -19692,7 +19782,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 70.612 27.94 90)
 			(effects
 				(font
@@ -19902,7 +19992,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 103.632 107.95 90)
 			(effects
 				(font
@@ -19972,7 +20062,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Samacsys:SOP65P640X120-8N"
+		(property "Footprint" "Samacsys:SOIC127P600X175-8N"
 			(at 306.07 36.83 0)
 			(effects
 				(font
@@ -19999,29 +20089,38 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser#" " 595-LM393ADR "
+			(at 306.07 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "7"
-			(uuid "c22f1d5a-540a-40ef-ad5a-9e1025c4c892")
+			(uuid "c22f1d5a-540a-40ef-ad5a-9e1025c4c896")
 		)
 		(pin "2"
-			(uuid "1880ef76-e1d7-4d7b-85bb-89d9b8a70009")
+			(uuid "1880ef76-e1d7-4d7b-85bb-89d9b8a7000e")
 		)
 		(pin "5"
-			(uuid "02a1e9fd-b4a6-4e26-a79f-d852fdb28ecd")
+			(uuid "02a1e9fd-b4a6-4e26-a79f-d852fdb28ed1")
 		)
 		(pin "8"
-			(uuid "0a232257-8692-47f8-88ec-7572411ba707")
+			(uuid "0a232257-8692-47f8-88ec-7572411ba70b")
 		)
 		(pin "4"
-			(uuid "017767bf-2ba6-404a-86ab-3b83f1784eb0")
+			(uuid "017767bf-2ba6-404a-86ab-3b83f1784eb4")
 		)
 		(pin "1"
-			(uuid "f8ee0f86-6005-40e9-8e18-4d1c0c37b19a")
+			(uuid "f8ee0f86-6005-40e9-8e18-4d1c0c37b19f")
 		)
 		(pin "6"
-			(uuid "7c48191f-79c1-43fd-9bf2-59a8b8fe6c62")
+			(uuid "7c48191f-79c1-43fd-9bf2-59a8b8fe6c66")
 		)
 		(pin "3"
-			(uuid "fb908ac3-2a1b-4254-979e-74488399ff78")
+			(uuid "fb908ac3-2a1b-4254-979e-74488399ff7d")
 		)
 		(instances
 			(project "IMD_SAFETY_2024"
@@ -20127,7 +20226,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 70.612 46.99 90)
 			(effects
 				(font
@@ -20325,7 +20424,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Samacsys:SOP65P640X120-8N"
+		(property "Footprint" "Samacsys:SOIC127P600X175-8N"
 			(at 57.15 91.44 0)
 			(effects
 				(font
@@ -20352,29 +20451,38 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser#" " 595-LM393ADR "
+			(at 57.15 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "7"
-			(uuid "c22f1d5a-540a-40ef-ad5a-9e1025c4c892")
+			(uuid "c22f1d5a-540a-40ef-ad5a-9e1025c4c897")
 		)
 		(pin "2"
-			(uuid "1880ef76-e1d7-4d7b-85bb-89d9b8a70009")
+			(uuid "1880ef76-e1d7-4d7b-85bb-89d9b8a7000f")
 		)
 		(pin "5"
-			(uuid "02a1e9fd-b4a6-4e26-a79f-d852fdb28ecd")
+			(uuid "02a1e9fd-b4a6-4e26-a79f-d852fdb28ed2")
 		)
 		(pin "8"
-			(uuid "0a232257-8692-47f8-88ec-7572411ba707")
+			(uuid "0a232257-8692-47f8-88ec-7572411ba70c")
 		)
 		(pin "4"
-			(uuid "017767bf-2ba6-404a-86ab-3b83f1784eb0")
+			(uuid "017767bf-2ba6-404a-86ab-3b83f1784eb5")
 		)
 		(pin "1"
-			(uuid "f8ee0f86-6005-40e9-8e18-4d1c0c37b19a")
+			(uuid "f8ee0f86-6005-40e9-8e18-4d1c0c37b1a0")
 		)
 		(pin "6"
-			(uuid "7c48191f-79c1-43fd-9bf2-59a8b8fe6c62")
+			(uuid "7c48191f-79c1-43fd-9bf2-59a8b8fe6c67")
 		)
 		(pin "3"
-			(uuid "fb908ac3-2a1b-4254-979e-74488399ff78")
+			(uuid "fb908ac3-2a1b-4254-979e-74488399ff7e")
 		)
 		(instances
 			(project "IMD_SAFETY_2024"
@@ -20412,7 +20520,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 182.5752 43.18 0)
 			(effects
 				(font
@@ -20481,7 +20589,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 264.922 158.75 90)
 			(effects
 				(font
@@ -20550,7 +20658,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 140.6652 43.18 0)
 			(effects
 				(font
@@ -21009,7 +21117,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 88.138 204.47 90)
 			(effects
 				(font
@@ -21143,7 +21251,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Samacsys:SOP65P640X120-8N"
+		(property "Footprint" "Samacsys:SOIC127P600X175-8N"
 			(at 111.76 218.44 0)
 			(effects
 				(font
@@ -21170,26 +21278,35 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser#" " 595-LM393ADR "
+			(at 111.76 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "7"
-			(uuid "c22f1d5a-540a-40ef-ad5a-9e1025c4c892")
+			(uuid "c22f1d5a-540a-40ef-ad5a-9e1025c4c898")
 		)
 		(pin "2"
 			(uuid "13764f65-83d9-4856-8b44-80295d51b99b")
 		)
 		(pin "5"
-			(uuid "02a1e9fd-b4a6-4e26-a79f-d852fdb28ecd")
+			(uuid "02a1e9fd-b4a6-4e26-a79f-d852fdb28ed3")
 		)
 		(pin "8"
-			(uuid "0a232257-8692-47f8-88ec-7572411ba707")
+			(uuid "0a232257-8692-47f8-88ec-7572411ba70d")
 		)
 		(pin "4"
-			(uuid "017767bf-2ba6-404a-86ab-3b83f1784eb0")
+			(uuid "017767bf-2ba6-404a-86ab-3b83f1784eb6")
 		)
 		(pin "1"
 			(uuid "26d999d8-2d2f-4629-8989-b79469668b43")
 		)
 		(pin "6"
-			(uuid "7c48191f-79c1-43fd-9bf2-59a8b8fe6c62")
+			(uuid "7c48191f-79c1-43fd-9bf2-59a8b8fe6c68")
 		)
 		(pin "3"
 			(uuid "fa508720-e4d6-4b5a-a268-ef960bc06bee")
@@ -21315,7 +21432,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 169.8752 43.18 0)
 			(effects
 				(font
@@ -21384,7 +21501,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 69.342 104.14 90)
 			(effects
 				(font
@@ -21532,7 +21649,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 126.492 213.995 90)
 			(effects
 				(font
@@ -21637,46 +21754,46 @@
 			)
 		)
 		(pin "7"
-			(uuid "78db1c3c-e712-4c02-9080-464fc2b107c7")
+			(uuid "78db1c3c-e712-4c02-9080-464fc2b107c8")
 		)
 		(pin "14"
-			(uuid "b49b7c0d-783f-4239-a9a4-54101fc7aac8")
+			(uuid "b49b7c0d-783f-4239-a9a4-54101fc7aac9")
 		)
 		(pin "9"
-			(uuid "5b6b4281-65fe-4368-993a-b9a12df6af00")
+			(uuid "5b6b4281-65fe-4368-993a-b9a12df6af01")
 		)
 		(pin "1"
 			(uuid "8754d68b-bc59-4051-b6f4-7c65871ba41e")
 		)
 		(pin "6"
-			(uuid "43ba4047-1918-48c2-b13f-66ca0e5ffc35")
+			(uuid "43ba4047-1918-48c2-b13f-66ca0e5ffc36")
 		)
 		(pin "5"
-			(uuid "28d55622-373f-4b97-a03e-47ccb0e7f325")
+			(uuid "28d55622-373f-4b97-a03e-47ccb0e7f326")
 		)
 		(pin "10"
-			(uuid "e3c60681-ce54-41b6-9930-950c1e01d705")
+			(uuid "e3c60681-ce54-41b6-9930-950c1e01d706")
 		)
 		(pin "2"
 			(uuid "2adf2777-6a85-4b57-babb-37359a7a2103")
 		)
 		(pin "4"
-			(uuid "ec11d2f1-feee-44ba-92a4-611466c9cf12")
+			(uuid "ec11d2f1-feee-44ba-92a4-611466c9cf13")
 		)
 		(pin "8"
-			(uuid "c2f31fc1-271e-455b-b126-5853ca65e1ee")
+			(uuid "c2f31fc1-271e-455b-b126-5853ca65e1ef")
 		)
 		(pin "11"
-			(uuid "60507188-f770-4c8d-a19f-1d6e1a209878")
+			(uuid "60507188-f770-4c8d-a19f-1d6e1a209879")
 		)
 		(pin "12"
-			(uuid "42a9b58a-4a37-4a69-9875-3e30f75cb614")
+			(uuid "42a9b58a-4a37-4a69-9875-3e30f75cb615")
 		)
 		(pin "3"
 			(uuid "a4bd7ea2-29b5-446c-b938-d8e1eef373ed")
 		)
 		(pin "13"
-			(uuid "221ca449-378f-4871-8ad7-c464c503961a")
+			(uuid "221ca449-378f-4871-8ad7-c464c503961b")
 		)
 		(instances
 			(project "IMD_SAFETY_2024"
@@ -21712,7 +21829,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 69.85 163.322 90)
 			(effects
 				(font
@@ -21846,7 +21963,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 17.272 99.06 90)
 			(effects
 				(font

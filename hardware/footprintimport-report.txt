@@ -1,0 +1,880 @@
+Info: Processing symbol 'C1:Capacitor_SMD:C_0805_2012Metric'.
+Info: Processing symbol 'C11:Capacitor_SMD:C_0603_1608Metric'.
+Info: Processing symbol 'R9:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'C8:Capacitor_SMD:C_0603_1608Metric'.
+Info: Processing symbol 'R10:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'C16:Capacitor_SMD:C_0603_1608Metric'.
+Info: Processing symbol 'JP1:Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm'.
+Info: Processing symbol 'C5:Capacitor_SMD:C_0805_2012Metric'.
+Info: Processing symbol 'C14:Capacitor_SMD:C_1206_3216Metric'.
+Info: Processing symbol 'D7:Diode_SMD:D_SOD-123F'.
+Info: Processing symbol 'R12:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R2:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'C2:Capacitor_SMD:C_0805_2012Metric'.
+Info: Processing symbol 'R3:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'C12:Capacitor_SMD:C_0603_1608Metric'.
+Info: Processing symbol 'C9:Capacitor_SMD:C_0603_1608Metric'.
+Info: Processing symbol 'R1:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'D4:Diode_SMD:D_SOD-123F'.
+Info: Processing symbol 'C6:Capacitor_SMD:C_0805_2012Metric'.
+Info: Processing symbol 'Q1:Package_TO_SOT_SMD:SOT-23'.
+Info: Processing symbol 'R8:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'C17:Capacitor_SMD:C_0603_1608Metric'.
+Info: Processing symbol 'D6:Samacsys:DIOM5226X244N'.
+Info: Processing symbol 'C3:Capacitor_SMD:C_0805_2012Metric'.
+Info: Processing symbol 'R11:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'C15:Capacitor_SMD:C_1206_3216Metric'.
+Info: Processing symbol 'J1:Samacsys:M80-53008YY'.
+Info: Processing symbol 'C10:Capacitor_SMD:C_0603_1608Metric'.
+Info: Processing symbol 'C13:Capacitor_SMD:C_1206_3216Metric'.
+Info: Processing symbol 'R4:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'C7:Capacitor_SMD:C_0603_1608Metric'.
+Info: Processing symbol 'R6:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R7:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R5:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'C4:Capacitor_SMD:C_0805_2012Metric'.
+Info: Processing symbol 'F1:Fuse:Fuse_1206_3216Metric'.
+Info: Processing symbol 'K2:footprints:IM23TS'.
+Info: Processing symbol 'C18:Capacitor_SMD:C_0603_1608Metric'.
+Info: Processing symbol 'D5:Samacsys:SOD2613X114N'.
+Info: Processing symbol 'R13:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R14:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R15:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R16:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R17:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R18:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R19:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R20:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R22:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R23:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R24:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R25:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R26:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R27:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R28:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R29:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R30:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R31:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'R32:Resistor_SMD:R_0603_1608Metric'.
+Info: Processing symbol 'U1:Samacsys:SOIC127P600X175-8N'.
+Info: Processing symbol 'U2:Package_SO:SOIC-14_3.9x8.7mm_P1.27mm'.
+Info: Processing symbol 'U3:Package_TO_SOT_SMD:SOT-23-5'.
+Info: Processing symbol 'U6:Package_TO_SOT_SMD:SOT-23-5'.
+Info: Processing symbol 'U7:Package_TO_SOT_SMD:TO-252-3_TabPin2'.
+Info: Processing symbol 'U8:Package_TO_SOT_SMD:SOT-223-3_TabPin2'.
+Info: Processing symbol 'U9:Samacsys:SOP65P640X120-14N'.
+Info: Processing symbol 'U10:Samacsys:SOP65P640X120-14N'.
+Info: Processing symbol 'U13:Samacsys:SOP65P640X120-14N'.
+Info: Processing symbol 'U14:Samacsys:SOIC127P600X175-8N'.
+Info: Processing symbol 'U15:Samacsys:SOIC127P600X175-8N'.
+Info: Processing symbol 'U16:Samacsys:SOIC127P600X175-8N'.
+Added C4 (footprint 'Capacitor_SMD:C_0805_2012Metric').
+Changed REF** reference designator to C4.
+Changed C4 value from C_0805_2012Metric to 1u/35V.
+Updated C4 symbol association from  to /9eed1698-edcf-4218-a42b-271d493817e9.
+Updated C4 sheetname to 'Root'.
+Updated C4 sheetfile to 'IMD_SAFETY_2024.kicad_sch'.
+Updated C4 footprint filters to 'C_*'.
+Connected C4 pin 2 to GND.
+Add net +12V.
+Connected C4 pin 1 to +12V.
+Added C5 (footprint 'Capacitor_SMD:C_0805_2012Metric').
+Changed REF** reference designator to C5.
+Changed C5 value from C_0805_2012Metric to 1u/35V.
+Updated C5 symbol association from  to /d2615951-4d88-477e-ae63-9dda33773467.
+Updated C5 sheetname to 'Root'.
+Updated C5 sheetfile to 'IMD_SAFETY_2024.kicad_sch'.
+Updated C5 footprint filters to 'C_*'.
+Connected C5 pin 2 to GND.
+Connected C5 pin 1 to +12V.
+Added C6 (footprint 'Capacitor_SMD:C_0805_2012Metric').
+Changed REF** reference designator to C6.
+Changed C6 value from C_0805_2012Metric to 1u/35V.
+Updated C6 symbol association from  to /f30e6bbf-51dc-4d45-af06-e36be92d5b1a.
+Updated C6 sheetname to 'Root'.
+Updated C6 sheetfile to 'IMD_SAFETY_2024.kicad_sch'.
+Updated C6 footprint filters to 'C_*'.
+Connected C6 pin 2 to GND.
+Add net +5V.
+Connected C6 pin 1 to +5V.
+Added C7 (footprint 'Capacitor_SMD:C_0603_1608Metric').
+Changed REF** reference designator to C7.
+Changed C7 value from C_0603_1608Metric to 100nF/35V.
+Updated C7 symbol association from  to /d1b6c6e9-e14a-4ea3-ab4d-9ed4c0c3f9c2.
+Updated C7 sheetname to 'Root'.
+Updated C7 sheetfile to 'IMD_SAFETY_2024.kicad_sch'.
+Updated C7 footprint filters to 'C_*'.
+Connected C7 pin 2 to GND.
+Connected C7 pin 1 to +5V.
+Added C8 (footprint 'Capacitor_SMD:C_0603_1608Metric').
+Changed REF** reference designator to C8.
+Changed C8 value from C_0603_1608Metric to 100nF/35V.
+Updated C8 symbol association from  to /afc41dad-52e1-4188-af6b-ab57560f0ce1.
+Updated C8 sheetname to 'Root'.
+Updated C8 sheetfile to 'IMD_SAFETY_2024.kicad_sch'.
+Updated C8 footprint filters to 'C_*'.
+Connected C8 pin 1 to +5V.
+Connected C8 pin 2 to GND.
+Added C9 (footprint 'Capacitor_SMD:C_0603_1608Metric').
+Changed REF** reference designator to C9.
+Changed C9 value from C_0603_1608Metric to 100nF/35V.
+Updated C9 symbol association from  to /6e9db1ae-1327-44d6-baf1-2ca3bf38f2b5.
+Updated C9 sheetname to 'Root'.
+Updated C9 sheetfile to 'IMD_SAFETY_2024.kicad_sch'.
+Updated C9 footprint filters to 'C_*'.
+Connected C9 pin 1 to +5V.
+Connected C9 pin 2 to GND.
+Added C10 (footprint 'Capacitor_SMD:C_0603_1608Metric').
+Changed REF** reference designator to C10.
+Changed C10 value from C_0603_1608Metric to 100nF/35V.
+Updated C10 symbol association from  to /b51dc9c6-ac7e-4f94-954d-2dfcee2c1364.
+Updated C10 sheetname to 'Root'.
+Updated C10 sheetfile to 'IMD_SAFETY_2024.kicad_sch'.
+Updated C10 footprint filters to 'C_*'.
+Connected C10 pin 2 to GND.
+Connected C10 pin 1 to +5V.
+Added C11 (footprint 'Capacitor_SMD:C_0603_1608Metric').
+Changed REF** reference designator to C11.
+Changed C11 value from C_0603_1608Metric to 100nF/35V.
+Updated C11 symbol association from  to /3f9c3502-d1b7-4501-826f-e2ac72e5b59b.
+Updated C11 sheetname to 'Root'.
+Updated C11 sheetfile to 'IMD_SAFETY_2024.kicad_sch'.
+Updated C11 footprint filters to 'C_*'.
+Connected C11 pin 2 to GND.
+Connected C11 pin 1 to +5V.
+Added C12 (footprint 'Capacitor_SMD:C_0603_1608Metric').
+Changed REF** reference designator to C12.
+Changed C12 value from C_0603_1608Metric to 100nF/35V.
+Updated C12 symbol association from  to /5bbc1243-a92f-4807-8269-fd7ba9da4ced.
+Updated C12 sheetname to 'Root'.
+Updated C12 sheetfile to 'IMD_SAFETY_2024.kicad_sch'.
+Updated C12 footprint filters to 'C_*'.
+Connected C12 pin 1 to +24V.
+Connected C12 pin 2 to GND.
+Added C13 (footprint 'Capacitor_SMD:C_1206_3216Metric').
+Changed REF** reference designator to C13.
+Changed C13 value from C_1206_3216Metric to 47uF.
+Updated C13 symbol association from  to /18394ff9-8a62-4ade-be1c-ceed67edb4f3.
+Updated C13 fields.
+Updated C13 sheetname to 'Root'.
+Updated C13 sheetfile to 'IMD_SAFETY_2024.kicad_sch'.
+Updated C13 footprint filters to 'C_*'.
+Added C13 'Do not place' fabrication attribute.
+Add net /NMOS_IN.
+Connected C13 pin 1 to /NMOS_IN.
+Connected C13 pin 2 to GND.
+Added C14 (footprint 'Capacitor_SMD:C_1206_3216Metric').
+Changed REF** reference designator to C14.
+Changed C14 value from C_1206_3216Metric to 22u.
+Updated C14 symbol association from  to /43766ada-f9db-42cd-8f8f-c4e1bdb79e73.
+Updated C14 fields.
+Updated C14 sheetname to 'Root'.
+Updated C14 sheetfile to 'IMD_SAFETY_2024.kicad_sch'.
+Updated C14 footprint filters to 'C_*'.
+Connected C14 pin 1 to +5V.
+Add net Net-(U1A--).
+Connected C14 pin 2 to Net-(U1A--).
+Added C15 (footprint 'Capacitor_SMD:C_1206_3216Metric').
+Changed REF** reference designator to C15.
+Changed C15 value from C_1206_3216Metric to 10u.
+Updated C15 symbol association from  to /bfe40948-8060-4049-bde4-f98aaa12c8ef.
+Updated C15 fields.
+Updated C15 sheetname to 'Root'.
+Updated C15 sheetfile to 'IMD_SAFETY_2024.kicad_sch'.
+Updated C15 footprint filters to 'C_*'.
+Add net Net-(D4-K).
+Connected C15 pin 1 to Net-(D4-K).
+Connected C15 pin 2 to GND.
+Added C16 (footprint 'Capacitor_SMD:C_0603_1608Metric').
+Changed REF** reference designator to C16.
+Changed C16 value from C_0603_1608Metric to 100nF/35V.
+Updated C16 symbol association from  to /4b36e5a7-747a-4e76-9b06-80710af7117a.
+Updated C16 sheetname to 'Root'.
+Updated C16 sheetfile to 'IMD_SAFETY_2024.kicad_sch'.
+Updated C16 footprint filters to 'C_*'.
+Connected C16 pin 2 to GND.
+Connected C16 pin 1 to +24V.
+Added C17 (footprint 'Capacitor_SMD:C_0603_1608Metric').
+Changed REF** reference designator to C17.
+Changed C17 value from C_0603_1608Metric to 100nF/35V.
+Updated C17 symbol association from  to /47a3fccc-ef71-4f34-9ec3-21f773949d24.
+Updated C17 sheetname to 'Root'.
+Updated C17 sheetfile to 'IMD_SAFETY_2024.kicad_sch'.
+Updated C17 footprint filters to 'C_*'.
+Connected C17 pin 2 to GND.
+Connected C17 pin 1 to +5V.
+Added C18 (footprint 'Capacitor_SMD:C_0603_1608Metric').
+Changed REF** reference designator to C18.
+Changed C18 value from C_0603_1608Metric to 100nF/35V.
+Updated C18 symbol association from  to /5f0fcd95-76a1-49a8-884d-07657a773b33.
+Updated C18 sheetname to 'Root'.
+Updated C18 sheetfile to 'IMD_SAFETY_2024.kicad_sch'.
+Updated C18 footprint filters to 'C_*'.
+Connected C18 pin 2 to GND.
+Connected C18 pin 1 to +5V.
+Added D4 (footprint 'Diode_SMD:D_SOD-123F').
+Changed REF** reference designator to D4.
+Changed D4 value from D_SOD-123F to SD103BW.
+Updated D4 symbol association from  to /9ddb67a3-5579-48e6-8ddf-22f7b2917cc6.
+Updated D4 fields.
+Updated D4 sheetname to 'Root'.
+Updated D4 sheetfile to 'IMD_SAFETY_2024.kicad_sch'.
+Updated D4 footprint filters to 'TO-???* *_Diode_* *SingleDiode* D_*'.
+Connected D4 pin 1 to Net-(D4-K).
+Add net Net-(D4-A).
+Connected D4 pin 2 to Net-(D4-A).
+Added D5 (footprint 'Samacsys:SOD2613X114N').
+Changed D** reference designator to D5.
+Changed D5 value from SOD2613X114N to SD24-01FTG.
+Updated D5 symbol association from  to /f732f66e-08a1-4a85-b0fb-3a744e5fc744.
+Updated D5 fields.
+Updated D5 sheetname to 'Root'.
+Updated D5 sheetfile to 'IMD_SAFETY_2024.kicad_sch'.
+Updated D5 footprint filters to 'TO-???* *_Diode_* *SingleDiode* D_*'.
+Connected D5 pin 1 to GND.
+Connected D5 pin 2 to +24V.
+Added D6 (footprint 'Samacsys:DIOM5226X244N').
+Changed D** reference designator to D6.
+Changed D6 value from DIOM5226X244N to SK36A-LTP.
+Updated D6 symbol association from  to /b9cabebd-1450-4c40-a1f6-3f33c358cebb.
+Updated D6 fields.
+Updated D6 sheetname to 'Root'.
+Updated D6 sheetfile to 'IMD_SAFETY_2024.kicad_sch'.
+Updated D6 footprint filters to 'TO-???* *_Diode_* *SingleDiode* D_*'.
+Connected D6 pin 1 to +24V.
+Add net Net-(D6-A).
+Connected D6 pin 2 to Net-(D6-A).
+Added D7 (footprint 'Diode_SMD:D_SOD-123F').
+Changed REF** reference designator to D7.
+Changed D7 value from D_SOD-123F to SD103BW.
+Updated D7 symbol association from  to /76e8c400-b02f-4d8f-ae06-e71908fbd9ec.
+Updated D7 fields.
+Updated D7 sheetname to 'Root'.
+Updated D7 sheetfile to 'IMD_SAFETY_2024.kicad_sch'.
+Updated D7 footprint filters to 'TO-???* *_Diode_* *SingleDiode* D_*'.
+Added D7 'Do not place' fabrication attribute.
+Connected D7 pin 2 to /NMOS_IN.
+Add net /Q_DFF.
+Connected D7 pin 1 to /Q_DFF.
+Added F1 (footprint 'Fuse:Fuse_1206_3216Metric').
+Changed REF** reference designator to F1.
+Changed F1 value from Fuse_1206_3216Metric to 500mA.
+Updated F1 symbol association from  to /324f20a0-dfe0-495e-a904-672f15dc6bb9.
+Updated F1 fields.
+Updated F1 sheetname to 'Root'.
+Updated F1 sheetfile to 'IMD_SAFETY_2024.kicad_sch'.
+Updated F1 footprint filters to '*Fuse*'.
+Add net Net-(J1-Pin_1).
+Connected F1 pin 2 to Net-(J1-Pin_1).
+Connected F1 pin 1 to +24V.
+Added J1 (footprint 'Samacsys:M80-53008YY').
+Changed J** reference designator to J1.
+Changed J1 value from M80-53008YY to Main- M80-5300842.
+Updated J1 symbol association from  to /98707a4a-f717-47e6-953c-09ca1773fb88.
+Updated J1 fields.
+Updated J1 sheetname to 'Root'.
+Updated J1 sheetfile to 'IMD_SAFETY_2024.kicad_sch'.
+Updated J1 footprint filters to 'Connector*:*_1x??_*'.
+Add net SDC_IN.
+Connected J1 pin 7 to SDC_IN.
+Connected J1 pin 1 to Net-(J1-Pin_1).
+Add net RESET.
+Connected J1 pin 4 to RESET.
+Add net COCKPIT_LED.
+Connected J1 pin 5 to COCKPIT_LED.
+Add net IMD_OK_HS.
+Connected J1 pin 3 to IMD_OK_HS.
+Add net SDC_OUT.
+Connected J1 pin 8 to SDC_OUT.
+Add net IMD_PWM_LS.
+Connected J1 pin 2 to IMD_PWM_LS.
+Connected J1 pin 6 to GND.
+Added JP1 (footprint 'Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm').
+Changed REF** reference designator to JP1.
+Changed JP1 value from SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm to Output_Jumper.
+Updated JP1 symbol association from  to /cc49fbf6-6d9e-4c2d-a71f-be571af0be21.
+Updated JP1 fields.
+Updated JP1 sheetname to 'Root'.
+Updated JP1 sheetfile to 'IMD_SAFETY_2024.kicad_sch'.
+Updated JP1 footprint filters to 'SolderJumper*Bridged*'.
+Removed JP1 'exclude from BOM' fabrication attribute.
+Connected JP1 pin 1 to /Q_DFF.
+Connected JP1 pin 2 to /NMOS_IN.
+Added K2 (footprint 'footprints:IM23TS').
+Changed K** reference designator to K2.
+Changed K2 value from IM23TS to TE AXICOM IM07DTS.
+Updated K2 symbol association from  to /bb2b5c92-121e-4c6a-9896-7c16e382fcc9.
+Updated K2 fields.
+Updated K2 sheetname to 'Root'.
+Updated K2 sheetfile to 'IMD_SAFETY_2024.kicad_sch'.
+Updated K2 footprint filters to 'Relay*DPDT*AXICOM*IMSeries*'.
+Add net unconnected-(K2-Pad2).
+Connected K2 pin 2 to unconnected-(K2-Pad2).
+Add net Net-(K2-Pad4).
+Connected K2 pin 4 to Net-(K2-Pad4).
+Add net unconnected-(K2-Pad7).
+Connected K2 pin 7 to unconnected-(K2-Pad7).
+Connected K2 pin 3 to +5V.
+Connected K2 pin 1 to +24V.
+Connected K2 pin 6 to SDC_IN.
+Connected K2 pin 8 to Net-(D6-A).
+Connected K2 pin 5 to SDC_OUT.
+Added Q1 (footprint 'Package_TO_SOT_SMD:SOT-23').
+Changed REF** reference designator to Q1.
+Changed Q1 value from SOT-23 to 2N7002.
+Updated Q1 symbol association from  to /4284c4be-37f3-4667-b8c6-0ea410b2b09b.
+Updated Q1 fields.
+Updated Q1 sheetname to 'Root'.
+Updated Q1 sheetfile to 'IMD_SAFETY_2024.kicad_sch'.
+Updated Q1 footprint filters to 'SOT?23*'.
+Connected Q1 pin 3 to Net-(D6-A).
+Connected Q1 pin 2 to GND.
+Connected Q1 pin 1 to /NMOS_IN.
+Added R1 (footprint 'Resistor_SMD:R_0603_1608Metric').
+Changed REF** reference designator to R1.
+Changed R1 value from R_0603_1608Metric to 2.2K.
+Updated R1 symbol association from  to /cd2725f5-bdb4-4eb2-9ec0-5065dade4ff4.
+Updated R1 sheetname to 'Root'.
+Updated R1 sheetfile to 'IMD_SAFETY_2024.kicad_sch'.
+Updated R1 footprint filters to 'R_*'.
+Connected R1 pin 2 to GND.
+Added R2 (footprint 'Resistor_SMD:R_0603_1608Metric').
+Changed REF** reference designator to R2.
+Changed R2 value from R_0603_1608Metric to 2.2K.
+Updated R2 symbol association from  to /c8c85a50-9675-4612-9fb8-492440e0f228.
+Updated R2 sheetname to 'Root'.
+Updated R2 sheetfile to 'IMD_SAFETY_2024.kicad_sch'.
+Updated R2 footprint filters to 'R_*'.
+Connected R2 pin 2 to IMD_PWM_LS.
+Connected R2 pin 1 to +24V.
+Added R3 (footprint 'Resistor_SMD:R_0603_1608Metric').
+Changed REF** reference designator to R3.
+Changed R3 value from R_0603_1608Metric to 10K.
+Updated R3 symbol association from  to /fe563600-9202-47c0-b904-fd42ecffccbb.
+Updated R3 sheetname to 'Root'.
+Updated R3 sheetfile to 'IMD_SAFETY_2024.kicad_sch'.
+Updated R3 footprint filters to 'R_*'.
+Connected R3 pin 1 to +24V.
+Add net Net-(U14A--).
+Connected R3 pin 2 to Net-(U14A--).
+Added R4 (footprint 'Resistor_SMD:R_0603_1608Metric').
+Changed REF** reference designator to R4.
+Changed R4 value from R_0603_1608Metric to 10K.
+Updated R4 symbol association from  to /ba21c3d3-2caf-4f5c-9543-d18b72c679b6.
+Updated R4 sheetname to 'Root'.
+Updated R4 sheetfile to 'IMD_SAFETY_2024.kicad_sch'.
+Updated R4 footprint filters to 'R_*'.
+Connected R4 pin 1 to Net-(U14A--).
+Connected R4 pin 2 to GND.
+Added R5 (footprint 'Resistor_SMD:R_0603_1608Metric').
+Changed REF** reference designator to R5.
+Changed R5 value from R_0603_1608Metric to 2.2K.
+Updated R5 symbol association from  to /326b4b21-d2ec-4194-86de-f03bbefc62e9.
+Updated R5 sheetname to 'Root'.
+Updated R5 sheetfile to 'IMD_SAFETY_2024.kicad_sch'.
+Updated R5 footprint filters to 'R_*'.
+Add net OK_HS_TTL.
+Connected R5 pin 2 to OK_HS_TTL.
+Connected R5 pin 1 to +5V.
+Added R6 (footprint 'Resistor_SMD:R_0603_1608Metric').
+Changed REF** reference designator to R6.
+Changed R6 value from R_0603_1608Metric to 2.2K.
+Updated R6 symbol association from  to /f6462fb2-915d-4431-8801-563794ee44e6.
+Updated R6 sheetname to 'Root'.
+Updated R6 sheetfile to 'IMD_SAFETY_2024.kicad_sch'.
+Updated R6 footprint filters to 'R_*'.
+Connected R6 pin 1 to +5V.
+Add net PWM_TTL.
+Connected R6 pin 2 to PWM_TTL.
+Added R7 (footprint 'Resistor_SMD:R_0603_1608Metric').
+Changed REF** reference designator to R7.
+Changed R7 value from R_0603_1608Metric to 47K.
+Updated R7 symbol association from  to /fb607f29-3dac-4012-86c4-abff9f5c2d15.
+Updated R7 sheetname to 'Root'.
+Updated R7 sheetfile to 'IMD_SAFETY_2024.kicad_sch'.
+Updated R7 footprint filters to 'R_*'.
+Add net Net-(R7-Pad2).
+Connected R7 pin 2 to Net-(R7-Pad2).
+Connected R7 pin 1 to Net-(U15A--).
+Added R8 (footprint 'Resistor_SMD:R_0603_1608Metric').
+Changed REF** reference designator to R8.
+Changed R8 value from R_0603_1608Metric to 47K.
+Updated R8 symbol association from  to /89bed7d2-7012-4b26-940e-b98e96250488.
+Updated R8 sheetname to 'Root'.
+Updated R8 sheetfile to 'IMD_SAFETY_2024.kicad_sch'.
+Updated R8 footprint filters to 'R_*'.
+Add net Net-(U3-Q).
+Connected R8 pin 2 to Net-(U3-Q).
+Connected R8 pin 1 to Net-(U16A--).
+Added R9 (footprint 'Resistor_SMD:R_0603_1608Metric').
+Changed REF** reference designator to R9.
+Changed R9 value from R_0603_1608Metric to 300K.
+Updated R9 symbol association from  to /1937da74-2a69-4a26-af52-a0fc289c6009.
+Updated R9 sheetname to 'Root'.
+Updated R9 sheetfile to 'IMD_SAFETY_2024.kicad_sch'.
+Updated R9 footprint filters to 'R_*'.
+Connected R9 pin 2 to +5V.
+Add net Net-(R10-Pad2).
+Connected R9 pin 1 to Net-(R10-Pad2).
+Added R10 (footprint 'Resistor_SMD:R_0603_1608Metric').
+Changed REF** reference designator to R10.
+Changed R10 value from R_0603_1608Metric to 100k.
+Updated R10 symbol association from  to /de10a90b-aff2-493a-993e-33a02460adf9.
+Updated R10 sheetname to 'Root'.
+Updated R10 sheetfile to 'IMD_SAFETY_2024.kicad_sch'.
+Updated R10 footprint filters to 'R_*'.
+Connected R10 pin 2 to Net-(R10-Pad2).
+Add net Net-(U16A-+).
+Connected R10 pin 1 to Net-(U16A-+).
+Added R11 (footprint 'Resistor_SMD:R_0603_1608Metric').
+Changed REF** reference designator to R11.
+Changed R11 value from R_0603_1608Metric to 14.3k.
+Updated R11 symbol association from  to /846138b5-12a4-445f-8e70-ee9977340dc9.
+Updated R11 sheetname to 'Root'.
+Updated R11 sheetfile to 'IMD_SAFETY_2024.kicad_sch'.
+Updated R11 footprint filters to 'R_*'.
+Connected R11 pin 2 to Net-(U16A-+).
+Add net Net-(R11-Pad1).
+Connected R11 pin 1 to Net-(R11-Pad1).
+Connected R1 pin 1 to IMD_OK_HS.
+Added R12 (footprint 'Resistor_SMD:R_0603_1608Metric').
+Changed REF** reference designator to R12.
+Changed R12 value from R_0603_1608Metric to 150K.
+Updated R12 symbol association from  to /034eec80-0cee-45b0-b1a3-9e126b511021.
+Updated R12 sheetname to 'Root'.
+Updated R12 sheetfile to 'IMD_SAFETY_2024.kicad_sch'.
+Updated R12 footprint filters to 'R_*'.
+Add net Net-(U16B--).
+Connected R12 pin 1 to Net-(U16B--).
+Connected R12 pin 2 to Net-(R11-Pad1).
+Added C1 (footprint 'Capacitor_SMD:C_0805_2012Metric').
+Added R13 (footprint 'Resistor_SMD:R_0603_1608Metric').
+Changed REF** reference designator to R13.
+Changed R13 value from R_0603_1608Metric to 33K.
+Updated R13 symbol association from  to /41ab6319-dc74-4a5b-b337-977c2e316e0f.
+Updated R13 sheetname to 'Root'.
+Updated R13 sheetfile to 'IMD_SAFETY_2024.kicad_sch'.
+Updated R13 footprint filters to 'R_*'.
+Add net Net-(R13-Pad1).
+Connected R13 pin 1 to Net-(R13-Pad1).
+Connected R13 pin 2 to Net-(U16B--).
+Changed REF** reference designator to C1.
+Added R14 (footprint 'Resistor_SMD:R_0603_1608Metric').
+Changed REF** reference designator to R14.
+Changed R14 value from R_0603_1608Metric to 0k.
+Updated R14 symbol association from  to /326cf5ce-adf6-4441-9cae-e50690a3fcbd.
+Updated R14 sheetname to 'Root'.
+Updated R14 sheetfile to 'IMD_SAFETY_2024.kicad_sch'.
+Updated R14 footprint filters to 'R_*'.
+Connected R14 pin 1 to GND.
+Connected R14 pin 2 to Net-(R13-Pad1).
+Changed C1 value from C_0805_2012Metric to 1u/35V.
+Added R15 (footprint 'Resistor_SMD:R_0603_1608Metric').
+Changed REF** reference designator to R15.
+Changed R15 value from R_0603_1608Metric to 400K.
+Updated R15 symbol association from  to /00ac3672-faec-4893-81b1-a8212c955572.
+Updated R15 sheetname to 'Root'.
+Updated R15 sheetfile to 'IMD_SAFETY_2024.kicad_sch'.
+Updated R15 footprint filters to 'R_*'.
+Add net Net-(U15A-+).
+Connected R15 pin 1 to Net-(U15A-+).
+Connected R15 pin 2 to +5V.
+Updated C1 symbol association from  to /46678fa9-63d1-4800-ba70-b1d53efb7221.
+Added R16 (footprint 'Resistor_SMD:R_0603_1608Metric').
+Changed REF** reference designator to R16.
+Changed R16 value from R_0603_1608Metric to 100K.
+Updated R16 symbol association from  to /68817674-ee08-40e8-aa9a-2d01465aafde.
+Updated R16 sheetname to 'Root'.
+Updated R16 sheetfile to 'IMD_SAFETY_2024.kicad_sch'.
+Updated R16 footprint filters to 'R_*'.
+Add net Net-(U15B--).
+Connected R16 pin 1 to Net-(U15B--).
+Connected R16 pin 2 to Net-(U15A-+).
+Updated C1 sheetname to 'Root'.
+Added R17 (footprint 'Resistor_SMD:R_0603_1608Metric').
+Changed REF** reference designator to R17.
+Changed R17 value from R_0603_1608Metric to 2.2K.
+Updated R17 symbol association from  to /f8a6e6d0-962b-404a-8492-6ad486637c53.
+Updated R17 sheetname to 'Root'.
+Updated R17 sheetfile to 'IMD_SAFETY_2024.kicad_sch'.
+Updated R17 footprint filters to 'R_*'.
+Add net Net-(U6-D).
+Connected R17 pin 2 to Net-(U6-D).
+Connected R17 pin 1 to +5V.
+Updated C1 sheetfile to 'IMD_SAFETY_2024.kicad_sch'.
+Added R18 (footprint 'Resistor_SMD:R_0603_1608Metric').
+Changed REF** reference designator to R18.
+Changed R18 value from R_0603_1608Metric to 2.2K.
+Updated R18 symbol association from  to /9ed97c9f-461b-4e97-8163-6db1c692be49.
+Updated R18 sheetname to 'Root'.
+Updated R18 sheetfile to 'IMD_SAFETY_2024.kicad_sch'.
+Updated R18 footprint filters to 'R_*'.
+Add net DUTY_OK.
+Connected R18 pin 2 to DUTY_OK.
+Connected R18 pin 1 to +5V.
+Updated C1 footprint filters to 'C_*'.
+Added R19 (footprint 'Resistor_SMD:R_0603_1608Metric').
+Changed REF** reference designator to R19.
+Changed R19 value from R_0603_1608Metric to 1K.
+Updated R19 symbol association from  to /962ba242-3f01-423d-914e-ec4e20771331.
+Updated R19 sheetname to 'Root'.
+Updated R19 sheetfile to 'IMD_SAFETY_2024.kicad_sch'.
+Updated R19 footprint filters to 'R_*'.
+Connected R19 pin 1 to GND.
+Connected R19 pin 2 to Net-(U15B--).
+Add net Net-(U15A--).
+Added R20 (footprint 'Resistor_SMD:R_0603_1608Metric').
+Changed REF** reference designator to R20.
+Changed R20 value from R_0603_1608Metric to 10k.
+Updated R20 symbol association from  to /4d17dcf7-bec1-430c-a16e-6c6a6c160fb0.
+Updated R20 sheetname to 'Root'.
+Updated R20 sheetfile to 'IMD_SAFETY_2024.kicad_sch'.
+Updated R20 footprint filters to 'R_*'.
+Connected R20 pin 2 to /NMOS_IN.
+Connected R20 pin 1 to GND.
+Connected C1 pin 1 to Net-(U15A--).
+Added R22 (footprint 'Resistor_SMD:R_0603_1608Metric').
+Changed REF** reference designator to R22.
+Changed R22 value from R_0603_1608Metric to 100k.
+Updated R22 symbol association from  to /63c26198-25e9-49c3-acfc-679d23e77272.
+Updated R22 sheetname to 'Root'.
+Updated R22 sheetfile to 'IMD_SAFETY_2024.kicad_sch'.
+Updated R22 footprint filters to 'R_*'.
+Added R22 'Do not place' fabrication attribute.
+Connected R22 pin 2 to /Q_DFF.
+Connected R22 pin 1 to /NMOS_IN.
+Add net GND.
+Added R23 (footprint 'Resistor_SMD:R_0603_1608Metric').
+Changed REF** reference designator to R23.
+Changed R23 value from R_0603_1608Metric to 330R.
+Updated R23 symbol association from  to /67869649-853b-4f40-9bef-88f67dd34a6e.
+Updated R23 sheetname to 'Root'.
+Updated R23 sheetfile to 'IMD_SAFETY_2024.kicad_sch'.
+Updated R23 footprint filters to 'R_*'.
+Connected R23 pin 1 to COCKPIT_LED.
+Connected R23 pin 2 to Net-(K2-Pad4).
+Connected C1 pin 2 to GND.
+Added R24 (footprint 'Resistor_SMD:R_0603_1608Metric').
+Changed REF** reference designator to R24.
+Changed R24 value from R_0603_1608Metric to 20k.
+Updated R24 symbol association from  to /88a4c9b5-bc09-43e3-acd3-fade0dc2c9f9.
+Updated R24 fields.
+Updated R24 sheetname to 'Root'.
+Updated R24 sheetfile to 'IMD_SAFETY_2024.kicad_sch'.
+Updated R24 footprint filters to 'R_*'.
+Add net Net-(U1A-+).
+Connected R24 pin 2 to Net-(U1A-+).
+Connected R24 pin 1 to +5V.
+Added C2 (footprint 'Capacitor_SMD:C_0805_2012Metric').
+Added R25 (footprint 'Resistor_SMD:R_0603_1608Metric').
+Changed REF** reference designator to R25.
+Changed R25 value from R_0603_1608Metric to 30k.
+Updated R25 symbol association from  to /ca211e41-2466-4b5e-9b97-9d0457184a3b.
+Updated R25 fields.
+Updated R25 sheetname to 'Root'.
+Updated R25 sheetfile to 'IMD_SAFETY_2024.kicad_sch'.
+Updated R25 footprint filters to 'R_*'.
+Connected R25 pin 2 to GND.
+Connected R25 pin 1 to Net-(U1A-+).
+Changed REF** reference designator to C2.
+Added R26 (footprint 'Resistor_SMD:R_0603_1608Metric').
+Changed REF** reference designator to R26.
+Changed R26 value from R_0603_1608Metric to 120k.
+Updated R26 symbol association from  to /c4ac44dc-c8bd-46f6-8fff-81048114922f.
+Updated R26 fields.
+Updated R26 sheetname to 'Root'.
+Updated R26 sheetfile to 'IMD_SAFETY_2024.kicad_sch'.
+Updated R26 footprint filters to 'R_*'.
+Connected R26 pin 2 to GND.
+Connected R26 pin 1 to Net-(U1A--).
+Changed C2 value from C_0805_2012Metric to 1u/35V.
+Added R27 (footprint 'Resistor_SMD:R_0603_1608Metric').
+Changed REF** reference designator to R27.
+Changed R27 value from R_0603_1608Metric to 20k.
+Updated R27 symbol association from  to /6a47a143-6442-4004-8e82-b1c552434377.
+Updated R27 fields.
+Updated R27 sheetname to 'Root'.
+Updated R27 sheetfile to 'IMD_SAFETY_2024.kicad_sch'.
+Updated R27 footprint filters to 'R_*'.
+Connected R27 pin 1 to Net-(U1A-+).
+Connected R27 pin 2 to RESET.
+Updated C2 symbol association from  to /488ae03d-917b-4c58-904d-e4ad13e36589.
+Added R28 (footprint 'Resistor_SMD:R_0603_1608Metric').
+Changed REF** reference designator to R28.
+Changed R28 value from R_0603_1608Metric to 10k.
+Updated R28 symbol association from  to /68dd42c1-4592-4f6a-bda5-54d4bb5cce05.
+Updated R28 fields.
+Updated R28 sheetname to 'Root'.
+Updated R28 sheetfile to 'IMD_SAFETY_2024.kicad_sch'.
+Updated R28 footprint filters to 'R_*'.
+Connected R28 pin 2 to RESET.
+Connected R28 pin 1 to +5V.
+Updated C2 sheetname to 'Root'.
+Added R29 (footprint 'Resistor_SMD:R_0603_1608Metric').
+Changed REF** reference designator to R29.
+Changed R29 value from R_0603_1608Metric to 2.2K.
+Updated R29 symbol association from  to /d244bc05-0e6f-4e90-8ed6-9b4ee6a4d95c.
+Updated R29 sheetname to 'Root'.
+Updated R29 sheetfile to 'IMD_SAFETY_2024.kicad_sch'.
+Updated R29 footprint filters to 'R_*'.
+Connected R29 pin 2 to Net-(D4-A).
+Connected R29 pin 1 to +5V.
+Updated C2 sheetfile to 'IMD_SAFETY_2024.kicad_sch'.
+Added R30 (footprint 'Resistor_SMD:R_0603_1608Metric').
+Changed REF** reference designator to R30.
+Changed R30 value from R_0603_1608Metric to 100K.
+Updated R30 symbol association from  to /176ec981-3e56-46b2-86fb-bd53553fbc9a.
+Updated R30 sheetname to 'Root'.
+Updated R30 sheetfile to 'IMD_SAFETY_2024.kicad_sch'.
+Updated R30 footprint filters to 'R_*'.
+Connected R30 pin 1 to Net-(D4-A).
+Connected R30 pin 2 to Net-(D4-K).
+Updated C2 footprint filters to 'C_*'.
+Added R31 (footprint 'Resistor_SMD:R_0603_1608Metric').
+Changed REF** reference designator to R31.
+Changed R31 value from R_0603_1608Metric to 10k.
+Updated R31 symbol association from  to /05224641-980f-4474-8734-42732e6a3f3d.
+Updated R31 fields.
+Updated R31 sheetname to 'Root'.
+Updated R31 sheetfile to 'IMD_SAFETY_2024.kicad_sch'.
+Updated R31 footprint filters to 'R_*'.
+Connected R31 pin 1 to +5V.
+Add net Net-(U13A-D).
+Connected R31 pin 2 to Net-(U13A-D).
+Connected C2 pin 2 to GND.
+Added R32 (footprint 'Resistor_SMD:R_0603_1608Metric').
+Changed REF** reference designator to R32.
+Changed R32 value from R_0603_1608Metric to 1M.
+Updated R32 symbol association from  to /9ca34289-8250-4c8a-b344-e994bb30668a.
+Updated R32 sheetname to 'Root'.
+Updated R32 sheetfile to 'IMD_SAFETY_2024.kicad_sch'.
+Updated R32 footprint filters to 'R_*'.
+Added R32 'Do not place' fabrication attribute.
+Connected R32 pin 2 to /NMOS_IN.
+Connected R32 pin 1 to GND.
+Add net Net-(U16A--).
+Added U1 (footprint 'Samacsys:SOIC127P600X175-8N').
+Changed IC** reference designator to U1.
+Changed U1 value from SOIC127P600X175-8N to LM393.
+Updated U1 symbol association from  to /bf0981a4-2b16-4bab-8acc-406fbd76a88d.
+Updated U1 fields.
+Updated U1 sheetname to 'Root'.
+Updated U1 sheetfile to 'IMD_SAFETY_2024.kicad_sch'.
+Updated U1 footprint filters to 'SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* SOP*5.28x5.23mm*P1.27mm* VSSOP*3.0x3.0mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm*'.
+Connected U1 pin 8 to +24V.
+Connected U1 pin 4 to GND.
+Connected U1 pin 3 to Net-(U1A-+).
+Connected U1 pin 1 to RESET.
+Connected U1 pin 2 to Net-(U1A--).
+Connected C2 pin 1 to Net-(U16A--).
+Added U2 (footprint 'Package_SO:SOIC-14_3.9x8.7mm_P1.27mm').
+Changed REF** reference designator to U2.
+Changed U2 value from SOIC-14_3.9x8.7mm_P1.27mm to 74AC04SC.
+Updated U2 symbol association from  to /7ea6213a-c1b2-43ca-94a8-4507cb3426d1.
+Updated U2 fields.
+Updated U2 sheetname to 'Root'.
+Updated U2 sheetfile to 'IMD_SAFETY_2024.kicad_sch'.
+Updated U2 footprint filters to 'DIP*W7.62mm* SSOP?14* TSSOP?14*'.
+Add net Net-(U2-Pad4).
+Connected U2 pin 4 to Net-(U2-Pad4).
+Connected U2 pin 5 to Net-(U2-Pad4).
+Connected U2 pin 14 to +5V.
+Connected U2 pin 3 to PWM_TTL.
+Connected U2 pin 1 to Net-(U3-Q).
+Connected U2 pin 7 to GND.
+Add net Net-(U3-D).
+Connected U2 pin 2 to Net-(U3-D).
+Connected U2 pin 6 to Net-(R7-Pad2).
+Added C3 (footprint 'Capacitor_SMD:C_0805_2012Metric').
+Added U3 (footprint 'Package_TO_SOT_SMD:SOT-23-5').
+Changed REF** reference designator to U3.
+Changed U3 value from SOT-23-5 to 74LVC1G79.
+Updated U3 symbol association from  to /6a0a781d-46c8-438d-ac23-9f853b771bda.
+Updated U3 fields.
+Updated U3 sheetname to 'Root'.
+Updated U3 sheetfile to 'IMD_SAFETY_2024.kicad_sch'.
+Updated U3 footprint filters to 'SOT* SG*'.
+Connected U3 pin 3 to GND.
+Connected U3 pin 2 to PWM_TTL.
+Connected U3 pin 4 to Net-(U3-Q).
+Connected U3 pin 5 to +5V.
+Connected U3 pin 1 to Net-(U3-D).
+Changed REF** reference designator to C3.
+Added U6 (footprint 'Package_TO_SOT_SMD:SOT-23-5').
+Changed REF** reference designator to U6.
+Changed U6 value from SOT-23-5 to 74LVC1G79.
+Updated U6 symbol association from  to /f2cbcfc0-2207-4a09-8b98-92b8fc9d0b17.
+Updated U6 fields.
+Updated U6 sheetname to 'Root'.
+Updated U6 sheetfile to 'IMD_SAFETY_2024.kicad_sch'.
+Updated U6 footprint filters to 'SOT* SG*'.
+Connected U6 pin 2 to Net-(U3-Q).
+Add net PWM_FREQ_OK.
+Connected U6 pin 4 to PWM_FREQ_OK.
+Connected U6 pin 1 to Net-(U6-D).
+Connected U6 pin 3 to GND.
+Connected U6 pin 5 to +5V.
+Changed C3 value from C_0805_2012Metric to 1u/35V.
+Added U7 (footprint 'Package_TO_SOT_SMD:TO-252-3_TabPin2').
+Changed REF** reference designator to U7.
+Changed U7 value from TO-252-3_TabPin2 to MC78M12CDTG.
+Updated U7 symbol association from  to /5ece657d-c0de-4caa-9322-49a1e1e61610.
+Updated U7 fields.
+Updated U7 sheetname to 'Root'.
+Updated U7 sheetfile to 'IMD_SAFETY_2024.kicad_sch'.
+Updated U7 footprint filters to 'TO?252*'.
+Connected U7 pin 2 to GND.
+Connected U7 pin 3 to +12V.
+Connected U7 pin 2 to GND.
+Connected U7 pin 2 to GND.
+Connected U7 pin 2 to GND.
+Connected U7 pin 2 to GND.
+Connected U7 pin 2 to GND.
+Connected U7 pin 1 to +24V.
+Updated C3 symbol association from  to /a3e1f570-163b-44c7-8245-4325b060d435.
+Added U8 (footprint 'Package_TO_SOT_SMD:SOT-223-3_TabPin2').
+Changed REF** reference designator to U8.
+Changed U8 value from SOT-223-3_TabPin2 to LM1117IMP-5.0.
+Updated U8 symbol association from  to /948085a5-0c0a-404d-bbce-40906c617f8c.
+Updated U8 fields.
+Updated U8 sheetname to 'Root'.
+Updated U8 sheetfile to 'IMD_SAFETY_2024.kicad_sch'.
+Updated U8 footprint filters to 'SOT?223* TO?263* TO?252* TO?220*'.
+Connected U8 pin 2 to +5V.
+Connected U8 pin 2 to +5V.
+Connected U8 pin 1 to GND.
+Connected U8 pin 3 to +12V.
+Updated C3 sheetname to 'Root'.
+Added U9 (footprint 'Samacsys:SOP65P640X120-14N').
+Changed IC** reference designator to U9.
+Changed U9 value from SOP65P640X120-14N to 74HCS32.
+Updated U9 symbol association from  to /c7b77174-e136-423b-a985-f01e22822790.
+Updated U9 fields.
+Updated U9 sheetname to 'Root'.
+Updated U9 sheetfile to 'IMD_SAFETY_2024.kicad_sch'.
+Updated U9 footprint filters to 'DIP?14*'.
+Connected U9 pin 3 to Net-(D4-A).
+Connected U16 pin 2 to Net-(U16A--).
+Connected U9 pin 14 to +5V.
+Add net Net-(U10-Pad3).
+Connected U9 pin 2 to Net-(U10-Pad3).
+Connected U9 pin 1 to OK_HS_TTL.
+Connected U9 pin 7 to GND.
+Updated C3 sheetfile to 'IMD_SAFETY_2024.kicad_sch'.
+Added U10 (footprint 'Samacsys:SOP65P640X120-14N').
+Changed IC** reference designator to U10.
+Changed U10 value from SOP65P640X120-14N to 74HCS08.
+Updated U10 symbol association from  to /f9e46fd2-4151-4b82-abe3-f6288fd44b77.
+Updated U10 fields.
+Updated U10 sheetname to 'Root'.
+Updated U10 sheetfile to 'IMD_SAFETY_2024.kicad_sch'.
+Updated U10 footprint filters to 'DIP*W7.62mm*'.
+Connected U10 pin 3 to Net-(U10-Pad3).
+Connected U10 pin 14 to +5V.
+Connected U10 pin 7 to GND.
+Connected U10 pin 2 to PWM_FREQ_OK.
+Connected U10 pin 1 to DUTY_OK.
+Updated C3 footprint filters to 'C_*'.
+Added U13 (footprint 'Samacsys:SOP65P640X120-14N').
+Changed IC** reference designator to U13.
+Changed U13 value from SOP65P640X120-14N to 74HC74.
+Updated U13 symbol association from  to /2a62dec0-2fb8-4222-b863-c4cacda2ae4e.
+Updated U13 fields.
+Updated U13 sheetname to 'Root'.
+Updated U13 sheetfile to 'IMD_SAFETY_2024.kicad_sch'.
+Updated U13 footprint filters to 'DIP*W7.62mm*'.
+Add net unconnected-(U13A-~{Q}-Pad6).
+Connected U13 pin 6 to unconnected-(U13A-~{Q}-Pad6).
+Connected U13 pin 4 to Net-(U13A-D).
+Connected U13 pin 3 to RESET.
+Connected U13 pin 1 to Net-(D4-K).
+Connected U13 pin 14 to +5V.
+Connected U13 pin 7 to GND.
+Connected U13 pin 5 to /Q_DFF.
+Connected U13 pin 2 to Net-(U13A-D).
+Add net +24V.
+Added U14 (footprint 'Samacsys:SOIC127P600X175-8N').
+Changed IC** reference designator to U14.
+Changed U14 value from SOIC127P600X175-8N to LM393.
+Updated U14 symbol association from  to /cedff5e8-bda5-43a7-8668-d385e2334e59.
+Updated U14 fields.
+Updated U14 sheetname to 'Root'.
+Updated U14 sheetfile to 'IMD_SAFETY_2024.kicad_sch'.
+Updated U14 footprint filters to 'SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* SOP*5.28x5.23mm*P1.27mm* VSSOP*3.0x3.0mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm*'.
+Connected U14 pin 3 to IMD_OK_HS.
+Connected U14 pin 5 to IMD_PWM_LS.
+Connected U14 pin 8 to +5V.
+Connected U14 pin 6 to Net-(U14A--).
+Connected U14 pin 2 to Net-(U14A--).
+Connected U14 pin 7 to PWM_TTL.
+Connected U14 pin 1 to OK_HS_TTL.
+Connected U14 pin 4 to GND.
+Connected C3 pin 1 to +24V.
+Added U15 (footprint 'Samacsys:SOIC127P600X175-8N').
+Changed IC** reference designator to U15.
+Changed U15 value from SOIC127P600X175-8N to LM393.
+Updated U15 symbol association from  to /9142a3d6-25fe-4a2a-943c-d1a2bbf8a9a5.
+Updated U15 fields.
+Updated U15 sheetname to 'Root'.
+Updated U15 sheetfile to 'IMD_SAFETY_2024.kicad_sch'.
+Updated U15 footprint filters to 'SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* SOP*5.28x5.23mm*P1.27mm* VSSOP*3.0x3.0mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm*'.
+Connected U15 pin 4 to GND.
+Connected U15 pin 8 to +5V.
+Connected U15 pin 7 to DUTY_OK.
+Connected U15 pin 2 to Net-(U15A--).
+Connected U15 pin 5 to Net-(U15A--).
+Connected U15 pin 1 to DUTY_OK.
+Connected U15 pin 6 to Net-(U15B--).
+Connected U15 pin 3 to Net-(U15A-+).
+Connected C3 pin 2 to GND.
+Added U16 (footprint 'Samacsys:SOIC127P600X175-8N').
+Changed IC** reference designator to U16.
+Changed U16 value from SOIC127P600X175-8N to LM393.
+Updated U16 symbol association from  to /f2329926-39dc-4fd9-927e-568ce0315261.
+Updated U16 fields.
+Updated U16 sheetname to 'Root'.
+Updated U16 sheetfile to 'IMD_SAFETY_2024.kicad_sch'.
+Updated U16 footprint filters to 'SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* SOP*5.28x5.23mm*P1.27mm* VSSOP*3.0x3.0mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm*'.
+Connected U16 pin 1 to Net-(U6-D).
+Connected U16 pin 3 to Net-(U16A-+).
+Connected U16 pin 4 to GND.
+Connected U16 pin 8 to +24V.
+Connected U16 pin 7 to Net-(U6-D).
+Connected U16 pin 5 to Net-(U16A--).
+Connected U16 pin 6 to Net-(U16B--).
+Warning: No net found for component U9 pad 4 (no pin 4 in symbol).
+Warning: No net found for component U13 pad 11 (no pin 11 in symbol).
+Warning: No net found for component U9 pad 11 (no pin 11 in symbol).
+Warning: No net found for component U13 pad 13 (no pin 13 in symbol).
+Warning: No net found for component U13 pad 12 (no pin 12 in symbol).
+Warning: No net found for component U10 pad 12 (no pin 12 in symbol).
+Warning: No net found for component U10 pad 9 (no pin 9 in symbol).
+Warning: No net found for component U10 pad 8 (no pin 8 in symbol).
+Warning: No net found for component U1 pad 5 (no pin 5 in symbol).
+Warning: No net found for component U10 pad 5 (no pin 5 in symbol).
+Warning: No net found for component U13 pad 8 (no pin 8 in symbol).
+Warning: No net found for component U10 pad 4 (no pin 4 in symbol).
+Warning: No net found for component U13 pad 9 (no pin 9 in symbol).
+Warning: No net found for component U13 pad 10 (no pin 10 in symbol).
+Warning: No net found for component U1 pad 6 (no pin 6 in symbol).
+Warning: No net found for component U10 pad 6 (no pin 6 in symbol).
+Warning: No net found for component U9 pad 13 (no pin 13 in symbol).
+Warning: No net found for component U9 pad 12 (no pin 12 in symbol).
+Warning: No net found for component U10 pad 11 (no pin 11 in symbol).
+Warning: No net found for component U10 pad 10 (no pin 10 in symbol).
+Warning: No net found for component U9 pad 9 (no pin 9 in symbol).
+Warning: No net found for component U10 pad 13 (no pin 13 in symbol).
+Warning: No net found for component U9 pad 8 (no pin 8 in symbol).
+Warning: No net found for component U2 pad 8 (no pin 8 in symbol).
+Warning: No net found for component U2 pad 10 (no pin 10 in symbol).
+Warning: No net found for component U2 pad 9 (no pin 9 in symbol).
+Warning: No net found for component U2 pad 12 (no pin 12 in symbol).
+Warning: No net found for component U9 pad 10 (no pin 10 in symbol).
+Warning: No net found for component U9 pad 5 (no pin 5 in symbol).
+Warning: No net found for component U1 pad 7 (no pin 7 in symbol).
+Warning: No net found for component U2 pad 13 (no pin 13 in symbol).
+Warning: No net found for component U2 pad 11 (no pin 11 in symbol).
+Warning: No net found for component U9 pad 6 (no pin 6 in symbol).
+
+
+Info: Total warnings: 33, errors: 0.
