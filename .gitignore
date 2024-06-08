@@ -8,6 +8,7 @@
 # KiCad
 /hardware/*-backups/
 /hardware/*.kicad_prl
+/hardware/bom/
 /hardware/fp-info-cache
 /hardware/\#auto_saved_files\#
 

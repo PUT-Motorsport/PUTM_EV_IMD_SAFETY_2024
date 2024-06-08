@@ -11053,6 +11053,16 @@
 		)
 		(uuid "5a083e9a-37ad-4a5b-a389-04f0689ab4a1")
 	)
+	(text "Remove R2\nWhen working with function generator"
+		(exclude_from_sim no)
+		(at 82.55 24.13 0)
+		(effects
+			(font
+				(size 0.5 0.5)
+			)
+		)
+		(uuid "5f4f4326-7c6e-425b-b29a-1fa68d95e15f")
+	)
 	(text "Cockpit LED PCB side"
 		(exclude_from_sim no)
 		(at 394.208 245.872 0)
@@ -11145,6 +11155,16 @@
 			(justify left bottom)
 		)
 		(uuid "986e8c09-2a5a-40c2-8d70-df3953b9a837")
+	)
+	(text "Jumper option\n"
+		(exclude_from_sim no)
+		(at 323.85 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b2912d7b-b4dd-4fd8-af1e-e6ed6818ae3b")
 	)
 	(text "Supply Section"
 		(exclude_from_sim no)
@@ -20328,7 +20348,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "3k"
 			(at 20.828 110.363 0)
 			(effects
 				(font
@@ -23899,7 +23919,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "22k"
 			(at 20.828 100.203 0)
 			(effects
 				(font
