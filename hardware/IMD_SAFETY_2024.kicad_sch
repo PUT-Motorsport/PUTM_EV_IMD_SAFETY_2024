@@ -10948,6 +10948,16 @@
 		)
 		(uuid "ffb611b8-0f5e-404f-ab9c-26590aab6120")
 	)
+	(text "100Ohms"
+		(exclude_from_sim no)
+		(at 93.98 177.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "00058b95-62d9-4c7f-8f7e-083987acb80c")
+	)
 	(text "Minimal response value by EV 6.3.3: 294kOhm"
 		(exclude_from_sim no)
 		(at 331.724 306.07 0)
@@ -10989,6 +10999,16 @@
 		)
 		(uuid "1ccd5349-46ce-493f-96fc-f92917b58dcc")
 	)
+	(text "///FSG REGULATED"
+		(exclude_from_sim no)
+		(at 69.85 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "221eed47-69d6-4e5e-a9ca-99d6aa897aac")
+	)
 	(text "Decision Logic, SDC Latch"
 		(exclude_from_sim no)
 		(at 270.764 232.664 0)
@@ -11011,6 +11031,16 @@
 		)
 		(uuid "32e9ac3f-4729-4f69-a6cd-d0ba4fe88dfd")
 	)
+	(text "5kOhms"
+		(exclude_from_sim no)
+		(at 80.01 157.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "34186ed6-763f-4e08-b52f-913d999ec192")
+	)
 	(text "~2.7s Autoreset delay"
 		(exclude_from_sim no)
 		(at 154.94 128.27 0)
@@ -11021,6 +11051,16 @@
 			(justify left bottom)
 		)
 		(uuid "3b5cfedf-5f3c-4e39-8d40-4b54e2dab7a1")
+	)
+	(text "2.7kOhms"
+		(exclude_from_sim no)
+		(at 78.74 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4858a858-ee13-4fe5-a86e-4c571163f112")
 	)
 	(text "DFF's power decoupling"
 		(exclude_from_sim no)
@@ -11145,6 +11185,16 @@
 		)
 		(uuid "7c322179-1210-4beb-be15-8aa3773937b1")
 	)
+	(text "DODAĆ TVS, CAP 100nF i 100R"
+		(exclude_from_sim no)
+		(at 233.68 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "814423f7-7ad9-4afc-a9de-59e8c4ca15d6")
+	)
 	(text "Frequency Check"
 		(exclude_from_sim no)
 		(at 162.56 256.54 0)
@@ -11156,6 +11206,16 @@
 		)
 		(uuid "986e8c09-2a5a-40c2-8d70-df3953b9a837")
 	)
+	(text "3,455\n"
+		(exclude_from_sim no)
+		(at 176.53 144.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a85a4221-e50b-4f31-a1a1-1316406a41c4")
+	)
 	(text "Jumper option\n"
 		(exclude_from_sim no)
 		(at 323.85 123.19 0)
@@ -11165,6 +11225,16 @@
 			)
 		)
 		(uuid "b2912d7b-b4dd-4fd8-af1e-e6ed6818ae3b")
+	)
+	(text "100kOhm\n"
+		(exclude_from_sim no)
+		(at 172.72 157.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b6159ed7-a77a-491b-9034-830dc3769afb")
 	)
 	(text "Supply Section"
 		(exclude_from_sim no)
@@ -11176,6 +11246,16 @@
 			(justify left bottom)
 		)
 		(uuid "b64c4d31-a814-4b07-9ccc-79dc5d8f19f8")
+	)
+	(text "DODAĆ DIODE"
+		(exclude_from_sim no)
+		(at 392.43 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b81f8560-4a25-4b17-8cfb-f47030197d19")
 	)
 	(text "Duty Check"
 		(exclude_from_sim no)
@@ -11198,6 +11278,16 @@
 		)
 		(uuid "cbc08198-0e1f-4a16-b966-d59f7250a084")
 	)
+	(text "NEEEDED THRESHOLD 3,26V - 65% DUTY - 600 kOhms "
+		(exclude_from_sim no)
+		(at 57.15 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d55ff252-1a36-42bf-b89b-0a18b2d91259")
+	)
 	(text "SCS"
 		(exclude_from_sim no)
 		(at 391.922 106.172 0)
@@ -11210,7 +11300,7 @@
 	)
 	(text "1.0V"
 		(exclude_from_sim no)
-		(at 82.55 153.67 0)
+		(at 95.25 160.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
