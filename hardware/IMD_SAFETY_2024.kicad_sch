@@ -7319,7 +7319,7 @@
 		(uuid "386ecced-080e-4668-9348-605460db6211")
 	)
 	(junction
-		(at 397.51 220.98)
+		(at 396.24 177.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "38cb02ac-1535-4f6c-9250-34cde7e948e7")
@@ -7463,7 +7463,7 @@
 		(uuid "9cbc7bf6-ee80-4623-9c09-397efc016ad3")
 	)
 	(junction
-		(at 377.19 227.33)
+		(at 375.92 184.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a1c12d3e-a760-4067-b082-9e9218073fc9")
@@ -7497,6 +7497,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b1fc97c7-100a-4d55-9d39-991c00b663a4")
+	)
+	(junction
+		(at 227.33 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b3605e51-9d8e-4fb9-ac15-f160c5ad4f16")
 	)
 	(junction
 		(at 210.82 25.4)
@@ -7832,7 +7838,7 @@
 	)
 	(wire
 		(pts
-			(xy 373.38 227.33) (xy 377.19 227.33)
+			(xy 372.11 184.15) (xy 375.92 184.15)
 		)
 		(stroke
 			(width 0)
@@ -8032,7 +8038,7 @@
 	)
 	(wire
 		(pts
-			(xy 377.19 227.33) (xy 378.46 227.33)
+			(xy 375.92 184.15) (xy 377.19 184.15)
 		)
 		(stroke
 			(width 0)
@@ -8352,7 +8358,7 @@
 	)
 	(polyline
 		(pts
-			(xy 299.72 182.88) (xy 308.61 182.88)
+			(xy 308.61 175.26) (xy 317.5 175.26)
 		)
 		(stroke
 			(width 0)
@@ -8373,7 +8379,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 41.91) (xy 39.37 41.91)
+			(xy 41.91 41.91) (xy 39.37 41.91)
 		)
 		(stroke
 			(width 0)
@@ -8463,7 +8469,7 @@
 	)
 	(wire
 		(pts
-			(xy 386.08 232.41) (xy 386.08 234.95)
+			(xy 384.81 189.23) (xy 384.81 191.77)
 		)
 		(stroke
 			(width 0)
@@ -8573,7 +8579,7 @@
 	)
 	(wire
 		(pts
-			(xy 397.51 213.36) (xy 397.51 212.09)
+			(xy 396.24 170.18) (xy 396.24 168.91)
 		)
 		(stroke
 			(width 0)
@@ -8793,7 +8799,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 125.73) (xy 227.33 129.54)
+			(xy 227.33 133.35) (xy 227.33 134.62)
 		)
 		(stroke
 			(width 0)
@@ -8931,9 +8937,19 @@
 		)
 		(uuid "58073377-2caa-4064-b867-9963233fefd2")
 	)
+	(wire
+		(pts
+			(xy 227.33 120.65) (xy 227.33 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58d6627a-90e0-4fec-a66b-c9b4bd2317c2")
+	)
 	(polyline
 		(pts
-			(xy 308.61 176.53) (xy 317.5 176.53)
+			(xy 317.5 168.91) (xy 326.39 168.91)
 		)
 		(stroke
 			(width 0)
@@ -9084,7 +9100,7 @@
 	)
 	(polyline
 		(pts
-			(xy 374.65 204.47) (xy 374.65 242.57)
+			(xy 373.38 161.29) (xy 373.38 199.39)
 		)
 		(stroke
 			(width 0)
@@ -9164,7 +9180,7 @@
 	)
 	(wire
 		(pts
-			(xy 377.19 227.33) (xy 377.19 229.87)
+			(xy 375.92 184.15) (xy 375.92 186.69)
 		)
 		(stroke
 			(width 0)
@@ -9184,7 +9200,7 @@
 	)
 	(wire
 		(pts
-			(xy 386.08 220.98) (xy 386.08 222.25)
+			(xy 384.81 177.8) (xy 384.81 179.07)
 		)
 		(stroke
 			(width 0)
@@ -9574,7 +9590,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 110.49) (xy 246.38 110.49)
+			(xy 227.33 110.49) (xy 246.38 110.49)
 		)
 		(stroke
 			(width 0)
@@ -9684,7 +9700,7 @@
 	)
 	(wire
 		(pts
-			(xy 397.51 220.98) (xy 397.51 222.25)
+			(xy 396.24 177.8) (xy 396.24 179.07)
 		)
 		(stroke
 			(width 0)
@@ -9831,16 +9847,6 @@
 			(type default)
 		)
 		(uuid "9e0a5c6a-70a4-41f4-9dcb-4f335016b007")
-	)
-	(wire
-		(pts
-			(xy 227.33 110.49) (xy 234.95 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f5bbef4-2d8a-4962-b6d6-4b5444a2693d")
 	)
 	(wire
 		(pts
@@ -10134,6 +10140,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 123.19) (xy 227.33 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba739a9c-63aa-4d0a-a196-a311d8ca6490")
+	)
+	(wire
+		(pts
 			(xy 217.17 110.49) (xy 227.33 110.49)
 		)
 		(stroke
@@ -10224,7 +10240,7 @@
 	)
 	(wire
 		(pts
-			(xy 397.51 229.87) (xy 397.51 233.68)
+			(xy 396.24 186.69) (xy 396.24 190.5)
 		)
 		(stroke
 			(width 0)
@@ -10314,7 +10330,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 110.49) (xy 227.33 115.57)
+			(xy 227.33 110.49) (xy 227.33 113.03)
 		)
 		(stroke
 			(width 0)
@@ -10354,7 +10370,7 @@
 	)
 	(polyline
 		(pts
-			(xy 374.65 242.57) (xy 407.67 242.57)
+			(xy 373.38 199.39) (xy 406.4 199.39)
 		)
 		(stroke
 			(width 0)
@@ -10434,7 +10450,7 @@
 	)
 	(polyline
 		(pts
-			(xy 308.61 182.88) (xy 308.61 176.53)
+			(xy 317.5 175.26) (xy 317.5 168.91)
 		)
 		(stroke
 			(width 0)
@@ -10495,7 +10511,7 @@
 	)
 	(wire
 		(pts
-			(xy 386.08 220.98) (xy 397.51 220.98)
+			(xy 384.81 177.8) (xy 396.24 177.8)
 		)
 		(stroke
 			(width 0)
@@ -11015,7 +11031,7 @@
 	)
 	(polyline
 		(pts
-			(xy 407.67 204.47) (xy 374.65 204.47)
+			(xy 406.4 161.29) (xy 373.38 161.29)
 		)
 		(stroke
 			(width 0)
@@ -11045,7 +11061,7 @@
 	)
 	(text "Minimal response value by EV 6.3.3: 294kOhm"
 		(exclude_from_sim no)
-		(at 331.724 306.07 0)
+		(at 322.834 251.46 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11086,7 +11102,7 @@
 	)
 	(text "Decision Logic, SDC Latch"
 		(exclude_from_sim no)
-		(at 283.464 199.644 0)
+		(at 292.354 192.024 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -11117,7 +11133,7 @@
 		)
 		(uuid "3b5cfedf-5f3c-4e39-8d40-4b54e2dab7a1")
 	)
-	(text "Legacy RC Hold, bypass.\npopulate only if necessary"
+	(text "Legacy RC Hold,\npopulate only if necessary,\notherwise short."
 		(exclude_from_sim no)
 		(at 285.75 163.83 0)
 		(effects
@@ -11139,7 +11155,7 @@
 	)
 	(text "ERR\n"
 		(exclude_from_sim no)
-		(at 303.276 181.864 0)
+		(at 312.166 174.244 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11170,7 +11186,7 @@
 	)
 	(text "Cockpit LED PCB side"
 		(exclude_from_sim no)
-		(at 394.208 245.872 0)
+		(at 392.938 202.692 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11180,7 +11196,7 @@
 	)
 	(text "3.269V"
 		(exclude_from_sim no)
-		(at 92.71 162.56 0)
+		(at 101.6 148.59 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11190,7 +11206,7 @@
 	)
 	(text "PM09 Max TS Voltage = 588V"
 		(exclude_from_sim no)
-		(at 323.85 302.26 0)
+		(at 314.96 247.65 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11200,7 +11216,7 @@
 	)
 	(text "OK\n"
 		(exclude_from_sim no)
-		(at 313.182 175.768 0)
+		(at 322.072 168.148 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11218,7 +11234,7 @@
 		)
 		(uuid "6baccd69-3504-4ece-9cd9-32e3eff5ce4d")
 	)
-	(text "'0' WHEN > 1V ON RISING OF PWM"
+	(text "'0' WHEN > 3.27V ON RISING OF PWM"
 		(exclude_from_sim no)
 		(at 115.824 144.018 0)
 		(effects
@@ -11231,7 +11247,7 @@
 	)
 	(text "Additional manual reset button\noutside of drivers reach"
 		(exclude_from_sim no)
-		(at 214.63 124.46 0)
+		(at 214.63 133.35 0)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -11260,16 +11276,6 @@
 		)
 		(uuid "7c322179-1210-4beb-be15-8aa3773937b1")
 	)
-	(text "DODAĆ TVS, CAP 100nF i 100R"
-		(exclude_from_sim no)
-		(at 256.54 87.63 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "814423f7-7ad9-4afc-a9de-59e8c4ca15d6")
-	)
 	(text "Frequency Check"
 		(exclude_from_sim no)
 		(at 162.56 256.54 0)
@@ -11280,16 +11286,6 @@
 			(justify left bottom)
 		)
 		(uuid "986e8c09-2a5a-40c2-8d70-df3953b9a837")
-	)
-	(text "Jumper option\n"
-		(exclude_from_sim no)
-		(at 323.85 123.19 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "b2912d7b-b4dd-4fd8-af1e-e6ed6818ae3b")
 	)
 	(text "Supply Section"
 		(exclude_from_sim no)
@@ -11315,7 +11311,7 @@
 	)
 	(text "turns LED OFF when closing SDC by\nMOSFET bypass, safe state is LED ON"
 		(exclude_from_sim no)
-		(at 388.112 199.898 0)
+		(at 386.842 156.718 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11356,7 +11352,7 @@
 	)
 	(text "Only on the rising edge of 74HC74 CLK\n(Auto-Reset or Reset Button) Q output will assert\nIMD OK signal from CLR input, if signal is not present it latches low"
 		(exclude_from_sim no)
-		(at 308.356 187.706 0)
+		(at 317.246 180.086 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11485,6 +11481,28 @@
 		(uuid "216dac37-578d-40f1-84d0-1bfc3e865b79")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 396.1409 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "EXT_RESET"
+		(shape input)
+		(at 41.91 41.91 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "264149dc-2c7c-4b2d-ae19-46088c334f70")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 54.934 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11625,7 +11643,7 @@
 	)
 	(global_label "COCKPIT_LED"
 		(shape input)
-		(at 373.38 227.33 180)
+		(at 372.11 184.15 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11635,7 +11653,7 @@
 		)
 		(uuid "9b6863db-75dd-4254-8402-60a0d90751e1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 357.9972 227.33 0)
+			(at 356.7272 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11684,28 +11702,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "RESET"
-		(shape output)
-		(at 40.64 41.91 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b61e393d-8d93-4075-aaf4-2e5d53aea9f3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 49.3703 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -11902,6 +11898,28 @@
 			)
 		)
 	)
+	(global_label "EXT_RESET"
+		(shape input)
+		(at 217.17 123.19 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fd8adbf2-3605-4836-a23f-5e3572f1e3b9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 204.146 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(symbol
 		(lib_id "PUTM_EV_IMD_SAFETY_2021-rescue:R-Device")
 		(at 87.63 147.32 180)
@@ -11973,7 +11991,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Constant_Current")
-		(at 397.51 217.17 90)
+		(at 396.24 173.99 90)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -11982,7 +12000,7 @@
 		(fields_autoplaced yes)
 		(uuid "00e1203a-bb8e-46cb-9569-cd3f5e9bb4f8")
 		(property "Reference" "D1"
-			(at 400.05 215.8999 90)
+			(at 398.78 172.7199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11991,7 +12009,7 @@
 			)
 		)
 		(property "Value" "AL5809"
-			(at 400.05 218.4399 90)
+			(at 398.78 175.2599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12000,7 +12018,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 397.51 217.17 0)
+			(at 396.24 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12009,7 +12027,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 397.51 217.17 0)
+			(at 396.24 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12018,7 +12036,7 @@
 			)
 		)
 		(property "Description" "Constant-current diode / current limiting diode / current regulator diode"
-			(at 397.51 217.17 0)
+			(at 396.24 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14861,7 +14879,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 377.19 232.41 0)
+		(at 375.92 189.23 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -14870,7 +14888,7 @@
 		(fields_autoplaced yes)
 		(uuid "485c2dad-e603-4a14-a5f6-f0e1fb70da8c")
 		(property "Reference" "R21"
-			(at 379.73 231.1399 0)
+			(at 378.46 187.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14879,7 +14897,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 379.73 233.6799 0)
+			(at 378.46 190.4999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14888,7 +14906,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 377.19 232.41 0)
+			(at 375.92 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14897,7 +14915,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 377.19 232.41 0)
+			(at 375.92 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14906,7 +14924,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 377.19 232.41 0)
+			(at 375.92 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16946,7 +16964,7 @@
 	)
 	(symbol
 		(lib_id "PUTM_EV_IMD_SAFETY_2021-rescue:GND-power")
-		(at 227.33 129.54 0)
+		(at 227.33 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16954,7 +16972,7 @@
 		(dnp no)
 		(uuid "6f1ca070-7eb5-42a7-8aea-9457ace4cee0")
 		(property "Reference" "#PWR047"
-			(at 227.33 135.89 0)
+			(at 227.33 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16963,7 +16981,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 227.457 133.9342 0)
+			(at 227.457 139.0142 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16971,7 +16989,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 227.33 129.54 0)
+			(at 227.33 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16980,7 +16998,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 227.33 129.54 0)
+			(at 227.33 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16989,7 +17007,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 227.33 129.54 0)
+			(at 227.33 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17733,7 +17751,7 @@
 	)
 	(symbol
 		(lib_id "PUTM_EV_IMD_SAFETY_2021-rescue:GND-power")
-		(at 386.08 234.95 0)
+		(at 384.81 191.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17741,7 +17759,7 @@
 		(dnp no)
 		(uuid "84f6cbd6-18ee-4f38-b019-b4aaaac5bc36")
 		(property "Reference" "#PWR039"
-			(at 386.08 241.3 0)
+			(at 384.81 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17750,7 +17768,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 386.207 239.3442 0)
+			(at 384.937 196.1642 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17758,7 +17776,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 386.08 234.95 0)
+			(at 384.81 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17767,7 +17785,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 386.08 234.95 0)
+			(at 384.81 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17776,7 +17794,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 386.08 234.95 0)
+			(at 384.81 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18864,7 +18882,7 @@
 				)
 			)
 		)
-		(property "Value" "Main- M80-5300842"
+		(property "Value" "Main- M80-5000842"
 			(at 24.892 30.7594 0)
 			(effects
 				(font
@@ -18872,7 +18890,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Samacsys:M80-53008YY"
+		(property "Footprint" "footprints:M80-50008YY_2"
 			(at 34.29 41.91 0)
 			(effects
 				(font
@@ -19879,7 +19897,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 397.51 226.06 90)
+		(at 396.24 182.88 90)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -19888,7 +19906,7 @@
 		(fields_autoplaced yes)
 		(uuid "ad01933d-3c9c-462f-8ac8-97fb894fc40c")
 		(property "Reference" "D3"
-			(at 401.32 226.3774 90)
+			(at 400.05 183.1974 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19897,7 +19915,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 401.32 228.9174 90)
+			(at 400.05 185.7374 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19906,7 +19924,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 397.51 226.06 0)
+			(at 396.24 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19915,7 +19933,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 397.51 226.06 0)
+			(at 396.24 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19924,7 +19942,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 397.51 226.06 0)
+			(at 396.24 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19942,6 +19960,75 @@
 			(project "IMD_SAFETY_2024"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
 					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PUTM_EV_IMD_SAFETY_2021-rescue:R-Device")
+		(at 227.33 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ad49e6aa-5c54-467a-8f74-9f73bceba607")
+		(property "Reference" "R22"
+			(at 222.25 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "33R"
+			(at 225.044 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 225.552 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 227.33 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 227.33 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "94ff89ca-bece-47a5-8f9c-456e0a4499ba")
+		)
+		(pin "2"
+			(uuid "a1ea78fa-9eee-4dac-8fc6-5617dc475409")
+		)
+		(instances
+			(project "IMD_SAFETY_2024"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -20231,7 +20318,7 @@
 	)
 	(symbol
 		(lib_id "PUTM_EV_IMD_SAFETY_2021-rescue:GND-power")
-		(at 377.19 234.95 0)
+		(at 375.92 191.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20239,7 +20326,7 @@
 		(dnp no)
 		(uuid "b808dc4e-cdf2-4b5b-a960-ae6945ebe696")
 		(property "Reference" "#PWR040"
-			(at 377.19 241.3 0)
+			(at 375.92 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20248,7 +20335,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 377.317 239.3442 0)
+			(at 376.047 196.1642 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20256,7 +20343,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 377.19 234.95 0)
+			(at 375.92 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20265,7 +20352,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 377.19 234.95 0)
+			(at 375.92 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20274,7 +20361,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 377.19 234.95 0)
+			(at 375.92 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20527,7 +20614,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 227.33 120.65 90)
+		(at 227.33 128.27 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20535,7 +20622,7 @@
 		(dnp no)
 		(uuid "bdcde513-7775-4742-9180-79d1531b986f")
 		(property "Reference" "SW1"
-			(at 228.6 119.3799 90)
+			(at 228.6 126.9999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20544,7 +20631,7 @@
 			)
 		)
 		(property "Value" "Push Button"
-			(at 213.36 124.46 90)
+			(at 213.36 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20554,7 +20641,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 222.25 120.65 0)
+			(at 222.25 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20563,7 +20650,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 222.25 120.65 0)
+			(at 222.25 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20572,7 +20659,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 227.33 120.65 0)
+			(at 227.33 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21065,75 +21152,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PUTM_EV_IMD_SAFETY_2021-rescue:R-Device")
-		(at 238.76 110.49 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c0760261-b524-4cfb-8bab-185395ee7bd0")
-		(property "Reference" "R22"
-			(at 241.3 105.41 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "33R"
-			(at 241.3 108.204 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 238.76 108.712 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 238.76 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 238.76 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "50aa2f03-5fd2-4002-8518-06679d8e98fb")
-		)
-		(pin "2"
-			(uuid "3a0972a8-6e95-404b-95df-2a0ca7e2049e")
-		)
-		(instances
-			(project "IMD_SAFETY_2024"
-				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
-					(reference "R22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PUTM_EV_IMD_SAFETY_2021-rescue:GND-power")
 		(at 72.39 52.07 0)
 		(unit 1)
@@ -21496,7 +21514,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 397.51 212.09 0)
+		(at 396.24 168.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21505,7 +21523,7 @@
 		(fields_autoplaced yes)
 		(uuid "c8953eeb-5cce-4c4d-9281-51f4e9e8e45c")
 		(property "Reference" "#PWR041"
-			(at 397.51 215.9 0)
+			(at 396.24 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21514,7 +21532,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 397.51 207.01 0)
+			(at 396.24 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21522,7 +21540,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 397.51 212.09 0)
+			(at 396.24 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21531,7 +21549,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 397.51 212.09 0)
+			(at 396.24 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21540,7 +21558,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 397.51 212.09 0)
+			(at 396.24 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21696,7 +21714,7 @@
 	)
 	(symbol
 		(lib_id "PUTM_EV_IMD_SAFETY_2021-rescue:2N7002-Transistor_FET")
-		(at 383.54 227.33 0)
+		(at 382.27 184.15 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -21704,7 +21722,7 @@
 		(dnp no)
 		(uuid "ca211b29-95bf-437c-9440-1eba16ce6a82")
 		(property "Reference" "Q2"
-			(at 388.7216 226.1616 0)
+			(at 387.4516 182.9816 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21713,7 +21731,7 @@
 			)
 		)
 		(property "Value" "2N7002"
-			(at 388.7216 228.473 0)
+			(at 387.4516 185.293 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21722,7 +21740,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 388.62 229.235 0)
+			(at 387.35 186.055 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21733,7 +21751,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf"
-			(at 383.54 227.33 0)
+			(at 382.27 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21743,7 +21761,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 383.54 227.33 0)
+			(at 382.27 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22900,7 +22918,7 @@
 	)
 	(symbol
 		(lib_id "PUTM_EV_IMD_SAFETY_2021-rescue:GND-power")
-		(at 397.51 233.68 0)
+		(at 396.24 190.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22908,7 +22926,7 @@
 		(dnp no)
 		(uuid "dd01e66a-b1fa-4c2e-ae5f-b72f9427d4dd")
 		(property "Reference" "#PWR042"
-			(at 397.51 240.03 0)
+			(at 396.24 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22917,7 +22935,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 397.637 238.0742 0)
+			(at 396.367 194.8942 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22925,7 +22943,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 397.51 233.68 0)
+			(at 396.24 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22934,7 +22952,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 397.51 233.68 0)
+			(at 396.24 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22943,7 +22961,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 397.51 233.68 0)
+			(at 396.24 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
