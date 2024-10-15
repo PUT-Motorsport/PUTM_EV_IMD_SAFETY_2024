@@ -2181,6 +2181,141 @@
 				)
 			)
 		)
+		(symbol "Device:C_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:D_Constant_Current"
 			(pin_numbers hide)
 			(pin_names
@@ -2756,6 +2891,152 @@
 					(at 3.81 0 180)
 					(length 2.54)
 					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:Polyfuse"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Polyfuse"
+				(at 2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.27 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "resettable fuse PTC PPTC polyfuse polyswitch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*polyfuse* *PTC*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Polyfuse_0_1"
+				(rectangle
+					(start -0.762 2.54)
+					(end 0.762 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 2.54) (xy -1.524 1.524) (xy 1.524 -1.524) (xy 1.524 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Polyfuse_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5824,130 +6105,6 @@
 				)
 			)
 		)
-		(symbol "PUTM_EV_IMD_SAFETY_2021-rescue:Fuse-Device"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "F"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Fuse-Device"
-				(at -1.905 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*Fuse*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Fuse-Device_0_1"
-				(rectangle
-					(start -0.762 -2.54)
-					(end 0.762 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Fuse-Device_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "PUTM_EV_IMD_SAFETY_2021-rescue:GND-power"
 			(power)
 			(pin_names
@@ -7349,6 +7506,12 @@
 		(uuid "42b934bf-8af4-40e9-98b9-fcc440bb8149")
 	)
 	(junction
+		(at 147.32 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4a1635be-47cc-42af-8e3f-a05baeab839a")
+	)
+	(junction
 		(at 132.08 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7451,6 +7614,12 @@
 		(uuid "93fc57f8-b3b0-4cf8-8859-5b8aef83f0e3")
 	)
 	(junction
+		(at 127 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "94cb8de9-619f-4235-b71d-4a0d940f9a68")
+	)
+	(junction
 		(at 19.05 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7505,6 +7674,12 @@
 		(uuid "b3605e51-9d8e-4fb9-ac15-f160c5ad4f16")
 	)
 	(junction
+		(at 147.32 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b78a4c6d-ac97-45fa-9842-fd0b9fe8b297")
+	)
+	(junction
 		(at 210.82 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7539,12 +7714,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bce31c00-0be4-410b-bbb7-85a1dc0b6ba7")
-	)
-	(junction
-		(at 127 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bded4069-0161-416d-8165-85017fde961e")
 	)
 	(junction
 		(at 157.48 45.72)
@@ -7695,6 +7864,16 @@
 	(no_connect
 		(at 377.19 106.68)
 		(uuid "81fd0c39-8c27-4238-9cd4-7b02dd061577")
+	)
+	(wire
+		(pts
+			(xy 115.57 45.72) (xy 128.27 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "000cec05-7f8b-43b7-b812-7af1daf5132b")
 	)
 	(wire
 		(pts
@@ -7858,16 +8037,6 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 45.72) (xy 127 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d4f655b-b584-4830-a971-8369e5c9747b")
-	)
-	(wire
-		(pts
 			(xy 375.92 27.94) (xy 375.92 33.02)
 		)
 		(stroke
@@ -8026,6 +8195,16 @@
 		)
 		(uuid "14bc9190-63ed-4c15-b6aa-1d518f022fe5")
 	)
+	(polyline
+		(pts
+			(xy 259.08 137.16) (xy 285.75 137.16)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "16001ab1-457c-4416-9ceb-046cf63f0992")
+	)
 	(wire
 		(pts
 			(xy 227.33 105.41) (xy 227.33 110.49)
@@ -8098,6 +8277,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 45.72) (xy 135.89 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a879c14-f631-4058-a971-c1d03b687ded")
+	)
+	(wire
+		(pts
 			(xy 59.69 213.995) (xy 62.23 213.995)
 		)
 		(stroke
@@ -8158,7 +8347,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 45.72) (xy 127 43.18)
+			(xy 128.27 45.72) (xy 128.27 43.18)
 		)
 		(stroke
 			(width 0)
@@ -8228,6 +8417,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 34.29) (xy 139.7 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24791e44-7378-47f9-85bd-30c07968496a")
+	)
+	(wire
+		(pts
 			(xy 76.2 233.045) (xy 100.33 233.045)
 		)
 		(stroke
@@ -8245,6 +8444,16 @@
 			(type default)
 		)
 		(uuid "24bb7b91-7ef0-405e-a5f5-30007846ca38")
+	)
+	(wire
+		(pts
+			(xy 147.32 34.29) (xy 147.32 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "252ca135-e404-44a8-a2f5-f02ed8f1cac6")
 	)
 	(wire
 		(pts
@@ -8358,7 +8567,7 @@
 	)
 	(polyline
 		(pts
-			(xy 308.61 175.26) (xy 317.5 175.26)
+			(xy 313.69 176.53) (xy 322.58 176.53)
 		)
 		(stroke
 			(width 0)
@@ -8446,6 +8655,16 @@
 			(type default)
 		)
 		(uuid "36d2a40d-af37-4e5c-b37b-d5acb0a67d0c")
+	)
+	(wire
+		(pts
+			(xy 128.27 34.29) (xy 127 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36e28e01-f8ef-4bb4-8195-7f2d0827089d")
 	)
 	(wire
 		(pts
@@ -8689,16 +8908,6 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 34.29) (xy 127 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49a61d4d-68ae-4e35-9d01-39ee7a10084b")
-	)
-	(wire
-		(pts
 			(xy 76.2 177.8) (xy 80.01 177.8)
 		)
 		(stroke
@@ -8749,7 +8958,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 45.72) (xy 139.7 45.72)
+			(xy 157.48 45.72) (xy 147.32 45.72)
 		)
 		(stroke
 			(width 0)
@@ -8949,7 +9158,7 @@
 	)
 	(polyline
 		(pts
-			(xy 317.5 168.91) (xy 326.39 168.91)
+			(xy 322.58 170.18) (xy 331.47 170.18)
 		)
 		(stroke
 			(width 0)
@@ -9440,6 +9649,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 34.29) (xy 127 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "828e9ebe-a1e6-4dab-9540-52b16687d8b4")
+	)
+	(wire
+		(pts
 			(xy 121.92 218.44) (xy 121.92 219.075)
 		)
 		(stroke
@@ -9778,6 +9997,16 @@
 		)
 		(uuid "9b5615e4-3f27-47fb-aa94-fab72fb8046a")
 	)
+	(polyline
+		(pts
+			(xy 259.08 168.91) (xy 285.75 168.91)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "9b618414-ea69-46d0-b53d-a2b555868b9e")
+	)
 	(wire
 		(pts
 			(xy 359.41 138.43) (xy 359.41 146.05)
@@ -9898,6 +10127,16 @@
 		)
 		(uuid "a2f3a40b-d10a-43ed-8a83-ca107158b034")
 	)
+	(polyline
+		(pts
+			(xy 259.08 168.91) (xy 259.08 137.16)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "a329a94e-5853-4b67-a1e7-915155d104e9")
+	)
 	(wire
 		(pts
 			(xy 227.33 96.52) (xy 227.33 97.79)
@@ -9920,7 +10159,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 34.29) (xy 127 35.56)
+			(xy 128.27 34.29) (xy 128.27 35.56)
 		)
 		(stroke
 			(width 0)
@@ -10017,6 +10256,16 @@
 			(type default)
 		)
 		(uuid "b542937b-475b-4e93-8858-c7add06f6f0a")
+	)
+	(wire
+		(pts
+			(xy 147.32 41.91) (xy 147.32 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b633d074-d093-4d5b-90ad-e6a3c2c5eda4")
 	)
 	(wire
 		(pts
@@ -10350,7 +10599,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 45.72) (xy 139.7 43.18)
+			(xy 135.89 45.72) (xy 135.89 43.18)
 		)
 		(stroke
 			(width 0)
@@ -10390,7 +10639,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 35.56) (xy 139.7 34.29)
+			(xy 135.89 35.56) (xy 135.89 34.29)
 		)
 		(stroke
 			(width 0)
@@ -10450,7 +10699,7 @@
 	)
 	(polyline
 		(pts
-			(xy 317.5 175.26) (xy 317.5 168.91)
+			(xy 322.58 176.53) (xy 322.58 170.18)
 		)
 		(stroke
 			(width 0)
@@ -10568,6 +10817,16 @@
 			(type default)
 		)
 		(uuid "dfadd2c1-19bd-4663-968b-05fc61bdecde")
+	)
+	(polyline
+		(pts
+			(xy 285.75 137.16) (xy 285.75 168.91)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "e0b99106-8a58-4e84-84d0-69775c110bf3")
 	)
 	(wire
 		(pts
@@ -10711,13 +10970,23 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 34.29) (xy 149.86 34.29)
+			(xy 139.7 34.29) (xy 147.32 34.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e6ff8593-31ac-415c-a853-bc251570e137")
+	)
+	(wire
+		(pts
+			(xy 147.32 34.29) (xy 149.86 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e74b636d-f4ee-445d-a527-b9e4fd5cf41f")
 	)
 	(wire
 		(pts
@@ -11102,7 +11371,7 @@
 	)
 	(text "Decision Logic, SDC Latch"
 		(exclude_from_sim no)
-		(at 292.354 192.024 0)
+		(at 297.434 193.294 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -11135,7 +11404,7 @@
 	)
 	(text "Legacy RC Hold,\npopulate only if necessary,\notherwise short."
 		(exclude_from_sim no)
-		(at 285.75 163.83 0)
+		(at 300.99 165.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11155,7 +11424,7 @@
 	)
 	(text "ERR\n"
 		(exclude_from_sim no)
-		(at 312.166 174.244 0)
+		(at 316.23 175.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11216,7 +11485,7 @@
 	)
 	(text "OK\n"
 		(exclude_from_sim no)
-		(at 322.072 168.148 0)
+		(at 327.152 169.418 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11352,7 +11621,7 @@
 	)
 	(text "Only on the rising edge of 74HC74 CLK\n(Auto-Reset or Reset Button) Q output will assert\nIMD OK signal from CLR input, if signal is not present it latches low"
 		(exclude_from_sim no)
-		(at 317.246 180.086 0)
+		(at 322.326 181.356 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13817,7 +14086,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PUTM_EV_IMD_SAFETY_2021-rescue:Fuse-Device")
+		(lib_id "Device:Polyfuse")
 		(at 45.72 21.59 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13842,11 +14111,12 @@
 			)
 		)
 		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
-			(at 45.72 19.812 90)
+			(at 40.64 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -13859,7 +14129,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
 			(at 45.72 21.59 0)
 			(effects
 				(font
@@ -13868,7 +14138,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser#" " 667-ERB-RG0R50V "
+		(property "Mouser#" " 576-1206L050/24WR "
 			(at 45.72 21.59 90)
 			(effects
 				(font
@@ -19361,7 +19631,7 @@
 	)
 	(symbol
 		(lib_id "PUTM_EV_IMD_SAFETY_2021-rescue:C-Device")
-		(at 127 39.37 0)
+		(at 128.27 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19369,7 +19639,7 @@
 		(dnp no)
 		(uuid "9eed1698-edcf-4218-a42b-271d493817e9")
 		(property "Reference" "C4"
-			(at 129.921 38.2016 0)
+			(at 120.65 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19378,7 +19648,7 @@
 			)
 		)
 		(property "Value" "1u/35V"
-			(at 129.921 40.513 0)
+			(at 120.65 44.2214 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19387,7 +19657,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 127.9652 43.18 0)
+			(at 129.2352 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19396,7 +19666,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 127 39.37 0)
+			(at 128.27 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19405,7 +19675,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 127 39.37 0)
+			(at 128.27 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19625,6 +19895,75 @@
 			(project "IMD_SAFETY_2024"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
 					(reference "TP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 147.32 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a51aebf9-23aa-4b88-9601-72b33a911e1e")
+		(property "Reference" "C22"
+			(at 148.59 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 148.59 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 147.32 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 147.32 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 147.32 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bb3e8e48-5da9-4f56-9aa3-66114b08fb5b")
+		)
+		(pin "1"
+			(uuid "57b3af38-bdca-42c9-8860-8989e4a9d722")
+		)
+		(instances
+			(project "IMD_SAFETY_2024"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -22521,7 +22860,7 @@
 	)
 	(symbol
 		(lib_id "PUTM_EV_IMD_SAFETY_2021-rescue:C-Device")
-		(at 139.7 39.37 0)
+		(at 135.89 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22529,7 +22868,7 @@
 		(dnp no)
 		(uuid "d2615951-4d88-477e-ae63-9dda33773467")
 		(property "Reference" "C5"
-			(at 142.621 38.2016 0)
+			(at 138.43 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22538,7 +22877,7 @@
 			)
 		)
 		(property "Value" "1u/35V"
-			(at 142.621 40.513 0)
+			(at 137.16 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22547,7 +22886,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 140.6652 43.18 0)
+			(at 136.8552 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22556,7 +22895,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 139.7 39.37 0)
+			(at 135.89 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22565,7 +22904,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 139.7 39.37 0)
+			(at 135.89 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
